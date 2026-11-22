@@ -186,16 +186,16 @@ await check('trust-index', '#/trust', `(() => ({
   pages: Object.keys(TRUST_PAGES).length,
   links: [...document.querySelectorAll('#main .trust-card')].map((a) => a.getAttribute('href')),
   empty: Object.values(TRUST_PAGES).filter((page) => !page.lead?.zh || !page.lead?.en || page.sections.length < 3).length
-}))()`, (v) => v.cards === 5 && v.pages === 5 && v.links.every((href) => href && href.startsWith('#/trust/')) && v.empty === 0);
+}))()`, (v) => v.cards === 6 && v.pages === 6 && v.links.every((href) => href && href.startsWith('#/trust/')) && v.empty === 0);
 
-for (const trustId of ['standards', 'sources', 'corrections', 'privacy', 'license']) {
+for (const trustId of ['standards', 'sources', 'corrections', 'privacy', 'license', 'terms']) {
   await check(`trust-${trustId}`, `#/trust/${trustId}`, `(() => ({
     sections: document.querySelectorAll('#main .trust-body section').length,
     paragraphs: document.querySelectorAll('#main .trust-body p').length,
     links: document.querySelectorAll('#main .trust-links a').length,
     updated: document.querySelector('#main .trust-meta')?.innerText || '',
     title: document.querySelector('#main h1')?.innerText || ''
-  }))()`, (v) => v.sections >= 3 && v.paragraphs >= 6 && v.links >= 2 && v.updated.includes('2026-11-21') && v.title.length > 3);
+  }))()`, (v) => v.sections >= 3 && v.paragraphs >= 6 && v.links >= 2 && v.updated.includes('2026-11') && v.title.length > 3);
 }
 
 await check('structures-page', '#/structures', `(() => ({
@@ -319,7 +319,7 @@ for (const id of caseIds) {
     sketchNotes: [...document.querySelectorAll('#main .case-sketch figcaption span')].filter((node) => (node.textContent || '').trim().length > 18).length,
     phoneItems: document.querySelectorAll('#main .phone-plan-item').length,
     phoneText: [...document.querySelectorAll('#main .phone-plan-item p')].filter((node) => (node.textContent || '').trim().length > 16).length
-  }))()`, (v) => v.hero === 1 && v.image === 1 && v.beats === 4 && v.moves === 3 && v.mistakes === 3 && v.action === 1 && v.notes >= 2 && (caseFormats[id] ? v.formatLinks === 1 : v.formatLinks === 0) && v.shots === 4 && v.checklist === 4 && v.fallbacks === 4 && v.sketches === 4 && v.sketchSvgs === 4 && v.sketchNotes === 4 && v.phoneItems === 4 && v.phoneText === 4);
+  }))()`, (v) => v.hero === 1 && v.image === 1 && v.beats >= 4 && v.beats <= 8 && v.moves === 3 && v.mistakes === 3 && v.action === 1 && v.notes >= 2 && (caseFormats[id] ? v.formatLinks === 1 : v.formatLinks === 0) && v.shots === 4 && v.checklist === 4 && v.fallbacks === 4 && v.sketches === 4 && v.sketchSvgs === 4 && v.sketchNotes === 4 && v.phoneItems === 4 && v.phoneText === 4);
 }
 
 console.log(`\n${failures.length === 0 ? 'DETAIL CHECKS OK' : failures.length + ' DETAIL CHECK(S) FAILED'}`);

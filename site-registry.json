@@ -1,6 +1,6 @@
 {
   "organization": "tvcn",
-  "primary_domain": "www.tvcn.org",
+  "primary_domain": "tvcn.org",
   "locales": [
     "zh",
     "en"
@@ -14,7 +14,7 @@
       "site_id": "main",
       "repo": "video-production-hub",
       "type": "hub",
-      "domain": "www.tvcn.org",
+      "domain": "tvcn.org",
       "role": "Beginner tutorials, 9 paths, method/tool/case indexes, latest, search, progress",
       "status": "live",
       "pages_url": "https://github.com/tvcn/video-production-hub/"

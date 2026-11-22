@@ -1,6 +1,14 @@
 // Mobile overflow smoke-test for the pages added in the final gap pass.
 const pageUrl = 'file:///C:/Users/chenhua/Desktop/tvcn/v2/prototype/tvcn-ui-v2.html';
-const routes = ['#/', '#/templates', '#/trust', '#/trust/standards', '#/trust/privacy', '#/trust/license', '#/structures', '#/format/talking-head', '#/article/vertical-talk', '#/search', '#/progress'];
+const routes = [
+  '#/', '#/templates', '#/trust', '#/trust/standards', '#/trust/privacy', '#/trust/license', '#/structures',
+  '#/format/talking-head', '#/article/vertical-talk', '#/search', '#/progress',
+  '#/article/talking-head-breakdown', '#/article/product-ad-breakdown', '#/article/documentary-breakdown',
+  '#/article/brand-film-breakdown', '#/article/short-drama-breakdown', '#/article/vlog-breakdown',
+  '#/article/news-breakdown', '#/article/tutorial-breakdown', '#/article/music-video-breakdown',
+  '#/article/wedding-breakdown', '#/article/event-breakdown', '#/article/interview-breakdown',
+  '#/article/experimental-breakdown'
+];
 
 const targets = await (await fetch('http://127.0.0.1:9222/json/list')).json();
 const page = targets.find((t) => t.type === 'page');
