@@ -1,0 +1,115 @@
+{
+  "organization": "tvcn",
+  "primary_domain": "www.tvcn.org",
+  "locales": [
+    "zh",
+    "en"
+  ],
+  "license": {
+    "content": "CC-BY-SA-4.0",
+    "code": "MIT"
+  },
+  "sites": [
+    {
+      "site_id": "main",
+      "repo": "video-production-hub",
+      "type": "hub",
+      "domain": "www.tvcn.org",
+      "role": "Beginner tutorials, 9 paths, method/tool/case indexes, latest, search, progress",
+      "status": "live",
+      "pages_url": "https://github.com/tvcn/video-production-hub/"
+    },
+    {
+      "site_id": "story",
+      "repo": "video-storytelling",
+      "type": "subsite",
+      "domain": "story.tvcn.org",
+      "role": "Story, screenwriting, storyboard, directing and performance",
+      "status": "live",
+      "pages_url": "https://github.com/tvcn/video-storytelling/"
+    },
+    {
+      "site_id": "shoot",
+      "repo": "video-shooting",
+      "type": "subsite",
+      "domain": "shoot.tvcn.org",
+      "role": "Camera, exposure, lighting, sound, movement, continuity, art, multicam, virtual production, live",
+      "status": "live",
+      "pages_url": "https://github.com/tvcn/video-shooting/"
+    },
+    {
+      "site_id": "post",
+      "repo": "video-editing",
+      "type": "subsite",
+      "domain": "post.tvcn.org",
+      "role": "Editing, color, sound design, VFX, subtitles, delivery, asset management",
+      "status": "live",
+      "pages_url": "https://github.com/tvcn/video-editing/"
+    },
+    {
+      "site_id": "ai",
+      "repo": "ai-video",
+      "type": "subsite",
+      "domain": "ai.tvcn.org",
+      "role": "AI generation, consistency, digital humans, AI audio/post, hybrid workflows, model comparison, ethics",
+      "status": "live",
+      "pages_url": "https://github.com/tvcn/ai-video/"
+    },
+    {
+      "site_id": "animation",
+      "repo": "video-animation",
+      "type": "subsite",
+      "domain": "animation.tvcn.org",
+      "role": "2D, 3D, stop motion, motion graphics, AI animation, pipeline, case studies",
+      "status": "live",
+      "pages_url": "https://github.com/tvcn/video-animation/"
+    },
+    {
+      "site_id": "formats",
+      "repo": "video-formats",
+      "type": "subsite",
+      "domain": "formats.tvcn.org",
+      "role": "13 formats: structure, case breakdown, template and exercise",
+      "status": "live",
+      "pages_url": "https://github.com/tvcn/video-formats/"
+    },
+    {
+      "site_id": "tools",
+      "repo": "video-tools",
+      "type": "subsite",
+      "domain": "tools.tvcn.org",
+      "role": "Tool and gear cards, tutorials, price/version, alternatives, troubleshooting, calculators",
+      "status": "live",
+      "pages_url": "https://github.com/tvcn/video-tools/"
+    },
+    {
+      "site_id": "context",
+      "repo": "media-literacy",
+      "type": "subsite",
+      "domain": "context.tvcn.org",
+      "role": "Film/photography/animation/video-tech history, media literacy, law, platform rules, ethics, accessibility",
+      "status": "live",
+      "pages_url": "https://github.com/tvcn/media-literacy/"
+    },
+    {
+      "site_id": "handbook",
+      "repo": "video-production-handbook",
+      "type": "shared",
+      "domain": null,
+      "role": "Single Markdown source for all sites, bilingual zh/en",
+      "status": "published",
+      "pages_url": "https://github.com/tvcn/video-production-handbook/"
+    },
+    {
+      "site_id": "kit",
+      "repo": "video-site-kit",
+      "type": "shared",
+      "domain": null,
+      "role": "Layouts, components, tokens, i18n, SEO, search, schema, reusable Pages workflow",
+      "status": "published",
+      "pages_url": "https://github.com/tvcn/video-site-kit/"
+    }
+  ],
+  "apex_domain": "tvcn.org",
+  "github": "https://github.com/tvcn"
+}
