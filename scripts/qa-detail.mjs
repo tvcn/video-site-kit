@@ -54,14 +54,14 @@ await check('library-counts', '#/', `(() => JSON.stringify({
   uniqueImages: new Set(Object.values(ARTICLE_IMAGES).map((item) => item.src)).size,
   diagrams: Object.keys(ARTICLE_DIAGRAMS).length,
   glossary: GLOSSARY.length
-}))()`, (v) => v.articles === 418 && v.articleImages === 418 && v.uniqueImages >= 405 && v.diagrams === 418 && v.glossary === 100);
+}))()`, (v) => v.articles === 462 && v.articleImages === 462 && v.uniqueImages >= 454 && v.diagrams === 462 && v.glossary === 100);
 
 await check('articles-index', '#/articles', `(() => {
   const cards = [...document.querySelectorAll('#main .article-card')];
   const imgs = [...document.querySelectorAll('#main .article-card img')];
   const missingSrc = imgs.filter((img) => !img.getAttribute('src')).map((img) => img.getAttribute('src'));
   return JSON.stringify({ cards: cards.length, imgs: imgs.length, missingSrc });
-})()`, (v) => v.cards === 418 && v.imgs === 418 && v.missingSrc.length === 0);
+})()`, (v) => v.cards === 462 && v.imgs === 462 && v.missingSrc.length === 0);
 
 await check('article-filters', '#/articles', `(() => {
   clearArticleFilters();
@@ -75,7 +75,7 @@ await check('article-filters', '#/articles', `(() => {
   const count = document.getElementById('articleCount')?.textContent || '';
   clearArticleFilters();
   return JSON.stringify({ story, storyDeep, first, count, back: document.querySelectorAll('#articleResults .article-card').length });
-})()`, (v) => v.story === 40 && v.storyDeep === 9 && v.first.includes('平台规则') && v.count === '4 / 418' && v.back === 418);
+})()`, (v) => v.story === 40 && v.storyDeep === 9 && v.first.includes('平台规则') && v.count === '4 / 462' && v.back === 462);
 
 await check('glossary', '#/glossary', `(() => ({
   terms: document.querySelectorAll('#main .glossary-item').length,
@@ -154,7 +154,7 @@ await check('format-compare', '#/formats', `(() => ({
   quoteFormats: Object.keys(FORMAT_QUOTES).length,
   quoteTiers: Object.values(FORMAT_QUOTES).reduce((sum, tiers) => sum + tiers.length, 0),
   quoteBad: Object.values(FORMAT_QUOTES).filter((tiers) => tiers.length !== 3 || tiers.some((tier) => tier.length !== 5 || !tier[0] || !tier[1] || !tier[2] || !tier[3]?.zh || !tier[4]?.zh)).length
-}))()`, (v) => v.rows === 13 && v.names === 13 && v.empty === 0 && v.ladders === 13 && v.ladderEmpty === 0 && v.quoteFormats === 13 && v.quoteTiers === 39 && v.quoteBad === 0);
+}))()`, (v) => v.rows === 19 && v.names === 19 && v.empty === 0 && v.ladders === 19 && v.ladderEmpty === 0 && v.quoteFormats === 19 && v.quoteTiers === 57 && v.quoteBad === 0);
 
 await check('format-deep-links', '#/format/talking-head', `(() => ({
   mappings: Object.keys(FORMAT_DEEP_LINKS).length,
@@ -162,7 +162,7 @@ await check('format-deep-links', '#/format/talking-head', `(() => ({
   links: document.querySelectorAll('#main .format-deep a[href^="#/article/"]').length,
   href: document.querySelector('#main .format-deep a')?.getAttribute('href') || '',
   title: document.querySelector('#main .format-deep h2')?.innerText || ''
-}))()`, (v) => v.mappings === 13 && v.valid === 13 && v.links === 1 && v.href.startsWith('#/article/') && v.title.length > 6);
+}))()`, (v) => v.mappings === 19 && v.valid === 19 && v.links === 1 && v.href.startsWith('#/article/') && v.title.length > 6);
 
 await check('templates-page', '#/templates', `(() => ({
   cards: document.querySelectorAll('#main .template-card').length,
@@ -172,7 +172,7 @@ await check('templates-page', '#/templates', `(() => ({
   unique: new Set(TEMPLATES.map((item) => item.filename)).size,
   previewRows: document.querySelectorAll('#main .template-preview tbody tr').length,
   empty: TEMPLATES.filter((item) => !item.use?.zh || !item.use?.en || !item.note?.zh || !item.note?.en).length
-}))()`, (v) => v.cards === 12 && v.csv === 9 && v.md === 3 && v.buttons === 12 && v.unique === 12 && v.previewRows >= 24 && v.empty === 0);
+}))()`, (v) => v.cards === 22 && v.csv === 18 && v.md === 4 && v.buttons === 22 && v.unique === 22 && v.previewRows >= 48 && v.empty === 0);
 
 await check('template-content', '#/templates', `(() => ({
   short: TEMPLATES.filter((item) => (item.format === 'csv' ? templateCsv(item).length < 80 : templateMarkdown(item).length < 80)).map((item) => item.id),

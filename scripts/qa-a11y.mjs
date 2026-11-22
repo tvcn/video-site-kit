@@ -229,7 +229,7 @@ const menuClosed = await evaluate(`(() => {
 })()`);
 check('escape closes and restores focus', menuClosed.hidden === true && menuClosed.expanded === 'false' && menuClosed.inert === false && menuClosed.active === 'menuBtn', menuClosed);
 
-const routesForHeadings = ['#/', '#/article/' + firstArticle, '#/site/story', '#/format/talking-head', '#/case/vertical-talk', '#/tools', '#/glossary', '#/progress', '#/search', '#/templates', '#/trust', '#/trust/standards', '#/structures'];
+const routesForHeadings = ['#/', '#/article/' + firstArticle, '#/site/story', '#/format/talking-head', '#/format/fashion-beauty', '#/case/vertical-talk', '#/tools', '#/glossary', '#/progress', '#/search', '#/templates', '#/trust', '#/trust/standards', '#/structures', '#/article/corporate-video-breakdown', '#/article/color-management', '#/article/budget-quote', '#/article/contract-scope', '#/article/buy-camera-budget'];
 for (const hash of routesForHeadings) {
   await route(hash);
   const row = await evaluate(`(() => {

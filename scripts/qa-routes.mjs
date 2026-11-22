@@ -5,7 +5,7 @@ const sites = ['story', 'shoot', 'post', 'ai', 'animation', 'formats', 'tools', 
 const articles = [];
 const cases = [];
 const paths = ['first-film', 'live-film', 'story', 'post', 'history', 'literacy', 'producing', 'distribution', 'career'];
-const formats = ['talking-head', 'vlog', 'product-ad', 'brand-film', 'documentary', 'news', 'tutorial', 'short-drama', 'music-video', 'wedding', 'event', 'interview', 'experimental'];
+const formats = ['talking-head', 'vlog', 'product-ad', 'brand-film', 'documentary', 'news', 'tutorial', 'short-drama', 'music-video', 'wedding', 'event', 'interview', 'experimental', 'corporate', 'sports', 'food', 'real-estate', 'fashion-beauty', 'live-podcast'];
 const howtos = ['phone-footage', 'three-point-light', 'lavalier', 'davinci-export', 'capcut-subtitle', 'character-sheet'];
 
 const targets = await (await fetch('http://127.0.0.1:9222/json/list')).json();

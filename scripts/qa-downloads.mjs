@@ -98,7 +98,7 @@ function check(label, ok, detail) {
   console.log(`${ok ? 'PASS' : 'FAIL'} ${label}`, detail ?? '');
 }
 
-check('template count', templates.length === 12, templates.length);
+check('template count', templates.length === 22, templates.length);
 for (const template of templates) {
   const clicked = await send('Runtime.evaluate', {
     expression: `(() => { const btn = document.querySelector('[data-download-template="${template.id}"]'); if (!btn) return false; btn.click(); return true; })()`,
@@ -111,7 +111,7 @@ for (const template of templates) {
 await sleep(2500);
 
 const files = fs.readdirSync(downloadDir).filter((name) => !name.endsWith('.crdownload'));
-check('download count', files.length === 12, files.length);
+check('download count', files.length === 22, files.length);
 
 for (const template of templates) {
   const filePath = path.join(downloadDir, template.filename);

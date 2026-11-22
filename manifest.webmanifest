@@ -1,7 +1,7 @@
 {
   "name": "TVCN 影像制作知识库",
   "short_name": "TVCN",
-  "description": "418 篇中英双语影像制作知识：故事、拍摄、后期、AI、动画、片型与工具，每篇给出做法与验收。",
+  "description": "462 篇中英双语影像制作知识：故事、拍摄、后期、AI、动画、片型与工具，每篇给出做法与验收。",
   "lang": "zh-CN",
   "dir": "ltr",
   "start_url": "./tvcn-ui-v2.html",
