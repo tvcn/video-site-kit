@@ -227,50 +227,52 @@ python build/axe-recheck-20261125.py
 - 主站/AI 是否有主题入口，分站是否误放相对主题链接；
 - 9 站 `article.css` 是否同一哈希、app-shell 是否同一哈希；
 - 生成器里的版本常量是否与契约一致；
-- staging 流程是否接入 `normalize-host-shell.py`。
+- staging 流程是否接入 `normalize-host-shell.py`；
+- 文章页是否把 `.article-toc` / `.article-body` 留在 `.wrap` 内（检测 `</header></div>` 后直接跟 TOC/正文的结构错误）；
+- `article.css` / `app-shell.css` 是否仍有 header/footer 横向 padding 或 27px 内页 h1；
+- `.article-toc` 是否仍为居中 `margin:auto`。
 
 任何一项失败，脚本以退出码 `1` 结束，并写入 `build/ui-audit-20261125/ui-consistency.json`。
 
-## 八、当前基线
+## 八、当前基线（2026-11-25 c 版本）
 
-- 全站扫描：`8624` 个 HTML，`0` 失败。
-- 主站正文回归：`1038` 页 × 2 宽度，`2076` 次检查，`0` 失败。
+- 全站扫描：`8624` 个 HTML，`0` 失败；导航三组各 `8624` 条；404 `9` 个、app `8` 个。
+- 结构扫描：两个构建根共 `8,362` 个 `.article-body`，`0` 个在 `.wrap` 外。
+- AI 全站几何：`46` 页 × 1280/390，`92` 次测量，`0` 失败；本地、线上各一遍均 `0`。
+- 9 站代表页几何：本地 `36` 页 `72` 次测量，线上 `37` 页 `74` 次测量，均 `0` 失败。
+- 主站正文回归：`1038` 页 × 2 宽度，`2076` 次检查，`0` 失败、`0` 控制台错误页。
 - axe：16 个代表页，`0` 违规。
 - AI QA：`Failures 0 / Warnings 0`；响应式 `136` 项，`0` 失败。
-- 主站 staging 与 `v2/dist`：1116 个 HTML 全部同哈希。
-- 线上复核：9 个站 × 首页/内页 × 1280/390，18 页 36 次测量，`0` 失败。
+- 主站 staging 与 `v2/dist`：`1116` 个 HTML，`0 diffs / 0 missing`。
+- `article.css`：`99,354` bytes，原始 `E19CB63906AF`，归一化 `1D70E54E79C4`；`app-shell.css`：`4,775` bytes，`F7F1617757EC`。
 
-## 九、线上复核（2026-11-25 最终 b 版本）
+## 九、线上复核（2026-11-25 c 版本）
 
-9 个域名全部 `200`，首页与内页都引用 `20261125c`；AI 首页同时引用 `article.css` 与 `ai6.css` 的 b 版本。
+9 个域名全部 `200`，首页、内页与 404 全部引用 `20261125c`；AI 首页同时引用 `article.css` 与 `ai6.css` 的 c 版本。
 
-逐站实测结果：
+逐站实测：
 
-| 站点 | 首页 h1 1280/390 | 内页 | 内页 h1 1280/390 | 当前站 |
+| 站点 | 首页 h1 1280/390 | 文章/内页 | 内页 h1 1280/390 | 当前站 |
 |---|---:|---|---:|---|
 | `tvcn.org` | 48/30 | `/article/16mm/` | 40/28 | `main` |
-| `story.tvcn.org` | 48/30 | `/about/` | 40/28 | `story` |
-| `shoot.tvcn.org` | 48/30 | `/about/` | 40/28 | `shoot` |
-| `post.tvcn.org` | 48/30 | `/about/` | 40/28 | `post` |
-| `ai.tvcn.org` | 48/30 | `/tools/` | 40/28 | `ai` |
-| `animation.tvcn.org` | 48/30 | `/about/` | 40/28 | `animation` |
-| `formats.tvcn.org` | 48/30 | `/about/` | 40/28 | `formats` |
-| `tools.tvcn.org` | 48/30 | `/about/` | 40/28 | `tools` |
-| `context.tvcn.org` | 48/30 | `/about/` | 40/28 | `context` |
+| `story.tvcn.org` | 48/30 | `/article/16mm/` | 40/28 | `story` |
+| `shoot.tvcn.org` | 48/30 | `/article/16mm/` | 40/28 | `shoot` |
+| `post.tvcn.org` | 48/30 | `/article/16mm/` | 40/28 | `post` |
+| `ai.tvcn.org` | 48/30 | `/short/15s/`、`/en/short/15s/` | 40/28 | `ai` |
+| `animation.tvcn.org` | 48/30 | `/article/16mm/` | 40/28 | `animation` |
+| `formats.tvcn.org` | 48/30 | `/article/16mm/` | 40/28 | `formats` |
+| `tools.tvcn.org` | 48/30 | `/article/16mm/` | 40/28 | `tools` |
+| `context.tvcn.org` | 48/30 | `/article/16mm/` | 40/28 | `context` |
 
 补充实测：
 
 - 所有页面 header `59/55`，`scrollWidth = bodyWidth`，`pageerrors = []`。
-- 主站 `/app/`：header `59/55`，h1 `48/30`，引用 `app-shell.css?v=20261125c`。
-- 主站 `/404.html`：h1 `40/28`，`noindex` 存在；9 个站的 `/404.html` 都返回 200、带 b 版本与 `noindex`。
-- 动画站 `/about/` 页脚不含相对主题链接；AI 与主站保留主题入口。
-- 线上 `article.css` 归一化换行后 SHA-256 前缀 `1D70E54E79C4`；本地原始字节为 `E19CB63906AF`，99,354 bytes。线上 `app-shell.css` 为 `F7F1617757EC`。字节差异来自 Git 的 CRLF/LF 转换，内容一致。
-- 9 个站的远端 `refs/heads/main` 已用 `git ls-remote` 核对；主站 `730820e`（UI 提交 `569f560` + 清理 `sitemap.xml.bak-20261125`），AI `c66e669`，其余分站见提交记录。
-- `context` 的 fetch 前三次被重置，第四次成功，远端从 `344f650` 正常快进到 `19e7a25`，没有改写历史。
-- 9 个站的 `sitemap.xml.bak-20261125` 线上均返回 `404`。
-- 推送提交记录：`build/ui-audit-20261125/deploy-commits.json`。
+- 桌面 header/brand/wrap/hero/TOC/body/footer 全部 `x=50`；手机全部 `x=14`；AI `/short/15s/` 中英文一致。
+- 主站 `/app/?r=tools`：`40/28`、`x=50/14`，引用 `app-shell.css?v=20261125c`。
+- 9 个站 `/404.html`：全部 `200`、h1 `40/28`、`noindex`，内容轨与首页一致。
+- AI 英文页 header 的「AI」均有 `aria-current="page"`。
+- 9 个站远端提交：main `e0ad265`、ai `def4d93`、story `f94fd90`、shoot `0413cec`、post `9a14815`、animation `536816a`、formats `9b6024a`、tools `4d9f8a3`、context `f3a3919`；site-kit `9317a26`。
 
-证据文件：`build/ui-audit-20261125/live-check-b.txt`、`build/ui-audit-20261125/nine-sites-live-20261125c.json`、`build/ui-audit-20261125/live-shots/`、`build/ui-audit-20261125/live-b/`。
+证据文件：`build/ui-audit-20261125/ai-geometry-20261125c.json`、`ai-geometry-live-20261125c.json`、`nine-localhost-20261125c.json`、`nine-sites-live-20261125c.json`、`live-c/ai-15s-live-1280.png`、`live-c/ai-15s-live-390.png`、`deploy-commits.json`。
 
 这份基线是下一次新增内容的最低起点，不是“以后不会再乱”的承诺；每次构建后必须重跑审计。
-
