@@ -271,8 +271,9 @@ python build/axe-recheck-20261125.py
 - 主站 `/app/?r=tools`：`40/28`、`x=50/14`，引用 `app-shell.css?v=20261125c`。
 - 9 个站 `/404.html`：全部 `200`、h1 `40/28`、`noindex`，内容轨与首页一致。
 - AI 英文页 header 的「AI」均有 `aria-current="page"`。
-- 9 个站远端提交：main `e0ad265`、ai `def4d93`、story `f94fd90`、shoot `0413cec`、post `9a14815`、animation `536816a`、formats `9b6024a`、tools `4d9f8a3`、context `f3a3919`；site-kit `9317a26`。
+- 9 个站远端提交：main `e0ad265`、ai `def4d93`、story `f94fd90`、shoot `0413cec`、post `9a14815`、animation `536816a`、formats `9b6024a`、tools `4d9f8a3`、context `f3a3919`。
 
 证据文件：`build/ui-audit-20261125/ai-geometry-20261125c.json`、`ai-geometry-live-20261125c.json`、`nine-localhost-20261125c.json`、`nine-sites-live-20261125c.json`、`live-c/ai-15s-live-1280.png`、`live-c/ai-15s-live-390.png`、`deploy-commits.json`。
 
 这份基线是下一次新增内容的最低起点，不是“以后不会再乱”的承诺；每次构建后必须重跑审计。
+
