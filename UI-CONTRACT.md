@@ -250,7 +250,7 @@ python build/axe-recheck-20261125.py
 - 线上 `article.css` 归一化换行后 SHA-256 前缀 `5BCF10AB93F2`；本地原始字节为 `60C6F42030DF`，99,182 bytes。线上 `app-shell.css` 为 `F623FFFFDEC9`。字节差异来自 Git 的 CRLF/LF 转换，内容一致。
 - 9 个站的远端 `refs/heads/main` 已用 `git ls-remote` 核对；主站 `730820e`（UI 提交 `569f560` + 清理 `sitemap.xml.bak-20261125`），AI `c66e669`，其余分站见提交记录。
 - `context` 的 fetch 前三次被重置，第四次成功，远端从 `344f650` 正常快进到 `19e7a25`，没有改写历史。
-- 主站与 context 的 `sitemap.xml.bak-20261125` 线上均返回 `404`。
+- 9 个站的 `sitemap.xml.bak-20261125` 线上均返回 `404`。
 - 推送提交记录：`build/ui-audit-20261125/deploy-commits.json`。
 
 证据文件：`build/ui-audit-20261125/live-check-b.txt`、`build/ui-audit-20261125/nine-sites-live-20261125b.json`、`build/ui-audit-20261125/live-shots/`、`build/ui-audit-20261125/live-b/`。
