@@ -15,7 +15,7 @@
 - 当前站点高亮按 **访问域名** 判断，而不是按文章内容所属编辑台判断。主站所有页面高亮「主站」，分站所有页面高亮自己的站，AI 站高亮「AI」。
 - 8 个静态站的 `/app/` 已换成同一套外壳，仅保留 app 自身的内容组件；app 的语言按钮输出 `EN / 中文`，主题按钮输出 `明暗 / Theme`。
 - 8 个静态站和 AI 的 `404.html` 都使用浅色当前壳层，带 `noindex,follow`，并提供首页、搜索、全部文章三个出口。
-- 所有静态页统一使用 `article.css?v=20261125a`；AI 同时使用 `ai6.css?v=20261125a`；app 使用 `app-shell.css?v=20261125a`。
+- 所有静态页统一使用 `article.css?v=20261125b`；AI 同时使用 `ai6.css?v=20261125b`；app 使用 `app-shell.css?v=20261125b`。
 - 页脚日期统一为 `2026-11-25`。
 - 主站与 AI 页脚保留「主题」入口；分站没有独立主题页，页脚不再放相对 `/topics/` 链接，避免死链。
 
@@ -28,7 +28,7 @@
 | 移动 header 高度 | `55px` | 实测于 390px 视口 |
 | 首页 h1 | `48px` | 1280px 视口；390px 为 `30px` |
 | 内页 / 文章 h1 | `40px` | 1280px 视口 |
-| 移动端内页 h1 | 文章与 AI 深页 `27px`；关于 / 404 等入口页 `28px` | 390px 视口，属于页面类型差异，不是两套尺度 |
+| 移动端内页 h1 | `28px` | 390px 视口；首页为 `30px` |
 | 背景 / 墨色 / 强调 | `#f4f1eb` / `#171513` / `#b04421` | 亮色主题 |
 | 暗色背景 / 墨色 / 强调 | `#0d100f` / `#f3efe7` / `#ff8a5b` | 暗色主题 |
 | 正文最大宽度 | 文章正文 `760px`；关于等普通内页 `680–760px` | 阅读型页面 |
@@ -41,7 +41,7 @@
 "PingFang SC", "Microsoft YaHei", sans-serif
 ```
 
-允许的差异只有三类：AI 站顶部有 `ai6-subnav` 栏目导航；术语表是 980px 窄版；移动端文章页 `27px` 与关于/404 入口页 `28px` 的 1px 字号差。其他差异都视为回归。
+允许的差异只有两类：AI 站顶部有 `ai6-subnav` 栏目导航；术语表是 980px 窄版。首页 `48/30` 与内页 `40/28` 已全站同值，其他差异都视为回归。
 
 ## 三、外壳结构
 
@@ -126,7 +126,15 @@ python build/reskin-app-shell.py
 python build/normalize-host-shell.py --root build/pages-sites/<site> --site <site>
 ```
 
-app 必须使用 `/assets/app-shell.css?v=20261125a`，不要再引入完整 `article.css`，以免内容组件的 `.btn`、`.card`、`.wrap` 被全局样式覆盖。
+app 必须使用 `/assets/app-shell.css?v=20261125b`，不要再引入完整 `article.css`，以免内容组件的 `.btn`、`.card`、`.wrap` 被全局样式覆盖。
+
+### 6. 全量重建 staging
+
+```powershell
+pwsh -NoProfile -File build/prepare-pages-sites.ps1
+```
+
+运行前先停掉占用 `build/pages-sites` 的本地测试服务器。脚本会保留每个站点目录下的 `.git`，不会再把主站/AI 的提交历史清空；AI 的源固定为 `build/ai6/site`，不再从主站 dist 复制 1066 页。
 
 ## 五、缓存版本怎么升
 
@@ -139,7 +147,7 @@ app 必须使用 `/assets/app-shell.css?v=20261125a`，不要再引入完整 `ar
 然后：
 
 ```powershell
-python build/bump-all-static-css.py
+python build/bump-ui-assets.py
 python build/ai6/build_site.py
 ```
 
@@ -196,7 +204,7 @@ python build/axe-recheck-20261125.py
 - 是否存在 `.static-page` 和三类壳层；
 - 三组导航是否各 9 条、顺序正确、标签唯一、只有一个当前站；
 - 当前站是否等于访问站；
-- 普通页是否引用 `article.css?v=20261125a`；app 是否引用 `app-shell.css?v=20261125a`；
+- 普通页是否引用 `article.css?v=20261125b`；app 是否引用 `app-shell.css?v=20261125b`；
 - 404 是否有 `noindex`；
 - 页脚是否有核心链接、日期是否最新；
 - 主站/AI 是否有主题入口，分站是否误放相对主题链接；
@@ -216,14 +224,14 @@ python build/axe-recheck-20261125.py
 
 ## 九、线上复核（2026-11-25 推送后）
 
-9 个域名首页全部 `200`，且都引用 `article.css?v=20261125a` 与 `2026-11-25` 页脚日期：
+9 个域名首页全部 `200`，且都引用 `article.css?v=20261125b` 与 `2026-11-25` 页脚日期：
 
 `tvcn.org`、`story.tvcn.org`、`shoot.tvcn.org`、`post.tvcn.org`、`animation.tvcn.org`、`formats.tvcn.org`、`tools.tvcn.org`、`context.tvcn.org`、`ai.tvcn.org`。
 
 生产实测：
 
 - 主站首页：header `59/55`，h1 `48/30`，无横向溢出，当前站 `main`。
-- 主站 `/app/`：header `59/55`，h1 `48/30`，引用 `app-shell.css?v=20261125a`，无横向溢出。
+- 主站 `/app/`：header `59/55`，h1 `48/30`，引用 `app-shell.css?v=20261125b`，无横向溢出。
 - 主站 `/404.html`：header `59/55`，h1 `40/28`，`noindex` 存在。
 - 动画站 `/about/`：header `59/55`，h1 `40/28`，当前站 `animation`，页脚不含相对主题链接。
 - AI 首页：header `59/55`，h1 `40/27`，当前站 `ai`，页脚保留主题入口。
