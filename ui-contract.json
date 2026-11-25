@@ -1,5 +1,5 @@
 {
-  "version": "20261125b",
+  "version": "20261125c",
   "updated": "2026-11-25",
   "canvas": { "max_width": 1180, "desktop_header_height": 59, "mobile_header_height": 55, "home_h1": 48, "inner_h1": 40, "mobile_home_h1": 30, "mobile_inner_h1": 28 },
   "shell": {

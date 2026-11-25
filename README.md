@@ -4,7 +4,7 @@ TVCN 的站点引擎、页面骨架、检索/SEO/路由脚本和发布工具。�
 
 ## UI 唯一基线（2026-11-25）
 
-全站 UI 以本仓 `UI-CONTRACT.md` 和 `ui-contract.json` 为准，版本 `20261125b`：
+全站 UI 以本仓 `UI-CONTRACT.md` 和 `ui-contract.json` 为准，版本 `20261125c`：
 
 - 最大画布 `1180px`；桌面 header `59px`，移动端 `55px`。
 - 首页 h1 `48/30`，内页 h1 `40/28`（桌面/移动）。
@@ -18,7 +18,7 @@ TVCN 的站点引擎、页面骨架、检索/SEO/路由脚本和发布工具。�
 ## 目录
 
 - `tvcn-ui-v2.html`：早期主源单文件原型（仅归档参考）
-- `404.html`：当前统一 404，引用 `assets/article.css?v=20261125b`
+- `404.html`：当前统一 404，引用 `assets/article.css?v=20261125c`
 - `assets/article.css`、`assets/app-shell.css`：当前共享壳层样式
 - `ui-contract.json`、`UI-CONTRACT.md`：机器契约与人类规范
 - `manifest.webmanifest`、`sw.js`：PWA 安装与离线缓存
@@ -36,3 +36,4 @@ TVCN 的站点引擎、页面骨架、检索/SEO/路由脚本和发布工具。�
 ## 许可
 
 代码与构建脚本：MIT，见 `LICENSE`。文字、术语和原创图解：CC BY-SA 4.0，见内容仓。
+

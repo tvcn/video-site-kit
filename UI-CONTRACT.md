@@ -9,13 +9,13 @@
 
 全站统一的是 **外壳、画布、导航、页脚、缓存键和特殊页生成方式**；各站的内容组件（卡片、表格、对比块）可以有自己的业务形态，但不能另起一套 header/footer。
 
-- 9 个站的 `assets/article.css` 已是同一个文件：原始字节 SHA-256 前缀 `60C6F42030DF`，99,182 bytes；归一化 CRLF→LF 后为 `5BCF10AB93F2`，与线上文件一致。
+- 9 个站的 `assets/article.css` 已是同一个文件：原始字节 SHA-256 前缀 `E19CB63906AF`，99,354 bytes；归一化 CRLF→LF 后为 `1D70E54E79C4`，与线上文件一致。
 - 8 个静态站的正文页、首页、关于页、搜索页、文章索引页统一使用 `.static-page` + `.static-header` + `.static-footer` + `.static-tabbar`。
 - `header` 的 9 个站点链接顺序固定，移动端 760px 以下隐藏站点链接，只保留「搜索 / EN / 明暗」和底部 9 站 tabbar。
 - 当前站点高亮按 **访问域名** 判断，而不是按文章内容所属编辑台判断。主站所有页面高亮「主站」，分站所有页面高亮自己的站，AI 站高亮「AI」。
 - 8 个静态站的 `/app/` 已换成同一套外壳，仅保留 app 自身的内容组件；app 的语言按钮输出 `EN / 中文`，主题按钮输出 `明暗 / Theme`。
 - 8 个静态站和 AI 的 `404.html` 都使用浅色当前壳层，带 `noindex,follow`，并提供首页、搜索、全部文章三个出口。
-- 所有静态页统一使用 `article.css?v=20261125b`；AI 同时使用 `ai6.css?v=20261125b`；app 使用 `app-shell.css?v=20261125b`。
+- 所有静态页统一使用 `article.css?v=20261125c`；AI 同时使用 `ai6.css?v=20261125c`；app 使用 `app-shell.css?v=20261125c`。
 - 页脚日期统一为 `2026-11-25`。
 - 主站与 AI 页脚保留「主题」入口；分站没有独立主题页，页脚不再放相对 `/topics/` 链接，避免死链。
 
@@ -40,6 +40,23 @@
 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC",
 "PingFang SC", "Microsoft YaHei", sans-serif
 ```
+
+## 三、唯一内容轨
+
+所有页面的 header 内容、正文容器、文章 TOC、正文、页脚内容必须落在同一条左轨。2026-11-25 c 版把 AI 文章页的 `.wrap` 提前闭合问题修掉，并把 header/footer 的 24px 横向 padding 归零，统一到这条轨：
+
+| 视口 | 左轨 x | 内容宽 | 文章正文宽 |
+|---|---:|---:|---:|
+| 1280px | `50px` | `1180px`（`min(var(--max), calc(100% - 40px))`） | `760px` |
+| 390px | `14px` | `362px`（`calc(100% - 28px)`） | `362px` |
+
+具体要求：
+
+- `.static-header-inner`、`.static-footer-inner`、`.footer-sites` 与 `main .wrap` 的 x 必须相同；桌面 `50px`，手机 `14px`。
+- `.article-hero`、`.article-toc`、`.article-body` 必须都在同一个 `.wrap` 内，且 x 与 header 相同；文章 TOC 左对齐（`margin:9px 0 2px`），不再 `margin:auto` 居中。
+- `.article-body` 不得作为 `.wrap` 的兄弟节点直接挂在 `body` 下。AI 文章模板 `article_page()` 只允许末尾一个 `</div>` 关闭 `.wrap`。
+- AI 的 41 个中英文文章页全部适用；英文页 header 的 `data-site-nav="ai"` 必须同时带 `aria-current="page"`。
+- 首页 h1 `48/30`，内页 h1 `40/28`；`article.css` 与 `app-shell.css` 不得再出现 `font-size:27px` 的内页 h1。
 
 允许的差异只有两类：AI 站顶部有 `ai6-subnav` 栏目导航；术语表是 980px 窄版。首页 `48/30` 与内页 `40/28` 已全站同值，其他差异都视为回归。
 
@@ -126,7 +143,7 @@ python build/reskin-app-shell.py
 python build/normalize-host-shell.py --root build/pages-sites/<site> --site <site>
 ```
 
-app 必须使用 `/assets/app-shell.css?v=20261125b`，不要再引入完整 `article.css`，以免内容组件的 `.btn`、`.card`、`.wrap` 被全局样式覆盖。
+app 必须使用 `/assets/app-shell.css?v=20261125c`，不要再引入完整 `article.css`，以免内容组件的 `.btn`、`.card`、`.wrap` 被全局样式覆盖。
 
 ### 6. 全量重建 staging
 
@@ -204,7 +221,7 @@ python build/axe-recheck-20261125.py
 - 是否存在 `.static-page` 和三类壳层；
 - 三组导航是否各 9 条、顺序正确、标签唯一、只有一个当前站；
 - 当前站是否等于访问站；
-- 普通页是否引用 `article.css?v=20261125b`；app 是否引用 `app-shell.css?v=20261125b`；
+- 普通页是否引用 `article.css?v=20261125c`；app 是否引用 `app-shell.css?v=20261125c`；
 - 404 是否有 `noindex`；
 - 页脚是否有核心链接、日期是否最新；
 - 主站/AI 是否有主题入口，分站是否误放相对主题链接；
@@ -225,7 +242,7 @@ python build/axe-recheck-20261125.py
 
 ## 九、线上复核（2026-11-25 最终 b 版本）
 
-9 个域名全部 `200`，首页与内页都引用 `20261125b`；AI 首页同时引用 `article.css` 与 `ai6.css` 的 b 版本。
+9 个域名全部 `200`，首页与内页都引用 `20261125c`；AI 首页同时引用 `article.css` 与 `ai6.css` 的 b 版本。
 
 逐站实测结果：
 
@@ -244,15 +261,16 @@ python build/axe-recheck-20261125.py
 补充实测：
 
 - 所有页面 header `59/55`，`scrollWidth = bodyWidth`，`pageerrors = []`。
-- 主站 `/app/`：header `59/55`，h1 `48/30`，引用 `app-shell.css?v=20261125b`。
+- 主站 `/app/`：header `59/55`，h1 `48/30`，引用 `app-shell.css?v=20261125c`。
 - 主站 `/404.html`：h1 `40/28`，`noindex` 存在；9 个站的 `/404.html` 都返回 200、带 b 版本与 `noindex`。
 - 动画站 `/about/` 页脚不含相对主题链接；AI 与主站保留主题入口。
-- 线上 `article.css` 归一化换行后 SHA-256 前缀 `5BCF10AB93F2`；本地原始字节为 `60C6F42030DF`，99,182 bytes。线上 `app-shell.css` 为 `F623FFFFDEC9`。字节差异来自 Git 的 CRLF/LF 转换，内容一致。
+- 线上 `article.css` 归一化换行后 SHA-256 前缀 `1D70E54E79C4`；本地原始字节为 `E19CB63906AF`，99,354 bytes。线上 `app-shell.css` 为 `F7F1617757EC`。字节差异来自 Git 的 CRLF/LF 转换，内容一致。
 - 9 个站的远端 `refs/heads/main` 已用 `git ls-remote` 核对；主站 `730820e`（UI 提交 `569f560` + 清理 `sitemap.xml.bak-20261125`），AI `c66e669`，其余分站见提交记录。
 - `context` 的 fetch 前三次被重置，第四次成功，远端从 `344f650` 正常快进到 `19e7a25`，没有改写历史。
 - 9 个站的 `sitemap.xml.bak-20261125` 线上均返回 `404`。
 - 推送提交记录：`build/ui-audit-20261125/deploy-commits.json`。
 
-证据文件：`build/ui-audit-20261125/live-check-b.txt`、`build/ui-audit-20261125/nine-sites-live-20261125b.json`、`build/ui-audit-20261125/live-shots/`、`build/ui-audit-20261125/live-b/`。
+证据文件：`build/ui-audit-20261125/live-check-b.txt`、`build/ui-audit-20261125/nine-sites-live-20261125c.json`、`build/ui-audit-20261125/live-shots/`、`build/ui-audit-20261125/live-b/`。
 
 这份基线是下一次新增内容的最低起点，不是“以后不会再乱”的承诺；每次构建后必须重跑审计。
+
