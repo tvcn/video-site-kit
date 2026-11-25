@@ -9,7 +9,7 @@
 
 全站统一的是 **外壳、画布、导航、页脚、缓存键和特殊页生成方式**；各站的内容组件（卡片、表格、对比块）可以有自己的业务形态，但不能另起一套 header/footer。
 
-- 9 个站的 `assets/article.css` 已是同一个文件：SHA-256 前缀 `91599E1DC350`，99,182 bytes。
+- 9 个站的 `assets/article.css` 已是同一个文件：原始字节 SHA-256 前缀 `60C6F42030DF`，99,182 bytes；归一化 CRLF→LF 后为 `5BCF10AB93F2`，与线上文件一致。
 - 8 个静态站的正文页、首页、关于页、搜索页、文章索引页统一使用 `.static-page` + `.static-header` + `.static-footer` + `.static-tabbar`。
 - `header` 的 9 个站点链接顺序固定，移动端 760px 以下隐藏站点链接，只保留「搜索 / EN / 明暗」和底部 9 站 tabbar。
 - 当前站点高亮按 **访问域名** 判断，而不是按文章内容所属编辑台判断。主站所有页面高亮「主站」，分站所有页面高亮自己的站，AI 站高亮「AI」。
@@ -165,7 +165,7 @@ python build/ui-audit.py
 
 必须看到：
 
-- `8624` 个 HTML 左右（主站 + 7 个静态分站各 1065，AI 45，另有 404）
+- `8624` 个 HTML（主站 1116；7 个静态分站各 1066；AI 46；其中 404 9 个、app 8 个）
 - `nav_header_groups = nav_footer_groups = nav_tabbar_groups`
 - `pages_404 = 9`
 - `pages_app = 8`
@@ -217,29 +217,42 @@ python build/axe-recheck-20261125.py
 ## 八、当前基线
 
 - 全站扫描：`8624` 个 HTML，`0` 失败。
-- 主站正文回归：`1038` 页 × 2 宽度，`0` 失败。
+- 主站正文回归：`1038` 页 × 2 宽度，`2076` 次检查，`0` 失败。
 - axe：16 个代表页，`0` 违规。
 - AI QA：`Failures 0 / Warnings 0`；响应式 `136` 项，`0` 失败。
 - 主站 staging 与 `v2/dist`：1116 个 HTML 全部同哈希。
+- 线上复核：9 个站 × 首页/内页 × 1280/390，18 页 36 次测量，`0` 失败。
 
-## 九、线上复核（2026-11-25 推送后）
+## 九、线上复核（2026-11-25 最终 b 版本）
 
-9 个域名首页全部 `200`，且都引用 `article.css?v=20261125b` 与 `2026-11-25` 页脚日期：
+9 个域名全部 `200`，首页与内页都引用 `20261125b`；AI 首页同时引用 `article.css` 与 `ai6.css` 的 b 版本。
 
-`tvcn.org`、`story.tvcn.org`、`shoot.tvcn.org`、`post.tvcn.org`、`animation.tvcn.org`、`formats.tvcn.org`、`tools.tvcn.org`、`context.tvcn.org`、`ai.tvcn.org`。
+逐站实测结果：
 
-生产实测：
+| 站点 | 首页 h1 1280/390 | 内页 | 内页 h1 1280/390 | 当前站 |
+|---|---:|---|---:|---|
+| `tvcn.org` | 48/30 | `/article/16mm/` | 40/28 | `main` |
+| `story.tvcn.org` | 48/30 | `/about/` | 40/28 | `story` |
+| `shoot.tvcn.org` | 48/30 | `/about/` | 40/28 | `shoot` |
+| `post.tvcn.org` | 48/30 | `/about/` | 40/28 | `post` |
+| `ai.tvcn.org` | 48/30 | `/tools/` | 40/28 | `ai` |
+| `animation.tvcn.org` | 48/30 | `/about/` | 40/28 | `animation` |
+| `formats.tvcn.org` | 48/30 | `/about/` | 40/28 | `formats` |
+| `tools.tvcn.org` | 48/30 | `/about/` | 40/28 | `tools` |
+| `context.tvcn.org` | 48/30 | `/about/` | 40/28 | `context` |
 
-- 主站首页：header `59/55`，h1 `48/30`，无横向溢出，当前站 `main`。
-- 主站 `/app/`：header `59/55`，h1 `48/30`，引用 `app-shell.css?v=20261125b`，无横向溢出。
-- 主站 `/404.html`：header `59/55`，h1 `40/28`，`noindex` 存在。
-- 动画站 `/about/`：header `59/55`，h1 `40/28`，当前站 `animation`，页脚不含相对主题链接。
-- AI 首页：header `59/55`，h1 `40/27`，当前站 `ai`，页脚保留主题入口。
-- 5 个检查页均 `pageerrors = []`，`scrollWidth = bodyWidth`。
-- 主站、动画站、AI 的线上 `article.css` 归一化换行后哈希一致：`0F80BF9D51F7`；`app-shell.css` 为 `F623FFFFDEC9`。字节差异只来自 Git 的 CRLF/LF 转换，内容一致。
-- 线上 `404.html` 均带 `noindex`。直接访问 `/404.html` 返回的是文件本身（200）；访问真实未知路径时返回 HTTP `404`，但仍是同一套浅色壳层并带 `noindex`。
+补充实测：
+
+- 所有页面 header `59/55`，`scrollWidth = bodyWidth`，`pageerrors = []`。
+- 主站 `/app/`：header `59/55`，h1 `48/30`，引用 `app-shell.css?v=20261125b`。
+- 主站 `/404.html`：h1 `40/28`，`noindex` 存在；9 个站的 `/404.html` 都返回 200、带 b 版本与 `noindex`。
+- 动画站 `/about/` 页脚不含相对主题链接；AI 与主站保留主题入口。
+- 线上 `article.css` 归一化换行后 SHA-256 前缀 `5BCF10AB93F2`；本地原始字节为 `60C6F42030DF`，99,182 bytes。线上 `app-shell.css` 为 `F623FFFFDEC9`。字节差异来自 Git 的 CRLF/LF 转换，内容一致。
+- 9 个站的远端 `refs/heads/main` 已用 `git ls-remote` 核对；主站 `730820e`（UI 提交 `569f560` + 清理 `sitemap.xml.bak-20261125`），AI `c66e669`，其余分站见提交记录。
+- `context` 的 fetch 前三次被重置，第四次成功，远端从 `344f650` 正常快进到 `19e7a25`，没有改写历史。
+- 主站与 context 的 `sitemap.xml.bak-20261125` 线上均返回 `404`。
 - 推送提交记录：`build/ui-audit-20261125/deploy-commits.json`。
 
-证据文件：`build/ui-audit-20261125/live-check.txt`、`build/ui-audit-20261125/live/`。
+证据文件：`build/ui-audit-20261125/live-check-b.txt`、`build/ui-audit-20261125/nine-sites-live-20261125b.json`、`build/ui-audit-20261125/live-shots/`、`build/ui-audit-20261125/live-b/`。
 
 这份基线是下一次新增内容的最低起点，不是“以后不会再乱”的承诺；每次构建后必须重跑审计。
