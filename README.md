@@ -146,7 +146,7 @@ powershell -ExecutionPolicy Bypass -File generator\publish.ps1 -Site story -Push
 - `docs/内容运营手册.md`：来源分级、经验说明、篇幅门槛、发布前检查
 - `docs/UI规范.md`：外壳、导航、宽度轨、设计令牌
 
-9 站已于 2026-11-27 发布到线上，Pages 全部 `built`，`deploy/` 工作区干净。当前 HEAD：main `4040b97`、story `038c03a`、shoot `a956c55`、post `71a5f84`、ai `c0691ba`、animation `d9d2f7a`、formats `1ce24d5`、tools `16ef2f6`、context `323efa7`；内容仓 `875dfab`；构建/共享仓见 `video-site-kit`。
+9 站已于 2026-11-27 发布到线上，Pages 全部 `built`，`deploy/` 工作区干净。当前 HEAD：main `9706893`、story `a1808ab`、shoot `9b49d84`、post `a496b66`、ai `c0691ba`、animation `552a1b8`、formats `95258a6`、tools `7a67c3e`、context `554d267`；内容仓 `875dfab`；构建/共享仓见 `video-site-kit`。
 
 ## 许可
 

@@ -224,14 +224,15 @@ def main() -> int:
         if source_html:
             log["with_source"] += 1
             if '<div class="related">' in old:
-                old = old.replace('<div class="related">', source_html + '\n<div class="related">', 1)
+                # 固定插入点前的空白，避免每次构建多出一行空行。
+                old = re.sub(r"\s*<div class=\"related\">", lambda mm: f'\n{source_html}\n<div class="related">', old, count=1)
             else:
                 # insert before the final closing wrapper div
                 old = old.rstrip()
                 if old.endswith("</div>"):
-                    old = old[: -len("</div>")] + source_html + "\n</div>"
+                    old = old[: -len("</div>")].rstrip() + "\n" + source_html + "\n</div>"
                 else:
-                    old += source_html
+                    old += "\n" + source_html
         else:
             log["without_source"] += 1
         old, deduped = dedupe_boundary(old)
