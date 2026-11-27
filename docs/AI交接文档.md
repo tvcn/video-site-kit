@@ -30,7 +30,7 @@ main 77 / story 48 / shoot 50 / post 54
 animation 40 / formats 64 / tools 125 / context 48
 AI 站 49 页 + 404
 out/ 5,437 files / 61.1MB
-本地合计 368.4MB（deploy 224.8 / out 61.1 / content 27.4 / generator 20.4 / assets 15.3 / app 2.6）
+本地合计 370.8MB（deploy 223.9 / out 61.1 / content 27.5 / generator 20.4 / assets 15.3 / app 2.6）
 ```
 
 ### 1.2 线上 HEAD（2026-11-27）
