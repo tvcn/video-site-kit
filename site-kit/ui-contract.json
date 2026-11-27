@@ -1,0 +1,40 @@
+{
+  "version": "20261125c",
+  "updated": "2026-11-25",
+  "canvas": { "max_width": 1180, "desktop_header_height": 59, "mobile_header_height": 55, "home_h1": 48, "inner_h1": 40, "mobile_home_h1": 30, "mobile_inner_h1": 28 },
+  "shell": {
+    "body_class": "static-page",
+    "header": "static-header",
+    "footer": "static-footer",
+    "tabbar": "static-tabbar",
+    "brand": "static-brand",
+    "nav": "static-nav site-nav",
+    "search": "search-btn",
+    "language": "lang-btn",
+    "theme": "theme-toggle",
+    "footer_nav": "footer-sites",
+    "tabbar_link": "tab-site-link"
+  },
+  "navigation": {
+    "order": ["main", "story", "shoot", "post", "ai", "animation", "formats", "tools", "context"],
+    "labels_zh": ["主站", "故事", "拍摄", "后期", "AI", "动画", "片型", "工具", "影像史"],
+    "labels_en": ["Main", "Story", "Shoot", "Post", "AI", "Animation", "Formats", "Tools", "History"],
+    "count": 9
+  },
+  "pages": {
+    "regular": { "css": "article.css", "body": "static-page" },
+    "app": { "css": "app-shell.css", "body": "static-page", "sites": ["main", "story", "shoot", "post", "animation", "formats", "tools", "context"] },
+    "404": { "css": "article.css", "body": "static-page", "robots": "noindex,follow" }
+  },
+  "forbidden": ["<header class=\"site-header\"", "<footer class=\"site-footer\"", "class=\"brand-mark\"", "article.css?v=20261124", "article.css?v=20261123", "ai6.css?v=20261124"],
+  "required_footer_links": ["about/", "glossary/", "search/", "app/"],
+  "source_of_truth": {
+    "static_generator": "generator/build-site.mjs",
+    "assembler": "generator/assemble-site.mjs",
+    "ai_generator": "generator/ai6/schema.py",
+    "static_404": "site-kit/shell/404.html",
+    "site_config": "site-kit/sites.json",
+    "qa": "generator/qa-sites.mjs"
+  }
+}
+

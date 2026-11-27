@@ -1,0 +1,7 @@
+platform,ratio,length,resolution,bitrate,fps,audio,subtitle,notes
+Douyin,9:16,15s–3min,1080×1920,8–12Mbps,30,AAC 48kHz -14 LUFS,burned-in/optional,caption safe area; AI disclosure
+Xiaohongshu,9:16 or 1:1,15s–5min,1080×1920,6–10Mbps,30,AAC 48kHz -14 LUFS,burned-in,cover 3:4/1:1
+Bilibili,16:9,no limit,1920×1080,8–16Mbps,30/60,AAC 48kHz -14 LUFS,soft subs/CC,horizontal; title/cover
+YouTube,16:9 or 9:16,no limit,1920×1080 / 1080×1920,8–16Mbps,30/60,AAC 48kHz -14 LUFS,SRT/CC,thumbnail; chapters
+TikTok,9:16,15s–10min,1080×1920,8–12Mbps,30,AAC 48kHz -14 LUFS,burned-in,region/music rights
+Reels,9:16,15–90s,1080×1920,8–12Mbps,30,AAC 48kHz -14 LUFS,burned-in,safe area

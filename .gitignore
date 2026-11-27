@@ -1,0 +1,28 @@
+# Never commit real credentials. Local deployment only.
+
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+config.local.*
+
+# Generated per-site builds and deploy working copies
+out/
+deploy/
+generator/ai6/site/
+generator/ai6/shots/
+
+# Separate repos / local-only material
+content/
+.screenshots/
+
+# Local legacy archive (not part of the current source tree)
+archive/
+
+# Local logs and test downloads
+*.log
+build/downloads/

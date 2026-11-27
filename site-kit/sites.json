@@ -1,0 +1,95 @@
+{
+  "organization": "tvcn",
+  "primary_domain": "tvcn.org",
+  "locales": ["zh", "en"],
+  "defaults": {
+    "canonical": "self",
+    "shared_pages": "main",
+    "app": "main",
+    "sitemap": "own",
+    "legacy_ai": "main"
+  },
+  "sites": [
+    {
+      "id": "main",
+      "domain": "tvcn.org",
+      "repo": "video-production-hub",
+      "content_site": "main",
+      "kind": "hub",
+      "shared_pages": ["about", "glossary", "paths", "topics", "articles", "search"],
+      "app": true
+    },
+    {
+      "id": "story",
+      "domain": "story.tvcn.org",
+      "repo": "video-storytelling",
+      "content_site": "story",
+      "kind": "subsite",
+      "shared_pages": [],
+      "app": false
+    },
+    {
+      "id": "shoot",
+      "domain": "shoot.tvcn.org",
+      "repo": "video-shooting",
+      "content_site": "shoot",
+      "kind": "subsite",
+      "shared_pages": [],
+      "app": false
+    },
+    {
+      "id": "post",
+      "domain": "post.tvcn.org",
+      "repo": "video-editing",
+      "content_site": "post",
+      "kind": "subsite",
+      "shared_pages": [],
+      "app": false
+    },
+    {
+      "id": "ai",
+      "domain": "ai.tvcn.org",
+      "repo": "ai-video",
+      "content_site": null,
+      "kind": "ai",
+      "shared_pages": [],
+      "app": false
+    },
+    {
+      "id": "animation",
+      "domain": "animation.tvcn.org",
+      "repo": "video-animation",
+      "content_site": "animation",
+      "kind": "subsite",
+      "shared_pages": [],
+      "app": false
+    },
+    {
+      "id": "formats",
+      "domain": "formats.tvcn.org",
+      "repo": "video-formats",
+      "content_site": "formats",
+      "kind": "subsite",
+      "shared_pages": [],
+      "app": false
+    },
+    {
+      "id": "tools",
+      "domain": "tools.tvcn.org",
+      "repo": "video-tools",
+      "content_site": "tools",
+      "kind": "subsite",
+      "shared_pages": [],
+      "app": false
+    },
+    {
+      "id": "context",
+      "domain": "context.tvcn.org",
+      "repo": "media-literacy",
+      "content_site": "context",
+      "kind": "subsite",
+      "shared_pages": [],
+      "app": false
+    }
+  ]
+}

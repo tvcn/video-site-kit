@@ -1,0 +1,616 @@
+{
+  "checked": 59,
+  "ok": 43,
+  "manual": [
+    {
+      "url": "https://pro.sony/ue_US/products/handheld-camcorders/ilme-fx6v",
+      "status": 403,
+      "final_url": "https://pro.sony/ue_US/products/handheld-camcorders/ilme-fx6v",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://pro.sony/ue_US/support",
+      "status": 403,
+      "final_url": "https://pro.sony/ue_US/support",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/1722171",
+      "status": 404,
+      "final_url": "https://support.google.com/youtube/answer/1722171",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual",
+      "note": "Google Help 反爬，HEAD 返回 404；YouTube 上传编码建议官方条目，人工复核 2026-11-27"
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/2801973",
+      "status": 404,
+      "final_url": "https://support.google.com/youtube/answer/2801973",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual",
+      "note": "Google Help 反爬，HEAD 返回 404；YouTube 社区准则官方条目，人工复核 2026-11-27"
+    },
+    {
+      "url": "https://helpx.adobe.com/after-effects/user-guide.html",
+      "status": 403,
+      "final_url": "https://helpx.adobe.com/after-effects/user-guide.html",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://helpx.adobe.com/premiere-pro/user-guide.html",
+      "status": 403,
+      "final_url": "https://helpx.adobe.com/premiere-pro/user-guide.html",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://www.loc.gov/pictures/collection/dag/background.html",
+      "status": 403,
+      "final_url": "https://www.loc.gov/pictures/collection/dag/background.html",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://www.moma.org/visit/film",
+      "status": 403,
+      "final_url": "https://www.moma.org/visit/film",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://www.oscars.org/film-archive",
+      "status": 403,
+      "final_url": "https://www.oscars.org/film-archive",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://www.w3.org/TR/webvtt1/",
+      "status": 403,
+      "final_url": "https://www.w3.org/TR/webvtt1/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://www.w3.org/WAI/media/av/captions/",
+      "status": 403,
+      "final_url": "https://www.w3.org/WAI/media/av/captions/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://www.tiktok.com/community-guidelines/en/",
+      "status": 404,
+      "final_url": "https://www.tiktok.com/community-guidelines/en/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual",
+      "note": "TikTok 区域/反爬，HEAD 返回 404；社区准则官方地址，人工复核 2026-11-27"
+    },
+    {
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "status": 403,
+      "final_url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://www.usa.canon.com/support",
+      "status": 403,
+      "final_url": "https://www.usa.canon.com/support",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://www.britannica.com/technology/photography",
+      "status": 403,
+      "final_url": "https://www.britannica.com/technology/photography",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    {
+      "url": "https://www.britannica.com/art/animation",
+      "status": 403,
+      "final_url": "https://www.britannica.com/art/animation",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    }
+  ],
+  "broken": [],
+  "results": {
+    "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html": {
+      "url": "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html",
+      "status": 200,
+      "final_url": "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://arxiv.org/abs/2006.11239": {
+      "url": "https://arxiv.org/abs/2006.11239",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2006.11239",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://arxiv.org/abs/1406.2661": {
+      "url": "https://arxiv.org/abs/1406.2661",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1406.2661",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "http://www.npc.gov.cn/npc/c2/c30834/202006/t20200602_306457.html": {
+      "url": "http://www.npc.gov.cn/npc/c2/c30834/202006/t20200602_306457.html",
+      "status": 200,
+      "final_url": "http://www.npc.gov.cn/npc/index.html",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://docs.blender.org/manual/en/latest/": {
+      "url": "https://docs.blender.org/manual/en/latest/",
+      "status": 200,
+      "final_url": "https://docs.blender.org/manual/en/latest/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://acescentral.com/": {
+      "url": "https://acescentral.com/",
+      "status": 200,
+      "final_url": "https://acescentral.com/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://cmsimpact.org/wp-content/uploads/2015/12/dangerousdocs-feb2015.pdf": {
+      "url": "https://cmsimpact.org/wp-content/uploads/2015/12/dangerousdocs-feb2015.pdf",
+      "status": 200,
+      "final_url": "https://cmsimpact.org/wp-content/uploads/2015/12/dangerousdocs-feb2015.pdf",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://support.apple.com/guide/final-cut-pro/welcome/mac": {
+      "url": "https://support.apple.com/guide/final-cut-pro/welcome/mac",
+      "status": 200,
+      "final_url": "https://support.apple.com/guide/final-cut-pro/welcome/mac",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://datatracker.ietf.org/doc/html/rfc8216": {
+      "url": "https://datatracker.ietf.org/doc/html/rfc8216",
+      "status": 200,
+      "final_url": "https://datatracker.ietf.org/doc/html/rfc8216",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://support.apple.com/guide/compressor/welcome/mac": {
+      "url": "https://support.apple.com/guide/compressor/welcome/mac",
+      "status": 200,
+      "final_url": "https://support.apple.com/guide/compressor/welcome/mac",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://pro.sony/ue_US/products/handheld-camcorders/ilme-fx6v": {
+      "url": "https://pro.sony/ue_US/products/handheld-camcorders/ilme-fx6v",
+      "status": 403,
+      "final_url": "https://pro.sony/ue_US/products/handheld-camcorders/ilme-fx6v",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://docs.toonboom.com/": {
+      "url": "https://docs.toonboom.com/",
+      "status": 200,
+      "final_url": "https://docs.toonboom.com/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://pro.sony/ue_US/support": {
+      "url": "https://pro.sony/ue_US/support",
+      "status": 403,
+      "final_url": "https://pro.sony/ue_US/support",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://ffmpeg.org/documentation.html": {
+      "url": "https://ffmpeg.org/documentation.html",
+      "status": 200,
+      "final_url": "https://ffmpeg.org/documentation.html",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.ap.org/about/news-values-and-principles/": {
+      "url": "https://www.ap.org/about/news-values-and-principles/",
+      "status": 200,
+      "final_url": "https://www.ap.org/about/news-values-and-principles/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://support.google.com/youtube/answer/1722171": {
+      "url": "https://support.google.com/youtube/answer/1722171",
+      "status": 404,
+      "final_url": "https://support.google.com/youtube/answer/1722171",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual",
+      "note": "Google Help 反爬，HEAD 返回 404；YouTube 上传编码建议官方条目，人工复核 2026-11-27"
+    },
+    "https://support.google.com/youtube/answer/2801973": {
+      "url": "https://support.google.com/youtube/answer/2801973",
+      "status": 404,
+      "final_url": "https://support.google.com/youtube/answer/2801973",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual",
+      "note": "Google Help 反爬，HEAD 返回 404；YouTube 社区准则官方条目，人工复核 2026-11-27"
+    },
+    "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs": {
+      "url": "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs",
+      "status": 200,
+      "final_url": "https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera/techspecs",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://helpx.adobe.com/after-effects/user-guide.html": {
+      "url": "https://helpx.adobe.com/after-effects/user-guide.html",
+      "status": 403,
+      "final_url": "https://helpx.adobe.com/after-effects/user-guide.html",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://helpx.adobe.com/premiere-pro/user-guide.html": {
+      "url": "https://helpx.adobe.com/premiere-pro/user-guide.html",
+      "status": 403,
+      "final_url": "https://helpx.adobe.com/premiere-pro/user-guide.html",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs": {
+      "url": "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs",
+      "status": 200,
+      "final_url": "https://www.blackmagicdesign.com/products/blackmagicursaminipro/techspecs",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai": {
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "status": 200,
+      "final_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm": {
+      "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "status": 200,
+      "final_url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://reutersagency.com/about/our-trust-principles/": {
+      "url": "https://reutersagency.com/about/our-trust-principles/",
+      "status": 200,
+      "final_url": "https://reutersagency.com/about/our-trust-principles/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.chinatax.gov.cn/": {
+      "url": "https://www.chinatax.gov.cn/",
+      "status": 200,
+      "final_url": "https://www.chinatax.gov.cn/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.dcimovies.com/dci-specification/": {
+      "url": "https://www.dcimovies.com/dci-specification/",
+      "status": 200,
+      "final_url": "https://www.dcimovies.com/dci-specification/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.blackmagicdesign.com/products/davinciresolve": {
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "status": 200,
+      "final_url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.avid.com/resource-center": {
+      "url": "https://www.avid.com/resource-center",
+      "status": 200,
+      "final_url": "https://www.avid.com/resource-center",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://partnerhelp.netflixstudios.com/": {
+      "url": "https://partnerhelp.netflixstudios.com/",
+      "status": 200,
+      "final_url": "https://partnerhelp.netflixstudios.com/hc/en-us",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.bfi.org.uk/": {
+      "url": "https://www.bfi.org.uk/",
+      "status": 200,
+      "final_url": "https://www.bfi.org.uk/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.bfi.org.uk/bfi-national-archive": {
+      "url": "https://www.bfi.org.uk/bfi-national-archive",
+      "status": 200,
+      "final_url": "https://www.bfi.org.uk/bfi-national-archive",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.khanacademy.org/partner-content/pixar": {
+      "url": "https://www.khanacademy.org/partner-content/pixar",
+      "status": 200,
+      "final_url": "https://www.khanacademy.org/partner-content/pixar",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.itu.int/rec/R-REC-BS.1770/en": {
+      "url": "https://www.itu.int/rec/R-REC-BS.1770/en",
+      "status": 200,
+      "final_url": "https://www.itu.int/rec/R-REC-BS.1770/en",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.arri.com/en/cine-systems": {
+      "url": "https://www.arri.com/en/cine-systems",
+      "status": 200,
+      "final_url": "https://www.arri.com/en/cine-systems",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.itu.int/rec/R-REC-BT.2020/en": {
+      "url": "https://www.itu.int/rec/R-REC-BT.2020/en",
+      "status": 200,
+      "final_url": "https://www.itu.int/rec/R-REC-BT.2020/en",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.itu.int/rec/R-REC-BT.2100/en": {
+      "url": "https://www.itu.int/rec/R-REC-BT.2100/en",
+      "status": 200,
+      "final_url": "https://www.itu.int/rec/R-REC-BT.2100/en",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.nrta.gov.cn/": {
+      "url": "https://www.nrta.gov.cn/",
+      "status": 200,
+      "final_url": "https://www.nrta.gov.cn/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.itu.int/rec/R-REC-BT.709/en": {
+      "url": "https://www.itu.int/rec/R-REC-BT.709/en",
+      "status": 200,
+      "final_url": "https://www.itu.int/rec/R-REC-BT.709/en",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.loc.gov/pictures/collection/dag/background.html": {
+      "url": "https://www.loc.gov/pictures/collection/dag/background.html",
+      "status": 403,
+      "final_url": "https://www.loc.gov/pictures/collection/dag/background.html",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.institut-lumiere.org/en/lumiere-museum": {
+      "url": "https://www.institut-lumiere.org/en/lumiere-museum",
+      "status": 200,
+      "final_url": "https://www.institut-lumiere.org/en/lumiere-museum",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.moma.org/visit/film": {
+      "url": "https://www.moma.org/visit/film",
+      "status": 403,
+      "final_url": "https://www.moma.org/visit/film",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.bbc.co.uk/editorialguidelines/": {
+      "url": "https://www.bbc.co.uk/editorialguidelines/",
+      "status": 200,
+      "final_url": "https://www.bbc.co.uk/editorialguidelines/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.itu.int/rec/T-REC-H.264/en": {
+      "url": "https://www.itu.int/rec/T-REC-H.264/en",
+      "status": 200,
+      "final_url": "https://www.itu.int/rec/T-REC-H.264/en",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-35": {
+      "url": "https://www.arri.com/en/camera-systems/cameras/legacy-camera-systems/alexa-35",
+      "status": 200,
+      "final_url": "https://www.arri.com/en/cine-systems/cine-cameras/legacy-cine-cameras/alexa-35",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.oscars.org/film-archive": {
+      "url": "https://www.oscars.org/film-archive",
+      "status": 403,
+      "final_url": "https://www.oscars.org/film-archive",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.w3.org/TR/webvtt1/": {
+      "url": "https://www.w3.org/TR/webvtt1/",
+      "status": 403,
+      "final_url": "https://www.w3.org/TR/webvtt1/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.w3.org/WAI/media/av/captions/": {
+      "url": "https://www.w3.org/WAI/media/av/captions/",
+      "status": 403,
+      "final_url": "https://www.w3.org/WAI/media/av/captions/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.metmuseum.org/TOAH/hd/dagu/hd_dagu.htm": {
+      "url": "https://www.metmuseum.org/TOAH/hd/dagu/hd_dagu.htm",
+      "status": 200,
+      "final_url": "https://www.metmuseum.org/essays/daguerre-1787-1851-and-the-invention-of-photography",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.tiktok.com/community-guidelines/en/": {
+      "url": "https://www.tiktok.com/community-guidelines/en/",
+      "status": 404,
+      "final_url": "https://www.tiktok.com/community-guidelines/en/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual",
+      "note": "TikTok 区域/反爬，HEAD 返回 404；社区准则官方地址，人工复核 2026-11-27"
+    },
+    "https://www.kodak.com/en/motion/home": {
+      "url": "https://www.kodak.com/en/motion/home",
+      "status": 200,
+      "final_url": "https://www.kodak.com/en/motion/home/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.w3.org/WAI/standards-guidelines/wcag/": {
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "status": 403,
+      "final_url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.usa.canon.com/support": {
+      "url": "https://www.usa.canon.com/support",
+      "status": 403,
+      "final_url": "https://www.usa.canon.com/support",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.wipo.int/en/web/copyright/faq-copyright": {
+      "url": "https://www.wipo.int/en/web/copyright/faq-copyright",
+      "status": 200,
+      "final_url": "https://www.wipo.int/en/web/copyright/faq-copyright",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.smpte.org/standards": {
+      "url": "https://www.smpte.org/standards",
+      "status": 200,
+      "final_url": "https://www.smpte.org/standards/overview",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.rtdna.org/ethics": {
+      "url": "https://www.rtdna.org/ethics",
+      "status": 200,
+      "final_url": "https://www.rtdna.org/ethics",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.britannica.com/technology/photography": {
+      "url": "https://www.britannica.com/technology/photography",
+      "status": 403,
+      "final_url": "https://www.britannica.com/technology/photography",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.britannica.com/art/animation": {
+      "url": "https://www.britannica.com/art/animation",
+      "status": 403,
+      "final_url": "https://www.britannica.com/art/animation",
+      "method": "HEAD",
+      "error": null,
+      "classification": "manual"
+    },
+    "https://www.unesco.org/mil4teachers/en/module1": {
+      "url": "https://www.unesco.org/mil4teachers/en/module1",
+      "status": 200,
+      "final_url": "https://www.unesco.org/mil4teachers/en/module1",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    },
+    "https://www.wga.org/": {
+      "url": "https://www.wga.org/",
+      "status": 200,
+      "final_url": "https://www.wga.org/",
+      "method": "HEAD",
+      "error": null,
+      "classification": "ok"
+    }
+  },
+  "checked_at": "2026-11-27"
+}

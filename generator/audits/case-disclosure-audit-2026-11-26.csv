@@ -1,0 +1,16 @@
+﻿translation_key,slug,title_zh,path_zh,audit_disclosure,visible_disclosure,sentence,experience_note,status
+main.case.case-brand-product-composite,case-brand-product-composite,产品案例：一句卖点与六个镜头,content/main/zh/case-brand-product-composite.md,True,True,le: 产品案例：一句卖点与六个镜头 summary: 一个 30 秒产品广告的复合复盘：六个镜头、一个卖点、一次真实使用，不拍参数堆叠。,True,A
+main.case.case-corporate-composite,case-corporate-composite,企业案例：工厂与三个部门,content/main/zh/case-corporate-composite.md,True,True,ce title: 企业案例：工厂与三个部门 summary: 一个企业宣传片的复合复盘：工厂、三个部门、一个真实动作，拒绝把宣传片拍成部门汇报。,True,A
+main.case.case-documentary-composite,case-documentary-composite,纪录案例：不可重来的九十分钟,content/main/zh/case-documentary-composite.md,True,True,le: 纪录案例：不可重来的九十分钟 summary: 一个 90 分钟纪录片的复合复盘：一次不可重来的现场、两个人物、三条伦理边界。,True,A
+main.case.case-event-composite,case-event-composite,活动案例：一晚四个环节,content/main/zh/case-event-composite.md,True,True,urce title: 活动案例：一晚四个环节 summary: 一个单晚活动的复合复盘：四个环节、三台机位、一条时码，先保证每个环节都有完整记录。,True,A
+main.case.case-experimental,case-experimental,实验影像案例：一条规则，三次重复,content/main/zh/case-experimental.md,True,True,y.16mm] source_kind: experience --- 这是一份匿名复合复盘。,True,A
+main.case.case-food-composite,case-food-composite,美食案例：桌面、声音与三十秒,content/main/zh/case-food-composite.md,True,True,le: 美食案例：桌面、声音与三十秒 summary: 一个 30 秒美食桌面的复合复盘：一盏窗光、两支麦克风、三个动作，不靠升格堆食欲。,True,A
+main.case.case-interview-composite,case-interview-composite,访谈案例：四十五分钟一个人,content/main/zh/case-interview-composite.md,True,True,itle: 访谈案例：四十五分钟一个人 summary: 一个 45 分钟访谈的复合复盘：两个人、三盏灯、一条备份，先把被访者拍舒服。,True,A
+main.case.case-music-performance-composite,case-music-performance-composite,MV 案例：现场 Playback 与三条安全线,content/main/zh/case-music-performance-composite.md,True,True,案例：现场 Playback 与三条安全线 summary: 一个现场 MV 的复合复盘：playback、机位同步和演员安全三条线，任何一条断了都要停。,True,A
+main.case.case-music-video,case-music-video,MV 案例：三个母题撑一首歌,content/main/zh/case-music-video.md,True,True,y.16mm] source_kind: experience --- 这是一份匿名复合复盘。,True,A
+main.case.case-news,case-news,新闻现场案例：先核实，再开机,content/main/zh/case-news.md,True,True,y.16mm] source_kind: experience --- 这是一份匿名复合复盘。,True,A
+main.case.case-short-drama-composite,case-short-drama-composite,短剧案例：三天的钩子与代价,content/main/zh/case-short-drama-composite.md,True,True,的钩子与代价 summary: 一个 3 人组、3 天拍摄、5 天后期的竖屏短剧复合复盘：先把 30 秒钩子拍对，再谈反转。,True,A
+main.case.case-sports-composite,case-sports-composite,运动案例：跟拍与安全边界,content/main/zh/case-sports-composite.md,True,True,ce title: 运动案例：跟拍与安全边界 summary: 一个越野跑跟拍的复合复盘：跟拍、天气和收工边界，先保证人安全，再保证画面。,True,A
+main.case.case-vertical-series-composite,case-vertical-series-composite,竖屏案例：同一场景拍十二集,content/main/zh/case-vertical-series-composite.md,True,True,title: 竖屏案例：同一场景拍十二集 summary: 一个单场景竖屏系列的复合复盘：用一个房间、两盏灯和三套衣服，拍出十二集的差异。,True,A
+main.case.case-vlog,case-vlog,旅拍 Vlog 案例：只拍一个发现,content/main/zh/case-vlog.md,True,True,teracy] source_kind: experience --- 这是一份匿名复合复盘。,True,A
+main.case.case-wedding,case-wedding,婚礼案例：誓言不能补拍,content/main/zh/case-wedding.md,True,True,teracy] source_kind: experience --- 这是一份匿名复合复盘。,True,A

@@ -1,0 +1,265 @@
+{
+  "clusters_total": 20,
+  "owners_present": 20,
+  "support_pages_checked": 96,
+  "unresolved_intent_clusters": 0,
+  "unresolved": [],
+  "clusters": [
+    {
+      "cluster": "camera-buy",
+      "owner": "buy-camera-budget",
+      "owner_key": "tools.guide.buy-camera-budget",
+      "members": 7,
+      "supports": [
+        "camera-choice",
+        "buy-camera-cine",
+        "cine-camera",
+        "mirrorless-video",
+        "buy-used-gear",
+        "used-gear-check"
+      ]
+    },
+    {
+      "cluster": "lens-buy",
+      "owner": "buy-lens-first",
+      "owner_key": "tools.guide.buy-lens-first",
+      "members": 6,
+      "supports": [
+        "prime-lens",
+        "zoom-lens",
+        "anamorphic",
+        "buy-lens-zoom",
+        "speedbooster"
+      ]
+    },
+    {
+      "cluster": "support",
+      "owner": "gimbal-balance",
+      "owner_key": "tools.tutorial.gimbal-balance",
+      "members": 8,
+      "supports": [
+        "tripod",
+        "fluid-head",
+        "buy-tripod",
+        "buy-tripod-fluid",
+        "slider",
+        "gimbal",
+        "buy-gimbal-first"
+      ]
+    },
+    {
+      "cluster": "light",
+      "owner": "buy-light-kit",
+      "owner_key": "tools.guide.buy-light-kit",
+      "members": 8,
+      "supports": [
+        "cob-light",
+        "led-panel",
+        "softbox",
+        "light-stand",
+        "buy-light-led",
+        "lighting-one-light",
+        "lighting-window"
+      ]
+    },
+    {
+      "cluster": "audio-gear",
+      "owner": "lav-hidden",
+      "owner_key": "tools.tutorial.lav-hidden",
+      "members": 8,
+      "supports": [
+        "lav-system",
+        "shotgun-mic",
+        "field-recorder",
+        "audio-interface",
+        "buy-audio-field",
+        "buy-wireless-lav",
+        "room-tone-record"
+      ]
+    },
+    {
+      "cluster": "storage",
+      "owner": "buy-storage",
+      "owner_key": "tools.guide.buy-storage",
+      "members": 8,
+      "supports": [
+        "ssd-raid",
+        "nas",
+        "lto-archive",
+        "buy-nas-raid",
+        "storage-calculator",
+        "backup-3-2-1",
+        "restore-test"
+      ]
+    },
+    {
+      "cluster": "exposure",
+      "owner": "nd-calculate",
+      "owner_key": "tools.tutorial.nd-calculate",
+      "members": 4,
+      "supports": [
+        "exposure",
+        "nd-calculator",
+        "exposure-check"
+      ]
+    },
+    {
+      "cluster": "composition",
+      "owner": "camera-height",
+      "owner_key": "shoot.production.camera-height",
+      "members": 4,
+      "supports": [
+        "composition",
+        "shot-size",
+        "lens-distance"
+      ]
+    },
+    {
+      "cluster": "camera-move",
+      "owner": "stabilizer",
+      "owner_key": "shoot.movement.stabilizer",
+      "members": 4,
+      "supports": [
+        "camera-move",
+        "handheld-brace",
+        "slider-shot"
+      ]
+    },
+    {
+      "cluster": "color",
+      "owner": "lut",
+      "owner_key": "post.color.lut",
+      "members": 6,
+      "supports": [
+        "color",
+        "color-checker",
+        "white-balance-gray",
+        "camera-black-balance",
+        "davinci-node"
+      ]
+    },
+    {
+      "cluster": "audio-post",
+      "owner": "loudness",
+      "owner_key": "post.sound.loudness",
+      "members": 5,
+      "supports": [
+        "mix-dialogue",
+        "sound-post",
+        "audio-noise-fix",
+        "room-tone"
+      ]
+    },
+    {
+      "cluster": "vfx",
+      "owner": "tracking",
+      "owner_key": "post.vfx.tracking",
+      "members": 5,
+      "supports": [
+        "vfx-composite",
+        "keying",
+        "rotoscoping",
+        "cg-integration"
+      ]
+    },
+    {
+      "cluster": "editing",
+      "owner": "fine-cut",
+      "owner_key": "post.editing.fine-cut",
+      "members": 5,
+      "supports": [
+        "rough-cut",
+        "cutting-points",
+        "edit-pacing",
+        "transitions"
+      ]
+    },
+    {
+      "cluster": "story-structure",
+      "owner": "midpoint-turn",
+      "owner_key": "story.story.midpoint-turn",
+      "members": 5,
+      "supports": [
+        "three-act",
+        "ending-choice",
+        "obstacle-escalation",
+        "conflict"
+      ]
+    },
+    {
+      "cluster": "character",
+      "owner": "want-stakes",
+      "owner_key": "story.story.want-stakes",
+      "members": 5,
+      "supports": [
+        "character-arc",
+        "subtext",
+        "dialogue",
+        "monologue"
+      ]
+    },
+    {
+      "cluster": "interview",
+      "owner": "interview-structure",
+      "owner_key": "formats.interview.interview-structure",
+      "members": 4,
+      "supports": [
+        "interview-questions",
+        "interview-breakdown",
+        "interview-template"
+      ]
+    },
+    {
+      "cluster": "nonactors",
+      "owner": "rehearsal",
+      "owner_key": "story.directing.rehearsal",
+      "members": 5,
+      "supports": [
+        "directing-nonactors",
+        "method-actor-stiff",
+        "casting",
+        "notes-to-actor"
+      ]
+    },
+    {
+      "cluster": "short-drama",
+      "owner": "vertical-drama",
+      "owner_key": "formats.drama.vertical-drama",
+      "members": 5,
+      "supports": [
+        "short-drama-script",
+        "short-drama-breakdown",
+        "short-drama-template",
+        "case-short-drama-composite"
+      ]
+    },
+    {
+      "cluster": "format-template",
+      "owner": "music-video-template",
+      "owner_key": "formats.music-video.music-video-template",
+      "members": 8,
+      "supports": [
+        "product-ad-template",
+        "corporate-video-template",
+        "brand-film-template",
+        "documentary-template",
+        "event-template",
+        "food-video-template",
+        "wedding-template"
+      ]
+    },
+    {
+      "cluster": "ai",
+      "owner": "deep-ai-toolchain",
+      "owner_key": "tools.deep.deep-ai-toolchain",
+      "members": 6,
+      "supports": [
+        "ai-video-tool",
+        "ai-audio-tool",
+        "method-ai-consistency",
+        "method-ai-rights",
+        "method-ai-uncanny"
+      ]
+    }
+  ]
+}

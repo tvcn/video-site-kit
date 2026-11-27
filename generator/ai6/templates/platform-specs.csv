@@ -1,0 +1,7 @@
+platform,ratio,length,resolution,bitrate,fps,audio,subtitle,notes
+抖音,9:16,15s–3min,1080×1920,8–12Mbps,30,AAC 48kHz -14 LUFS,硬字幕/可选,字幕安全区；AI 标注
+小红书,9:16 或 1:1,15s–5min,1080×1920,6–10Mbps,30,AAC 48kHz -14 LUFS,硬字幕,封面 3:4/1:1
+B站,16:9,不限,1920×1080,8–16Mbps,30/60,AAC 48kHz -14 LUFS,软字幕/CC,横屏；标题/封面
+YouTube,16:9 或 9:16,不限,1920×1080 / 1080×1920,8–16Mbps,30/60,AAC 48kHz -14 LUFS,SRT/CC,缩略图；章节
+TikTok,9:16,15s–10min,1080×1920,8–12Mbps,30,AAC 48kHz -14 LUFS,硬字幕,地区/音乐版权
+Reels,9:16,15–90s,1080×1920,8–12Mbps,30,AAC 48kHz -14 LUFS,硬字幕,安全区

@@ -1,0 +1,170 @@
+{
+  "generated": "2026-11-26",
+  "rows": [
+    {
+      "translation_key": "main.case.case-brand-product-composite",
+      "slug": "case-brand-product-composite",
+      "title_zh": "产品案例：一句卖点与六个镜头",
+      "path_zh": "content/main/zh/case-brand-product-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "le: 产品案例：一句卖点与六个镜头 summary: 一个 30 秒产品广告的复合复盘：六个镜头、一个卖点、一次真实使用，不拍参数堆叠。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-corporate-composite",
+      "slug": "case-corporate-composite",
+      "title_zh": "企业案例：工厂与三个部门",
+      "path_zh": "content/main/zh/case-corporate-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "ce title: 企业案例：工厂与三个部门 summary: 一个企业宣传片的复合复盘：工厂、三个部门、一个真实动作，拒绝把宣传片拍成部门汇报。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-documentary-composite",
+      "slug": "case-documentary-composite",
+      "title_zh": "纪录案例：不可重来的九十分钟",
+      "path_zh": "content/main/zh/case-documentary-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "le: 纪录案例：不可重来的九十分钟 summary: 一个 90 分钟纪录片的复合复盘：一次不可重来的现场、两个人物、三条伦理边界。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-event-composite",
+      "slug": "case-event-composite",
+      "title_zh": "活动案例：一晚四个环节",
+      "path_zh": "content/main/zh/case-event-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "urce title: 活动案例：一晚四个环节 summary: 一个单晚活动的复合复盘：四个环节、三台机位、一条时码，先保证每个环节都有完整记录。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-experimental",
+      "slug": "case-experimental",
+      "title_zh": "实验影像案例：一条规则，三次重复",
+      "path_zh": "content/main/zh/case-experimental.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "y.16mm] source_kind: experience --- 这是一份匿名复合复盘。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-food-composite",
+      "slug": "case-food-composite",
+      "title_zh": "美食案例：桌面、声音与三十秒",
+      "path_zh": "content/main/zh/case-food-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "le: 美食案例：桌面、声音与三十秒 summary: 一个 30 秒美食桌面的复合复盘：一盏窗光、两支麦克风、三个动作，不靠升格堆食欲。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-interview-composite",
+      "slug": "case-interview-composite",
+      "title_zh": "访谈案例：四十五分钟一个人",
+      "path_zh": "content/main/zh/case-interview-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "itle: 访谈案例：四十五分钟一个人 summary: 一个 45 分钟访谈的复合复盘：两个人、三盏灯、一条备份，先把被访者拍舒服。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-music-performance-composite",
+      "slug": "case-music-performance-composite",
+      "title_zh": "MV 案例：现场 Playback 与三条安全线",
+      "path_zh": "content/main/zh/case-music-performance-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "案例：现场 Playback 与三条安全线 summary: 一个现场 MV 的复合复盘：playback、机位同步和演员安全三条线，任何一条断了都要停。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-music-video",
+      "slug": "case-music-video",
+      "title_zh": "MV 案例：三个母题撑一首歌",
+      "path_zh": "content/main/zh/case-music-video.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "y.16mm] source_kind: experience --- 这是一份匿名复合复盘。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-news",
+      "slug": "case-news",
+      "title_zh": "新闻现场案例：先核实，再开机",
+      "path_zh": "content/main/zh/case-news.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "y.16mm] source_kind: experience --- 这是一份匿名复合复盘。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-short-drama-composite",
+      "slug": "case-short-drama-composite",
+      "title_zh": "短剧案例：三天的钩子与代价",
+      "path_zh": "content/main/zh/case-short-drama-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "的钩子与代价 summary: 一个 3 人组、3 天拍摄、5 天后期的竖屏短剧复合复盘：先把 30 秒钩子拍对，再谈反转。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-sports-composite",
+      "slug": "case-sports-composite",
+      "title_zh": "运动案例：跟拍与安全边界",
+      "path_zh": "content/main/zh/case-sports-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "ce title: 运动案例：跟拍与安全边界 summary: 一个越野跑跟拍的复合复盘：跟拍、天气和收工边界，先保证人安全，再保证画面。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-vertical-series-composite",
+      "slug": "case-vertical-series-composite",
+      "title_zh": "竖屏案例：同一场景拍十二集",
+      "path_zh": "content/main/zh/case-vertical-series-composite.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "title: 竖屏案例：同一场景拍十二集 summary: 一个单场景竖屏系列的复合复盘：用一个房间、两盏灯和三套衣服，拍出十二集的差异。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-vlog",
+      "slug": "case-vlog",
+      "title_zh": "旅拍 Vlog 案例：只拍一个发现",
+      "path_zh": "content/main/zh/case-vlog.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "teracy] source_kind: experience --- 这是一份匿名复合复盘。",
+      "experience_note": true,
+      "status": "A"
+    },
+    {
+      "translation_key": "main.case.case-wedding",
+      "slug": "case-wedding",
+      "title_zh": "婚礼案例：誓言不能补拍",
+      "path_zh": "content/main/zh/case-wedding.md",
+      "audit_disclosure": true,
+      "visible_disclosure": true,
+      "sentence": "teracy] source_kind: experience --- 这是一份匿名复合复盘。",
+      "experience_note": true,
+      "status": "A"
+    }
+  ]
+}

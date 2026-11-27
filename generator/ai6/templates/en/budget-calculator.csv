@@ -1,0 +1,19 @@
+Item,Formula / basis,Value,Note
+Finished seconds / video,A,90,Length that reaches the cut
+Price per second (CNY),B,0.80,Replace with the current model price
+Retry factor,C,2.5,Takes per usable second; raise it if failure rate is high
+Generation cost,D=A*B*C,180,CNY
+Voice cost / video,E,30,Per video or per 1k characters
+Music / SFX / video,F,20,Licensed track or SFX pack
+Edit hours / video,G,3,Selects captions revisions
+Edit rate / hour,H,50,Your time is a cost
+Total per video,I=D+E+F+G*H,380,CNY before tax
+Usable cost / second,J=I/A,4.22,CNY per finished second
+Monthly videos,K,4,Planned output
+Monthly total,L=I*K,1520,CNY
+12-month total,M=L*12,18240,CNY
+Retry warning,N,6,Above this change the shot or model
+Budget ceiling,O,500,Stop before spending more per video
+Local hardware (GPU+RAM+SSD+PSU),P,8000,CNY; amortize over 24 months
+Monthly cloud spend,Q,500,What you would actually spend
+Payback months,R=P/Q,16,Local hardware / monthly cloud
