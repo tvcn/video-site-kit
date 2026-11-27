@@ -31,7 +31,7 @@ GitHub Pages             9 个站点仓
 ## 目录
 
 ```text
-content/                 Markdown 内容仓（独立 .git）
+content/                 Markdown 内容仓（独立 .git → tvcn/video-production-handbook）
   main/ story/ shoot/ post/ animation/ formats/ tools/ context/
   images/diagrams/       zh/en 图解
 assets/                  共享素材：封面 JPG、图解 SVG、音频、模板、图标
@@ -45,23 +45,23 @@ site-kit/
 generator/
   build-site.mjs         单站渲染
   assemble-site.mjs      单站组装：兼容页、旧 AI 页、资源、CNAME
-  build-all.mjs          全量构建 + QA
+  build-all.mjs          全量构建：索引 → 正文 → 8 站 → AI → QA → 审计
   qa-sites.mjs           归属、canonical、sitemap、搜索、资源
   qa-links.mjs           全站内链与资源存在性
   publish.ps1            镜像到 deploy，可选 push
-  make-content-index.py  重建内容索引
-  sync-static-bodies.py  Markdown 正文同步到静态数据
-  data/                  静态页数据、来源映射、编辑增量
-  audits/                内容质量、来源、案例披露、来源一致性、外链健康
+  make-content-index.py  重建内容索引（build-all 自动调用）
+  sync-static-bodies.py  Markdown 正文 → 页面片段缓存（build-all 自动调用）
+  data/                  静态页壳数据、来源映射、编辑增量
+  audits/                内容质量、来源、案例披露、来源一致性、外链健康、入站链接、意图簇
   legacy-ai/             84 对旧 AI 兼容页
   ai6/                   AI 站独立管线
-  legacy-ai/             84 对旧 AI 兼容页模板
 out/                     每站构建产物（可重建）
 deploy/                  9 个站点仓工作副本（可重建）
 docs/                    当前文档
 docs/archive/            历史文档
-archive/                 旧 build/v2 脚本与产物
 ```
+
+上面除 `content/` 与 `deploy/` 外的全部内容（含 `generator/`、`site-kit/`、`app/`、`assets/`）都在根仓库里，远端是 `tvcn/video-site-kit`。
 
 ## 站点与规模
 
@@ -77,19 +77,14 @@ archive/                 旧 build/v2 脚本与产物
 | context | `context.tvcn.org` | `media-literacy` | 48 | 48 | 100 |
 | ai | `ai.tvcn.org` | `ai-video` | 49 页 | — | 47 |
 
-内容合计 506 对 / 1,012 篇 Markdown；`out/` 当前 5,437 文件 / 61.3MB。
+内容合计 506 对 / 1,012 篇 Markdown；`out/` 当前 5,437 文件 / 61.1MB。
 
 ## 构建
 
 ```powershell
 cd C:\Users\chenhua\Desktop\tvcn
 
-# 改内容后的完整流程
-python generator\make-content-index.py
-python generator\sync-static-bodies.py
-node generator\build-all.mjs
-
-# 全量构建 9 站并跑 QA
+# 全量构建 9 站并跑 QA（会自动重建内容索引、同步 Markdown 正文）
 node generator\build-all.mjs
 
 # 单站
@@ -104,6 +99,8 @@ node generator\qa-links.mjs
 python generator\ai6\build_site.py --out generator\ai6\site
 python generator\ai6\qa_site.py --site generator\ai6\site
 ```
+
+内容只有一个来源：`content/` 里的 Markdown。`build-all.mjs` 会先跑 `make-content-index.py`，再跑 `sync-static-bodies.py`，把正文渲染进 `generator/data/static-articles-data.json` 的页面壳；这个 JSON 是构建缓存，不手工编辑。
 
 ## 发布
 
@@ -120,13 +117,16 @@ powershell -ExecutionPolicy Bypass -File generator\publish.ps1 -Site story -Push
 ## QA 基线
 
 - `qa-sites.mjs`：每站文章归属、canonical、sitemap、搜索索引、资源缺失、跨站链接。
-- `qa-links.mjs`：全站内链与资源，当前 90,056 条，0 broken。
+- `qa-links.mjs`：全站内链与资源，当前 89,740 条，0 broken。
 - `qa-sites.mjs` 当前输出：8 个内容站 + AI 站全部通过。
 - `generator/audits/content-quality-audit.py`：506 对 476 A + 30 S，0 缺陷。
 - `generator/audits/source-claim-audit-20261126.py`：506 对 A；354 sourced + 152 experience。
 - `generator/audits/case-disclosure-audit-20261126.py`：15/15 A。
 - `generator/audits/audit-source-consistency-20261126.py`：0 缺陷。
-- `generator/audits/check-external-links-20261126.py`：43 ok + 13 manual + 3 条 404 待人工确认。
+- `generator/audits/check-external-links-20261126.py`：43 ok + 16 manual，0 broken。
+- `generator/audits/audit-inbound-links.mjs`：扫描 `out/`，1,012 正文页 0 孤立页；主站 46 个主题页最少 15 个子链接，0 失效。
+- `generator/audits/audit-intent-clusters.py`：20 个意图簇，96 个支撑页，0 未解决。
+- 页面结构检查：1,012 篇正文没有重复 H2（2026-11-27 修完 47 页的历史重复段）。
 - 移动端/桌面烟测：390 与 1280 宽无横向溢出，页头/页脚/底栏齐全。
 
 ## SEO
@@ -148,7 +148,7 @@ powershell -ExecutionPolicy Bypass -File generator\publish.ps1 -Site story -Push
 - `docs/部署与密钥.md`：凭据与 Pages
 - `docs/archive/`：历史计划、旧报告与旧架构文档
 
-9 站已于 2026-11-27 发布到线上，Pages 全部 `built`，`deploy/` 工作区干净。当前 HEAD：main `d7bf188`、story `2ba2e5f`、shoot `7f58c15`、post `c4d733a`、ai `c0691ba`、animation `8626259`、formats `a9416b6`、tools `8938d01`、context `39a1723`。
+9 站已于 2026-11-27 发布到线上，Pages 全部 `built`，`deploy/` 工作区干净。当前 HEAD：main `4040b97`、story `0b485db`、shoot `a956c55`、post `71a5f84`、ai `c0691ba`、animation `d9d2f7a`、formats `1ce24d5`、tools `16ef2f6`、context `323efa7`；内容仓 `3cf028c`；构建/共享仓 `118f519`。
 
 ## 许可
 
