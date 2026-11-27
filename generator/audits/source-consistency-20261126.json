@@ -10,12 +10,12 @@
     "S64"
   ],
   "source_registry_missing_refs": [],
-  "source_pages_total": 0,
-  "source_pages_with_real_url": 0,
+  "source_pages_total": 506,
+  "source_pages_with_real_url": 354,
   "source_pages_placeholder": 0,
   "source_pages_malformed": 0,
   "source_pages_no_block": 0,
-  "source_pages_with_experience_note": 0,
+  "source_pages_with_experience_note": 152,
   "sourced_pairs": 354,
   "sourced_no_visible_source": 0,
   "experience_pages_total": 152,
@@ -56,7 +56,7 @@
       "path_zh": "content\\main\\zh\\method-no-coverage.md",
       "path_en": "content\\main\\en\\method-no-coverage.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-too-long",
@@ -89,48 +89,11 @@
       "path_zh": "content\\main\\zh\\method-too-long.md",
       "path_en": "content\\main\\en\\method-too-long.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     }
   ],
-  "thin_300_449": 1,
-  "thin_300_449_list": [
-    {
-      "translation_key": "story.storyboard.storyboard",
-      "station": "story",
-      "type": "article",
-      "stage": "script",
-      "title_zh": "分镜表：把一句话拆成 8 个能拍的镜头",
-      "title_en": "The Shot Sheet: Turn One Line into Eight Shootable Shots",
-      "slug": "storyboard",
-      "words_zh": 394,
-      "words_en": 323,
-      "deep": false,
-      "source_kind": "sourced",
-      "source_ids": [
-        "S42",
-        "S43"
-      ],
-      "missing_ids": [],
-      "source_block_status": "has_url",
-      "zh_block_status": "has_url",
-      "en_block_status": "has_url",
-      "zh_external": 2,
-      "en_external": 2,
-      "placeholder": false,
-      "experience_note": false,
-      "last_verified": "2026-11-26",
-      "review_due": "2027-02-26",
-      "related": [
-        "story.story.subplot",
-        "story.screenplay.subtext",
-        "shoot.camera.composition"
-      ],
-      "path_zh": "content\\story\\zh\\storyboard\\storyboard.md",
-      "path_en": "content\\story\\en\\storyboard\\storyboard.md",
-      "status": "published",
-      "cohort": false
-    }
-  ],
+  "thin_300_449": 0,
+  "thin_300_449_list": [],
   "no_external": 0,
   "no_external_by_station": {},
   "no_external_by_stage": {},
@@ -179,7 +142,7 @@
       "path_zh": "content\\animation\\zh\\2d\\2d-animation.md",
       "path_en": "content\\animation\\en\\2d\\2d-animation.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.2d.2d-camera",
@@ -216,7 +179,7 @@
       "path_zh": "content\\animation\\zh\\2d-camera.md",
       "path_en": "content\\animation\\en\\2d-camera.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.2d.2d-compositing",
@@ -253,7 +216,7 @@
       "path_zh": "content\\animation\\zh\\2d-compositing.md",
       "path_en": "content\\animation\\en\\2d-compositing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.2d.animation-lip-sync",
@@ -290,7 +253,7 @@
       "path_zh": "content\\animation\\zh\\2d\\animation-lip-sync.md",
       "path_en": "content\\animation\\en\\2d\\animation-lip-sync.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.2d.animation-walk",
@@ -327,7 +290,7 @@
       "path_zh": "content\\animation\\zh\\2d\\animation-walk.md",
       "path_en": "content\\animation\\en\\2d\\animation-walk.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.2d.loop-cycle",
@@ -364,7 +327,7 @@
       "path_zh": "content\\animation\\zh\\loop-cycle.md",
       "path_en": "content\\animation\\en\\loop-cycle.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.2d.run-cycle",
@@ -401,7 +364,7 @@
       "path_zh": "content\\animation\\zh\\run-cycle.md",
       "path_en": "content\\animation\\en\\run-cycle.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.3d.3d-pipeline",
@@ -437,7 +400,7 @@
       "path_zh": "content\\animation\\zh\\3d\\3d-pipeline.md",
       "path_en": "content\\animation\\en\\3d\\3d-pipeline.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.3d.blockout",
@@ -473,7 +436,7 @@
       "path_zh": "content\\animation\\zh\\blockout.md",
       "path_en": "content\\animation\\en\\blockout.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.3d.layout",
@@ -509,7 +472,7 @@
       "path_zh": "content\\animation\\zh\\layout.md",
       "path_en": "content\\animation\\en\\layout.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.3d.lighting-3d",
@@ -545,7 +508,7 @@
       "path_zh": "content\\animation\\zh\\lighting-3d.md",
       "path_en": "content\\animation\\en\\lighting-3d.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.3d.materials",
@@ -581,7 +544,7 @@
       "path_zh": "content\\animation\\zh\\materials.md",
       "path_en": "content\\animation\\en\\materials.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.3d.modeling",
@@ -618,7 +581,7 @@
       "path_zh": "content\\animation\\zh\\modeling.md",
       "path_en": "content\\animation\\en\\modeling.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.3d.render",
@@ -654,7 +617,7 @@
       "path_zh": "content\\animation\\zh\\render.md",
       "path_en": "content\\animation\\en\\render.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.3d.rigging",
@@ -690,7 +653,7 @@
       "path_zh": "content\\animation\\zh\\rigging.md",
       "path_en": "content\\animation\\en\\rigging.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.case.animation-case",
@@ -727,7 +690,7 @@
       "path_zh": "content\\animation\\zh\\animation-case.md",
       "path_en": "content\\animation\\en\\animation-case.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep-animation-acting",
@@ -763,7 +726,7 @@
       "path_zh": "content\\animation\\zh\\deep-animation-acting.md",
       "path_en": "content\\animation\\en\\deep-animation-acting.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep-motion-graphics",
@@ -799,7 +762,7 @@
       "path_zh": "content\\animation\\zh\\deep-motion-graphics.md",
       "path_en": "content\\animation\\en\\deep-motion-graphics.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep.deep-2d-layer-depth",
@@ -836,7 +799,7 @@
       "path_zh": "content\\animation\\zh\\deep-2d-layer-depth.md",
       "path_en": "content\\animation\\en\\deep-2d-layer-depth.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep.deep-3d-light-material",
@@ -872,7 +835,7 @@
       "path_zh": "content\\animation\\zh\\deep-3d-light-material.md",
       "path_en": "content\\animation\\en\\deep-3d-light-material.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep.deep-animation-qc",
@@ -909,7 +872,7 @@
       "path_zh": "content\\animation\\zh\\deep-animation-qc.md",
       "path_en": "content\\animation\\en\\deep-animation-qc.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep.deep-blockout-to-animatic",
@@ -945,7 +908,7 @@
       "path_zh": "content\\animation\\zh\\deep-blockout-to-animatic.md",
       "path_en": "content\\animation\\en\\deep-blockout-to-animatic.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep.deep-compositing-2d3d",
@@ -982,7 +945,7 @@
       "path_zh": "content\\animation\\zh\\deep-compositing-2d3d.md",
       "path_en": "content\\animation\\en\\deep-compositing-2d3d.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep.deep-loop-cycle-design",
@@ -1019,7 +982,7 @@
       "path_zh": "content\\animation\\zh\\deep-loop-cycle-design.md",
       "path_en": "content\\animation\\en\\deep-loop-cycle-design.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep.deep-render-budget",
@@ -1055,7 +1018,7 @@
       "path_zh": "content\\animation\\zh\\deep-render-budget.md",
       "path_en": "content\\animation\\en\\deep-render-budget.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.deep.deep-rig-handoff",
@@ -1091,7 +1054,7 @@
       "path_zh": "content\\animation\\zh\\deep-rig-handoff.md",
       "path_en": "content\\animation\\en\\deep-rig-handoff.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.motion-graphics.mg-infographic",
@@ -1127,7 +1090,7 @@
       "path_zh": "content\\animation\\zh\\mg-infographic.md",
       "path_en": "content\\animation\\en\\mg-infographic.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.motion-graphics.mg-rhythm",
@@ -1163,7 +1126,7 @@
       "path_zh": "content\\animation\\zh\\mg-rhythm.md",
       "path_en": "content\\animation\\en\\mg-rhythm.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.motion-graphics.mg-transition",
@@ -1200,7 +1163,7 @@
       "path_zh": "content\\animation\\zh\\mg-transition.md",
       "path_en": "content\\animation\\en\\mg-transition.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.motion-graphics.mg-typography",
@@ -1236,7 +1199,7 @@
       "path_zh": "content\\animation\\zh\\mg-typography.md",
       "path_en": "content\\animation\\en\\mg-typography.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.pipeline.animatic-pipeline",
@@ -1273,7 +1236,7 @@
       "path_zh": "content\\animation\\zh\\animatic-pipeline.md",
       "path_en": "content\\animation\\en\\animatic-pipeline.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.pipeline.asset-handoff",
@@ -1310,7 +1273,7 @@
       "path_zh": "content\\animation\\zh\\asset-handoff.md",
       "path_en": "content\\animation\\en\\asset-handoff.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.principles.animation-principles",
@@ -1346,7 +1309,7 @@
       "path_zh": "content\\animation\\zh\\animation-principles.md",
       "path_en": "content\\animation\\en\\animation-principles.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.principles.anticipation",
@@ -1382,7 +1345,7 @@
       "path_zh": "content\\animation\\zh\\anticipation.md",
       "path_en": "content\\animation\\en\\anticipation.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.principles.weight",
@@ -1418,7 +1381,7 @@
       "path_zh": "content\\animation\\zh\\weight.md",
       "path_en": "content\\animation\\en\\weight.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.stop-motion.armature",
@@ -1456,7 +1419,7 @@
       "path_zh": "content\\animation\\zh\\armature.md",
       "path_en": "content\\animation\\en\\armature.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.stop-motion.stop-motion",
@@ -1493,7 +1456,7 @@
       "path_zh": "content\\animation\\zh\\stop-motion\\stop-motion.md",
       "path_en": "content\\animation\\en\\stop-motion\\stop-motion.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.stop-motion.stop-motion-motion-blur",
@@ -1530,7 +1493,7 @@
       "path_zh": "content\\animation\\zh\\stop-motion-motion-blur.md",
       "path_en": "content\\animation\\en\\stop-motion-motion-blur.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.stop-motion.stop-motion-set",
@@ -1567,7 +1530,7 @@
       "path_zh": "content\\animation\\zh\\stop-motion-set.md",
       "path_en": "content\\animation\\en\\stop-motion-set.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "animation.timing.animation-timing",
@@ -1603,7 +1566,7 @@
       "path_zh": "content\\animation\\zh\\timing\\animation-timing.md",
       "path_en": "content\\animation\\en\\timing\\animation-timing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.deep-archive-ethics",
@@ -1639,7 +1602,7 @@
       "path_zh": "content\\context\\zh\\deep-archive-ethics.md",
       "path_en": "content\\context\\en\\deep-archive-ethics.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.deep-platform-history",
@@ -1675,7 +1638,7 @@
       "path_zh": "content\\context\\zh\\deep-platform-history.md",
       "path_en": "content\\context\\en\\deep-platform-history.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.deep.deep-ai-regulation",
@@ -1711,7 +1674,7 @@
       "path_zh": "content\\context\\zh\\deep-ai-regulation.md",
       "path_en": "content\\context\\en\\deep-ai-regulation.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.deep.deep-copyright-chain",
@@ -1748,7 +1711,7 @@
       "path_zh": "content\\context\\zh\\deep-copyright-chain.md",
       "path_en": "content\\context\\en\\deep-copyright-chain.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.deep.deep-image-history",
@@ -1785,7 +1748,7 @@
       "path_zh": "content\\context\\zh\\deep-image-history.md",
       "path_en": "content\\context\\en\\deep-image-history.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.deep.deep-media-literacy",
@@ -1822,7 +1785,7 @@
       "path_zh": "content\\context\\zh\\deep-media-literacy.md",
       "path_en": "content\\context\\en\\deep-media-literacy.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.16mm",
@@ -1859,7 +1822,7 @@
       "path_zh": "content\\context\\zh\\16mm.md",
       "path_en": "content\\context\\en\\16mm.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.ai-video-history",
@@ -1895,7 +1858,7 @@
       "path_zh": "content\\context\\zh\\ai-video-history.md",
       "path_en": "content\\context\\en\\ai-video-history.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.animation.animation-history",
@@ -1930,7 +1893,7 @@
       "path_zh": "content\\context\\zh\\history\\animation\\animation-history.md",
       "path_en": "content\\context\\en\\history\\animation\\animation-history.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.camera-obscura",
@@ -1965,7 +1928,7 @@
       "path_zh": "content\\context\\zh\\camera-obscura.md",
       "path_en": "content\\context\\en\\camera-obscura.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.digital-cinema",
@@ -2000,7 +1963,7 @@
       "path_zh": "content\\context\\zh\\digital-cinema.md",
       "path_en": "content\\context\\en\\digital-cinema.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.dslr-video",
@@ -2037,7 +2000,7 @@
       "path_zh": "content\\context\\zh\\dslr-video.md",
       "path_en": "content\\context\\en\\dslr-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.edison-kinetoscope",
@@ -2074,7 +2037,7 @@
       "path_zh": "content\\context\\zh\\edison-kinetoscope.md",
       "path_en": "content\\context\\en\\edison-kinetoscope.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.film.1895",
@@ -2110,7 +2073,7 @@
       "path_zh": "content\\context\\zh\\history\\film\\1895.md",
       "path_en": "content\\context\\en\\history\\film\\1895.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.lumiere",
@@ -2146,7 +2109,7 @@
       "path_zh": "content\\context\\zh\\lumiere.md",
       "path_en": "content\\context\\en\\lumiere.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.montage",
@@ -2183,7 +2146,7 @@
       "path_zh": "content\\context\\zh\\montage.md",
       "path_en": "content\\context\\en\\montage.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.muybridge",
@@ -2220,7 +2183,7 @@
       "path_zh": "content\\context\\zh\\muybridge.md",
       "path_en": "content\\context\\en\\muybridge.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.photography.1839",
@@ -2257,7 +2220,7 @@
       "path_zh": "content\\context\\zh\\history\\photography\\1839.md",
       "path_en": "content\\context\\en\\history\\photography\\1839.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.photography.photo-history",
@@ -2294,7 +2257,7 @@
       "path_zh": "content\\context\\zh\\history\\photography\\photo-history.md",
       "path_en": "content\\context\\en\\history\\photography\\photo-history.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.smartphone-video",
@@ -2331,7 +2294,7 @@
       "path_zh": "content\\context\\zh\\smartphone-video.md",
       "path_en": "content\\context\\en\\smartphone-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.sound-era",
@@ -2368,7 +2331,7 @@
       "path_zh": "content\\context\\zh\\sound-era.md",
       "path_en": "content\\context\\en\\sound-era.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.streaming",
@@ -2405,7 +2368,7 @@
       "path_zh": "content\\context\\zh\\streaming.md",
       "path_en": "content\\context\\en\\streaming.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.technicolor",
@@ -2442,7 +2405,7 @@
       "path_zh": "content\\context\\zh\\technicolor.md",
       "path_en": "content\\context\\en\\technicolor.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.vfx-history",
@@ -2479,7 +2442,7 @@
       "path_zh": "content\\context\\zh\\vfx-history.md",
       "path_en": "content\\context\\en\\vfx-history.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.history.video-tape",
@@ -2516,7 +2479,7 @@
       "path_zh": "content\\context\\zh\\video-tape.md",
       "path_en": "content\\context\\en\\video-tape.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.accessibility-caption",
@@ -2552,7 +2515,7 @@
       "path_zh": "content\\context\\zh\\accessibility-caption.md",
       "path_en": "content\\context\\en\\accessibility-caption.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.ai-label-law",
@@ -2588,7 +2551,7 @@
       "path_zh": "content\\context\\zh\\ai-label-law.md",
       "path_en": "content\\context\\en\\ai-label-law.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.contract-scope",
@@ -2625,7 +2588,7 @@
       "path_zh": "content\\context\\zh\\contract-scope.md",
       "path_en": "content\\context\\en\\contract-scope.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.data-security",
@@ -2662,7 +2625,7 @@
       "path_zh": "content\\context\\zh\\data-security.md",
       "path_en": "content\\context\\en\\data-security.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.documentary-ethics",
@@ -2698,7 +2661,7 @@
       "path_zh": "content\\context\\zh\\documentary-ethics.md",
       "path_en": "content\\context\\en\\documentary-ethics.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.insurance-equipment",
@@ -2735,7 +2698,7 @@
       "path_zh": "content\\context\\zh\\insurance-equipment.md",
       "path_en": "content\\context\\en\\insurance-equipment.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.invoice-tax-cross-border",
@@ -2771,7 +2734,7 @@
       "path_zh": "content\\context\\zh\\invoice-tax-cross-border.md",
       "path_en": "content\\context\\en\\invoice-tax-cross-border.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.location-release",
@@ -2808,7 +2771,7 @@
       "path_zh": "content\\context\\zh\\location-release.md",
       "path_en": "content\\context\\en\\location-release.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.music-license",
@@ -2845,7 +2808,7 @@
       "path_zh": "content\\context\\zh\\music-license.md",
       "path_en": "content\\context\\en\\music-license.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.portrait-rights",
@@ -2882,7 +2845,7 @@
       "path_zh": "content\\context\\zh\\portrait-rights.md",
       "path_en": "content\\context\\en\\portrait-rights.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.law.privacy-blur",
@@ -2919,7 +2882,7 @@
       "path_zh": "content\\context\\zh\\privacy-blur.md",
       "path_en": "content\\context\\en\\privacy-blur.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.algorithm-feed",
@@ -2956,7 +2919,7 @@
       "path_zh": "content\\context\\zh\\algorithm-feed.md",
       "path_en": "content\\context\\en\\algorithm-feed.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.clickbait",
@@ -2993,7 +2956,7 @@
       "path_zh": "content\\context\\zh\\clickbait.md",
       "path_en": "content\\context\\en\\clickbait.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.deepfake",
@@ -3030,7 +2993,7 @@
       "path_zh": "content\\context\\zh\\deepfake.md",
       "path_en": "content\\context\\en\\deepfake.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.edit-manipulation",
@@ -3067,7 +3030,7 @@
       "path_zh": "content\\context\\zh\\edit-manipulation.md",
       "path_en": "content\\context\\en\\edit-manipulation.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.media-literacy",
@@ -3104,7 +3067,7 @@
       "path_zh": "content\\context\\zh\\literacy\\media-literacy.md",
       "path_en": "content\\context\\en\\literacy\\media-literacy.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.news-video",
@@ -3141,7 +3104,7 @@
       "path_zh": "content\\context\\zh\\news-video.md",
       "path_en": "content\\context\\en\\news-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.platform-rules",
@@ -3178,7 +3141,7 @@
       "path_zh": "content\\context\\zh\\platform-rules.md",
       "path_en": "content\\context\\en\\platform-rules.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.source-check",
@@ -3215,7 +3178,7 @@
       "path_zh": "content\\context\\zh\\source-check.md",
       "path_en": "content\\context\\en\\source-check.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.sponsorship-disclosure",
@@ -3252,7 +3215,7 @@
       "path_zh": "content\\context\\zh\\sponsorship-disclosure.md",
       "path_en": "content\\context\\en\\sponsorship-disclosure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.literacy.statistics-video",
@@ -3289,7 +3252,7 @@
       "path_zh": "content\\context\\zh\\statistics-video.md",
       "path_en": "content\\context\\en\\statistics-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.rights.copyright",
@@ -3326,7 +3289,7 @@
       "path_zh": "content\\context\\zh\\rights\\copyright.md",
       "path_en": "content\\context\\en\\rights\\copyright.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "context.viewing.screen-size",
@@ -3362,7 +3325,7 @@
       "path_zh": "content\\context\\zh\\viewing\\screen-size.md",
       "path_en": "content\\context\\en\\viewing\\screen-size.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.ad.product-ad",
@@ -3399,7 +3362,7 @@
       "path_zh": "content\\formats\\zh\\ad\\product-ad.md",
       "path_en": "content\\formats\\en\\ad\\product-ad.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.brand-film.brand-film-breakdown",
@@ -3436,7 +3399,7 @@
       "path_zh": "content\\formats\\zh\\brand-film-breakdown.md",
       "path_en": "content\\formats\\en\\brand-film-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.brand-film.brand-film-template",
@@ -3472,7 +3435,7 @@
       "path_zh": "content\\formats\\zh\\brand-film-template.md",
       "path_en": "content\\formats\\en\\brand-film-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.brand.brand-film",
@@ -3508,7 +3471,7 @@
       "path_zh": "content\\formats\\zh\\brand\\brand-film.md",
       "path_en": "content\\formats\\en\\brand\\brand-film.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.corporate.corporate-video-breakdown",
@@ -3544,7 +3507,7 @@
       "path_zh": "content\\formats\\zh\\corporate-video-breakdown.md",
       "path_en": "content\\formats\\en\\corporate-video-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.corporate.corporate-video-structure",
@@ -3580,7 +3543,7 @@
       "path_zh": "content\\formats\\zh\\corporate-video-structure.md",
       "path_en": "content\\formats\\en\\corporate-video-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.corporate.corporate-video-template",
@@ -3616,7 +3579,7 @@
       "path_zh": "content\\formats\\zh\\corporate-video-template.md",
       "path_en": "content\\formats\\en\\corporate-video-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.deep-course-video",
@@ -3652,7 +3615,7 @@
       "path_zh": "content\\formats\\zh\\deep-course-video.md",
       "path_en": "content\\formats\\en\\deep-course-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.deep-real-estate-video",
@@ -3688,7 +3651,7 @@
       "path_zh": "content\\formats\\zh\\deep-real-estate-video.md",
       "path_en": "content\\formats\\en\\deep-real-estate-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.deep.deep-brand-film",
@@ -3724,7 +3687,7 @@
       "path_zh": "content\\formats\\zh\\deep-brand-film.md",
       "path_en": "content\\formats\\en\\deep-brand-film.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.deep.deep-documentary",
@@ -3760,7 +3723,7 @@
       "path_zh": "content\\formats\\zh\\deep-documentary.md",
       "path_en": "content\\formats\\en\\deep-documentary.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.deep.deep-food-tabletop",
@@ -3797,7 +3760,7 @@
       "path_zh": "content\\formats\\zh\\deep-food-tabletop.md",
       "path_en": "content\\formats\\en\\deep-food-tabletop.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.deep.deep-music-video",
@@ -3833,7 +3796,7 @@
       "path_zh": "content\\formats\\zh\\deep-music-video.md",
       "path_en": "content\\formats\\en\\deep-music-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.deep.deep-short-drama",
@@ -3870,7 +3833,7 @@
       "path_zh": "content\\formats\\zh\\deep-short-drama.md",
       "path_en": "content\\formats\\en\\deep-short-drama.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.documentary.documentary",
@@ -3906,7 +3869,7 @@
       "path_zh": "content\\formats\\zh\\documentary\\documentary.md",
       "path_en": "content\\formats\\en\\documentary\\documentary.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.documentary.documentary-breakdown",
@@ -3942,7 +3905,7 @@
       "path_zh": "content\\formats\\zh\\documentary-breakdown.md",
       "path_en": "content\\formats\\en\\documentary-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.documentary.documentary-template",
@@ -3978,7 +3941,7 @@
       "path_zh": "content\\formats\\zh\\documentary-template.md",
       "path_en": "content\\formats\\en\\documentary-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.drama.vertical-drama",
@@ -4015,7 +3978,7 @@
       "path_zh": "content\\formats\\zh\\drama\\vertical-drama.md",
       "path_en": "content\\formats\\en\\drama\\vertical-drama.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.event.event-breakdown",
@@ -4051,7 +4014,7 @@
       "path_zh": "content\\formats\\zh\\event-breakdown.md",
       "path_en": "content\\formats\\en\\event-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.event.event-structure",
@@ -4087,7 +4050,7 @@
       "path_zh": "content\\formats\\zh\\event-structure.md",
       "path_en": "content\\formats\\en\\event-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.event.event-template",
@@ -4120,7 +4083,7 @@
       "path_zh": "content\\formats\\zh\\event-template.md",
       "path_en": "content\\formats\\en\\event-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.experimental.experimental-breakdown",
@@ -4156,7 +4119,7 @@
       "path_zh": "content\\formats\\zh\\experimental-breakdown.md",
       "path_en": "content\\formats\\en\\experimental-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.experimental.experimental-structure",
@@ -4192,7 +4155,7 @@
       "path_zh": "content\\formats\\zh\\experimental-structure.md",
       "path_en": "content\\formats\\en\\experimental-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.fashion.fashion-beauty-video-breakdown",
@@ -4228,7 +4191,7 @@
       "path_zh": "content\\formats\\zh\\fashion-beauty-video-breakdown.md",
       "path_en": "content\\formats\\en\\fashion-beauty-video-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.fashion.fashion-beauty-video-structure",
@@ -4264,7 +4227,7 @@
       "path_zh": "content\\formats\\zh\\fashion-beauty-video-structure.md",
       "path_en": "content\\formats\\en\\fashion-beauty-video-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.fashion.fashion-beauty-video-template",
@@ -4300,7 +4263,7 @@
       "path_zh": "content\\formats\\zh\\fashion-beauty-video-template.md",
       "path_en": "content\\formats\\en\\fashion-beauty-video-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.food.food-video-breakdown",
@@ -4336,7 +4299,7 @@
       "path_zh": "content\\formats\\zh\\food-video-breakdown.md",
       "path_en": "content\\formats\\en\\food-video-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.food.food-video-structure",
@@ -4372,7 +4335,7 @@
       "path_zh": "content\\formats\\zh\\food-video-structure.md",
       "path_en": "content\\formats\\en\\food-video-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.food.food-video-template",
@@ -4408,7 +4371,7 @@
       "path_zh": "content\\formats\\zh\\food-video-template.md",
       "path_en": "content\\formats\\en\\food-video-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.interview.interview-breakdown",
@@ -4441,7 +4404,7 @@
       "path_zh": "content\\formats\\zh\\interview-breakdown.md",
       "path_en": "content\\formats\\en\\interview-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.interview.interview-structure",
@@ -4477,7 +4440,7 @@
       "path_zh": "content\\formats\\zh\\interview-structure.md",
       "path_en": "content\\formats\\en\\interview-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.interview.interview-template",
@@ -4510,7 +4473,7 @@
       "path_zh": "content\\formats\\zh\\interview-template.md",
       "path_en": "content\\formats\\en\\interview-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.live-podcast.live-podcast-breakdown",
@@ -4547,7 +4510,7 @@
       "path_zh": "content\\formats\\zh\\live-podcast-breakdown.md",
       "path_en": "content\\formats\\en\\live-podcast-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.live-podcast.live-podcast-structure",
@@ -4584,7 +4547,7 @@
       "path_zh": "content\\formats\\zh\\live-podcast-structure.md",
       "path_en": "content\\formats\\en\\live-podcast-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.live-podcast.live-podcast-template",
@@ -4621,7 +4584,7 @@
       "path_zh": "content\\formats\\zh\\live-podcast-template.md",
       "path_en": "content\\formats\\en\\live-podcast-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.music-video.music-video-breakdown",
@@ -4657,7 +4620,7 @@
       "path_zh": "content\\formats\\zh\\music-video-breakdown.md",
       "path_en": "content\\formats\\en\\music-video-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.music-video.music-video-structure",
@@ -4693,7 +4656,7 @@
       "path_zh": "content\\formats\\zh\\music-video-structure.md",
       "path_en": "content\\formats\\en\\music-video-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.music-video.music-video-template",
@@ -4729,7 +4692,7 @@
       "path_zh": "content\\formats\\zh\\music-video-template.md",
       "path_en": "content\\formats\\en\\music-video-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.news.news-breakdown",
@@ -4766,7 +4729,7 @@
       "path_zh": "content\\formats\\zh\\news-breakdown.md",
       "path_en": "content\\formats\\en\\news-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.news.news-structure",
@@ -4802,7 +4765,7 @@
       "path_zh": "content\\formats\\zh\\news-structure.md",
       "path_en": "content\\formats\\en\\news-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.news.news-template",
@@ -4838,7 +4801,7 @@
       "path_zh": "content\\formats\\zh\\news-template.md",
       "path_en": "content\\formats\\en\\news-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.product-ad.product-ad-breakdown",
@@ -4875,7 +4838,7 @@
       "path_zh": "content\\formats\\zh\\product-ad-breakdown.md",
       "path_en": "content\\formats\\en\\product-ad-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.product-ad.product-ad-template",
@@ -4908,7 +4871,7 @@
       "path_zh": "content\\formats\\zh\\product-ad-template.md",
       "path_en": "content\\formats\\en\\product-ad-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.publish.thumbnail",
@@ -4944,7 +4907,7 @@
       "path_zh": "content\\formats\\zh\\publish\\thumbnail.md",
       "path_en": "content\\formats\\en\\publish\\thumbnail.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.real-estate.real-estate-video-breakdown",
@@ -4980,7 +4943,7 @@
       "path_zh": "content\\formats\\zh\\real-estate-video-breakdown.md",
       "path_en": "content\\formats\\en\\real-estate-video-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.real-estate.real-estate-video-structure",
@@ -5016,7 +4979,7 @@
       "path_zh": "content\\formats\\zh\\real-estate-video-structure.md",
       "path_en": "content\\formats\\en\\real-estate-video-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.real-estate.real-estate-video-template",
@@ -5052,7 +5015,7 @@
       "path_zh": "content\\formats\\zh\\real-estate-video-template.md",
       "path_en": "content\\formats\\en\\real-estate-video-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.short-drama.short-drama-breakdown",
@@ -5085,7 +5048,7 @@
       "path_zh": "content\\formats\\zh\\short-drama-breakdown.md",
       "path_en": "content\\formats\\en\\short-drama-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.short-drama.short-drama-template",
@@ -5118,7 +5081,7 @@
       "path_zh": "content\\formats\\zh\\short-drama-template.md",
       "path_en": "content\\formats\\en\\short-drama-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.sports.sports-video-breakdown",
@@ -5154,7 +5117,7 @@
       "path_zh": "content\\formats\\zh\\sports-video-breakdown.md",
       "path_en": "content\\formats\\en\\sports-video-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.sports.sports-video-structure",
@@ -5190,7 +5153,7 @@
       "path_zh": "content\\formats\\zh\\sports-video-structure.md",
       "path_en": "content\\formats\\en\\sports-video-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.sports.sports-video-template",
@@ -5226,7 +5189,7 @@
       "path_zh": "content\\formats\\zh\\sports-video-template.md",
       "path_en": "content\\formats\\en\\sports-video-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.talk.talking-head",
@@ -5263,7 +5226,7 @@
       "path_zh": "content\\formats\\zh\\talk\\talking-head.md",
       "path_en": "content\\formats\\en\\talk\\talking-head.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.talking-head.talking-head-breakdown",
@@ -5300,7 +5263,7 @@
       "path_zh": "content\\formats\\zh\\talking-head-breakdown.md",
       "path_en": "content\\formats\\en\\talking-head-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.talking-head.talking-head-template",
@@ -5338,7 +5301,7 @@
       "path_zh": "content\\formats\\zh\\talking-head-template.md",
       "path_en": "content\\formats\\en\\talking-head-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.tutorial.tutorial-breakdown",
@@ -5374,7 +5337,7 @@
       "path_zh": "content\\formats\\zh\\tutorial-breakdown.md",
       "path_en": "content\\formats\\en\\tutorial-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.tutorial.tutorial-structure",
@@ -5410,7 +5373,7 @@
       "path_zh": "content\\formats\\zh\\tutorial-structure.md",
       "path_en": "content\\formats\\en\\tutorial-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.tutorial.tutorial-template",
@@ -5446,7 +5409,7 @@
       "path_zh": "content\\formats\\zh\\tutorial-template.md",
       "path_en": "content\\formats\\en\\tutorial-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.vlog.vlog-breakdown",
@@ -5483,7 +5446,7 @@
       "path_zh": "content\\formats\\zh\\vlog-breakdown.md",
       "path_en": "content\\formats\\en\\vlog-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.vlog.vlog-structure",
@@ -5520,7 +5483,7 @@
       "path_zh": "content\\formats\\zh\\vlog-structure.md",
       "path_en": "content\\formats\\en\\vlog-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.vlog.vlog-template",
@@ -5557,7 +5520,7 @@
       "path_zh": "content\\formats\\zh\\vlog-template.md",
       "path_en": "content\\formats\\en\\vlog-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.wedding.wedding-breakdown",
@@ -5593,7 +5556,7 @@
       "path_zh": "content\\formats\\zh\\wedding-breakdown.md",
       "path_en": "content\\formats\\en\\wedding-breakdown.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.wedding.wedding-structure",
@@ -5629,7 +5592,7 @@
       "path_zh": "content\\formats\\zh\\wedding-structure.md",
       "path_en": "content\\formats\\en\\wedding-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "formats.wedding.wedding-template",
@@ -5662,7 +5625,7 @@
       "path_zh": "content\\formats\\zh\\wedding-template.md",
       "path_en": "content\\formats\\en\\wedding-template.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-brand-product-composite",
@@ -5695,7 +5658,7 @@
       "path_zh": "content\\main\\zh\\case-brand-product-composite.md",
       "path_en": "content\\main\\en\\case-brand-product-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-corporate-composite",
@@ -5728,7 +5691,7 @@
       "path_zh": "content\\main\\zh\\case-corporate-composite.md",
       "path_en": "content\\main\\en\\case-corporate-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-documentary-composite",
@@ -5761,7 +5724,7 @@
       "path_zh": "content\\main\\zh\\case-documentary-composite.md",
       "path_en": "content\\main\\en\\case-documentary-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-event-composite",
@@ -5794,7 +5757,7 @@
       "path_zh": "content\\main\\zh\\case-event-composite.md",
       "path_en": "content\\main\\en\\case-event-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-experimental",
@@ -5827,7 +5790,7 @@
       "path_zh": "content\\main\\zh\\case-experimental.md",
       "path_en": "content\\main\\en\\case-experimental.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-food-composite",
@@ -5860,7 +5823,7 @@
       "path_zh": "content\\main\\zh\\case-food-composite.md",
       "path_en": "content\\main\\en\\case-food-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-interview-composite",
@@ -5893,7 +5856,7 @@
       "path_zh": "content\\main\\zh\\case-interview-composite.md",
       "path_en": "content\\main\\en\\case-interview-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-music-performance-composite",
@@ -5926,7 +5889,7 @@
       "path_zh": "content\\main\\zh\\case-music-performance-composite.md",
       "path_en": "content\\main\\en\\case-music-performance-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-music-video",
@@ -5959,7 +5922,7 @@
       "path_zh": "content\\main\\zh\\case-music-video.md",
       "path_en": "content\\main\\en\\case-music-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-news",
@@ -5992,7 +5955,7 @@
       "path_zh": "content\\main\\zh\\case-news.md",
       "path_en": "content\\main\\en\\case-news.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-short-drama-composite",
@@ -6025,7 +5988,7 @@
       "path_zh": "content\\main\\zh\\case-short-drama-composite.md",
       "path_en": "content\\main\\en\\case-short-drama-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-sports-composite",
@@ -6058,7 +6021,7 @@
       "path_zh": "content\\main\\zh\\case-sports-composite.md",
       "path_en": "content\\main\\en\\case-sports-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-vertical-series-composite",
@@ -6091,7 +6054,7 @@
       "path_zh": "content\\main\\zh\\case-vertical-series-composite.md",
       "path_en": "content\\main\\en\\case-vertical-series-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-vlog",
@@ -6124,7 +6087,7 @@
       "path_zh": "content\\main\\zh\\case-vlog.md",
       "path_en": "content\\main\\en\\case-vlog.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.case.case-wedding",
@@ -6157,7 +6120,7 @@
       "path_zh": "content\\main\\zh\\case-wedding.md",
       "path_en": "content\\main\\en\\case-wedding.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.deep-budget-control",
@@ -6193,7 +6156,7 @@
       "path_zh": "content\\main\\zh\\deep-budget-control.md",
       "path_en": "content\\main\\en\\deep-budget-control.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.deep-delivery-risk",
@@ -6229,7 +6192,7 @@
       "path_zh": "content\\main\\zh\\deep-delivery-risk.md",
       "path_en": "content\\main\\en\\deep-delivery-risk.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.deep.deep-client-career",
@@ -6266,7 +6229,7 @@
       "path_zh": "content\\main\\zh\\deep-client-career.md",
       "path_en": "content\\main\\en\\deep-client-career.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.deep.deep-first-film",
@@ -6303,7 +6266,7 @@
       "path_zh": "content\\main\\zh\\deep-first-film.md",
       "path_en": "content\\main\\en\\deep-first-film.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-actor-stiff",
@@ -6336,7 +6299,7 @@
       "path_zh": "content\\main\\zh\\method-actor-stiff.md",
       "path_en": "content\\main\\en\\method-actor-stiff.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-ai-consistency",
@@ -6373,7 +6336,7 @@
       "path_zh": "content\\main\\zh\\method-ai-consistency.md",
       "path_en": "content\\main\\en\\method-ai-consistency.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-ai-rights",
@@ -6406,7 +6369,7 @@
       "path_zh": "content\\main\\zh\\method-ai-rights.md",
       "path_en": "content\\main\\en\\method-ai-rights.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-ai-uncanny",
@@ -6439,7 +6402,7 @@
       "path_zh": "content\\main\\zh\\method-ai-uncanny.md",
       "path_en": "content\\main\\en\\method-ai-uncanny.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-audio-hiss",
@@ -6472,7 +6435,7 @@
       "path_zh": "content\\main\\zh\\method-audio-hiss.md",
       "path_en": "content\\main\\en\\method-audio-hiss.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-axis-jump",
@@ -6505,7 +6468,7 @@
       "path_zh": "content\\main\\zh\\method-axis-jump.md",
       "path_en": "content\\main\\en\\method-axis-jump.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-budget-overrun",
@@ -6538,7 +6501,7 @@
       "path_zh": "content\\main\\zh\\method-budget-overrun.md",
       "path_en": "content\\main\\en\\method-budget-overrun.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-client-revision",
@@ -6575,7 +6538,7 @@
       "path_zh": "content\\main\\zh\\method-client-revision.md",
       "path_en": "content\\main\\en\\method-client-revision.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-color-cast",
@@ -6608,7 +6571,7 @@
       "path_zh": "content\\main\\zh\\method-color-cast.md",
       "path_en": "content\\main\\en\\method-color-cast.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-continuity-break",
@@ -6641,7 +6604,7 @@
       "path_zh": "content\\main\\zh\\method-continuity-break.md",
       "path_en": "content\\main\\en\\method-continuity-break.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-crew-conflict",
@@ -6674,7 +6637,7 @@
       "path_zh": "content\\main\\zh\\method-crew-conflict.md",
       "path_en": "content\\main\\en\\method-crew-conflict.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-dark-footage",
@@ -6707,7 +6670,7 @@
       "path_zh": "content\\main\\zh\\method-dark-footage.md",
       "path_en": "content\\main\\en\\method-dark-footage.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-deadline",
@@ -6744,7 +6707,7 @@
       "path_zh": "content\\main\\zh\\method-deadline.md",
       "path_en": "content\\main\\en\\method-deadline.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-ending-weak",
@@ -6777,7 +6740,7 @@
       "path_zh": "content\\main\\zh\\method-ending-weak.md",
       "path_en": "content\\main\\en\\method-ending-weak.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-first-client",
@@ -6814,7 +6777,7 @@
       "path_zh": "content\\main\\zh\\method-first-client.md",
       "path_en": "content\\main\\en\\method-first-client.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-first-idea",
@@ -6847,7 +6810,7 @@
       "path_zh": "content\\main\\zh\\method-first-idea.md",
       "path_en": "content\\main\\en\\method-first-idea.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-flat-image",
@@ -6880,7 +6843,7 @@
       "path_zh": "content\\main\\zh\\method-flat-image.md",
       "path_en": "content\\main\\en\\method-flat-image.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-line-flat",
@@ -6913,7 +6876,7 @@
       "path_zh": "content\\main\\zh\\method-line-flat.md",
       "path_en": "content\\main\\en\\method-line-flat.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-music-over",
@@ -6946,7 +6909,7 @@
       "path_zh": "content\\main\\zh\\method-music-over.md",
       "path_en": "content\\main\\en\\method-music-over.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-no-actor",
@@ -6979,7 +6942,7 @@
       "path_zh": "content\\main\\zh\\method-no-actor.md",
       "path_en": "content\\main\\en\\method-no-actor.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-no-budget",
@@ -7016,7 +6979,7 @@
       "path_zh": "content\\main\\zh\\method-no-budget.md",
       "path_en": "content\\main\\en\\method-no-budget.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-no-coverage",
@@ -7049,7 +7012,7 @@
       "path_zh": "content\\main\\zh\\method-no-coverage.md",
       "path_en": "content\\main\\en\\method-no-coverage.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-no-light",
@@ -7082,7 +7045,7 @@
       "path_zh": "content\\main\\zh\\method-no-light.md",
       "path_en": "content\\main\\en\\method-no-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-no-script",
@@ -7115,7 +7078,7 @@
       "path_zh": "content\\main\\zh\\method-no-script.md",
       "path_en": "content\\main\\en\\method-no-script.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-one-location",
@@ -7148,7 +7111,7 @@
       "path_zh": "content\\main\\zh\\method-one-location.md",
       "path_en": "content\\main\\en\\method-one-location.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-overexposed",
@@ -7181,7 +7144,7 @@
       "path_zh": "content\\main\\zh\\method-overexposed.md",
       "path_en": "content\\main\\en\\method-overexposed.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-pacing-flat",
@@ -7214,7 +7177,7 @@
       "path_zh": "content\\main\\zh\\method-pacing-flat.md",
       "path_en": "content\\main\\en\\method-pacing-flat.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-phone-only",
@@ -7247,7 +7210,7 @@
       "path_zh": "content\\main\\zh\\method-phone-only.md",
       "path_en": "content\\main\\en\\method-phone-only.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-platform-reject",
@@ -7280,7 +7243,7 @@
       "path_zh": "content\\main\\zh\\method-platform-reject.md",
       "path_en": "content\\main\\en\\method-platform-reject.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-portfolio-empty",
@@ -7317,7 +7280,7 @@
       "path_zh": "content\\main\\zh\\method-portfolio-empty.md",
       "path_en": "content\\main\\en\\method-portfolio-empty.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-quote-low",
@@ -7354,7 +7317,7 @@
       "path_zh": "content\\main\\zh\\method-quote-low.md",
       "path_en": "content\\main\\en\\method-quote-low.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-scene-boring",
@@ -7387,7 +7350,7 @@
       "path_zh": "content\\main\\zh\\method-scene-boring.md",
       "path_en": "content\\main\\en\\method-scene-boring.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-shoot-alone",
@@ -7424,7 +7387,7 @@
       "path_zh": "content\\main\\zh\\method-shoot-alone.md",
       "path_en": "content\\main\\en\\method-shoot-alone.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-story-slow",
@@ -7457,7 +7420,7 @@
       "path_zh": "content\\main\\zh\\method-story-slow.md",
       "path_en": "content\\main\\en\\method-story-slow.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-subtitle-bad",
@@ -7490,7 +7453,7 @@
       "path_zh": "content\\main\\zh\\method-subtitle-bad.md",
       "path_en": "content\\main\\en\\method-subtitle-bad.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-thumbnail-weak",
@@ -7523,7 +7486,7 @@
       "path_zh": "content\\main\\zh\\method-thumbnail-weak.md",
       "path_en": "content\\main\\en\\method-thumbnail-weak.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-title-boring",
@@ -7556,7 +7519,7 @@
       "path_zh": "content\\main\\zh\\method-title-boring.md",
       "path_en": "content\\main\\en\\method-title-boring.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-too-long",
@@ -7589,7 +7552,7 @@
       "path_zh": "content\\main\\zh\\method-too-long.md",
       "path_en": "content\\main\\en\\method-too-long.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-transition-jarring",
@@ -7622,7 +7585,7 @@
       "path_zh": "content\\main\\zh\\method-transition-jarring.md",
       "path_en": "content\\main\\en\\method-transition-jarring.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.method.method-wind-noise",
@@ -7655,7 +7618,7 @@
       "path_zh": "content\\main\\zh\\method-wind-noise.md",
       "path_en": "content\\main\\en\\method-wind-noise.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.path.path-career",
@@ -7688,7 +7651,7 @@
       "path_zh": "content\\main\\zh\\path-career.md",
       "path_en": "content\\main\\en\\path-career.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.path.path-distribution",
@@ -7721,7 +7684,7 @@
       "path_zh": "content\\main\\zh\\path-distribution.md",
       "path_en": "content\\main\\en\\path-distribution.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.path.path-history",
@@ -7754,7 +7717,7 @@
       "path_zh": "content\\main\\zh\\path-history.md",
       "path_en": "content\\main\\en\\path-history.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.path.path-literacy",
@@ -7787,7 +7750,7 @@
       "path_zh": "content\\main\\zh\\path-literacy.md",
       "path_en": "content\\main\\en\\path-literacy.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.path.path-live-film",
@@ -7820,7 +7783,7 @@
       "path_zh": "content\\main\\zh\\path-live-film.md",
       "path_en": "content\\main\\en\\path-live-film.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.path.path-post",
@@ -7853,7 +7816,7 @@
       "path_zh": "content\\main\\zh\\path-post.md",
       "path_en": "content\\main\\en\\path-post.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.path.path-producing",
@@ -7890,7 +7853,7 @@
       "path_zh": "content\\main\\zh\\path-producing.md",
       "path_en": "content\\main\\en\\path-producing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.path.path-story",
@@ -7923,7 +7886,7 @@
       "path_zh": "content\\main\\zh\\path-story.md",
       "path_en": "content\\main\\en\\path-story.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.paths.first-film",
@@ -7956,7 +7919,7 @@
       "path_zh": "content\\main\\zh\\paths\\first-film.md",
       "path_en": "content\\main\\en\\paths\\first-film.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.tool.tool-card-accessibility",
@@ -7989,7 +7952,7 @@
       "path_zh": "content\\main\\zh\\tool-card-accessibility.md",
       "path_en": "content\\main\\en\\tool-card-accessibility.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.tool.tool-card-ai-kit",
@@ -8022,7 +7985,7 @@
       "path_zh": "content\\main\\zh\\tool-card-ai-kit.md",
       "path_en": "content\\main\\en\\tool-card-ai-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.tool.tool-card-audio-kit",
@@ -8055,7 +8018,7 @@
       "path_zh": "content\\main\\zh\\tool-card-audio-kit.md",
       "path_en": "content\\main\\en\\tool-card-audio-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.tool.tool-card-basic-kit",
@@ -8088,7 +8051,7 @@
       "path_zh": "content\\main\\zh\\tool-card-basic-kit.md",
       "path_en": "content\\main\\en\\tool-card-basic-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.tool.tool-card-interview-kit",
@@ -8121,7 +8084,7 @@
       "path_zh": "content\\main\\zh\\tool-card-interview-kit.md",
       "path_en": "content\\main\\en\\tool-card-interview-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.tool.tool-card-lighting-kit",
@@ -8154,7 +8117,7 @@
       "path_zh": "content\\main\\zh\\tool-card-lighting-kit.md",
       "path_en": "content\\main\\en\\tool-card-lighting-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.tool.tool-card-live-kit",
@@ -8187,7 +8150,7 @@
       "path_zh": "content\\main\\zh\\tool-card-live-kit.md",
       "path_en": "content\\main\\en\\tool-card-live-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.tool.tool-card-storage-kit",
@@ -8220,7 +8183,7 @@
       "path_zh": "content\\main\\zh\\tool-card-storage-kit.md",
       "path_en": "content\\main\\en\\tool-card-storage-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "main.tool.tool-card-travel-kit",
@@ -8253,7 +8216,7 @@
       "path_zh": "content\\main\\zh\\tool-card-travel-kit.md",
       "path_en": "content\\main\\en\\tool-card-travel-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.accessibility.audio-description",
@@ -8290,7 +8253,7 @@
       "path_zh": "content\\post\\zh\\audio-description.md",
       "path_en": "content\\post\\en\\audio-description.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.accessibility.multilingual-subtitles",
@@ -8327,7 +8290,7 @@
       "path_zh": "content\\post\\zh\\multilingual-subtitles.md",
       "path_en": "content\\post\\en\\multilingual-subtitles.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.accessibility.sdh",
@@ -8364,7 +8327,7 @@
       "path_zh": "content\\post\\zh\\sdh.md",
       "path_en": "content\\post\\en\\sdh.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.assets.archive-reuse",
@@ -8401,7 +8364,7 @@
       "path_zh": "content\\post\\zh\\archive-reuse.md",
       "path_en": "content\\post\\en\\archive-reuse.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.assets.backup-recovery",
@@ -8439,7 +8402,7 @@
       "path_zh": "content\\post\\zh\\backup-recovery.md",
       "path_en": "content\\post\\en\\backup-recovery.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.assets.dit-data-handoff",
@@ -8476,7 +8439,7 @@
       "path_zh": "content\\post\\zh\\dit-data-handoff.md",
       "path_en": "content\\post\\en\\dit-data-handoff.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.assets.project-structure",
@@ -8514,7 +8477,7 @@
       "path_zh": "content\\post\\zh\\project-structure.md",
       "path_en": "content\\post\\en\\project-structure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.assets.proxy-cache",
@@ -8552,7 +8515,7 @@
       "path_zh": "content\\post\\zh\\proxy-cache.md",
       "path_en": "content\\post\\en\\proxy-cache.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.color.color",
@@ -8585,7 +8548,7 @@
       "path_zh": "content\\post\\zh\\color\\color.md",
       "path_en": "content\\post\\en\\color\\color.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.color.color-management",
@@ -8622,7 +8585,7 @@
       "path_zh": "content\\post\\zh\\color-management.md",
       "path_en": "content\\post\\en\\color-management.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.color.hdr",
@@ -8660,7 +8623,7 @@
       "path_zh": "content\\post\\zh\\hdr.md",
       "path_en": "content\\post\\en\\hdr.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.color.hdr-workflow",
@@ -8697,7 +8660,7 @@
       "path_zh": "content\\post\\zh\\hdr-workflow.md",
       "path_en": "content\\post\\en\\hdr-workflow.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.color.lut",
@@ -8734,7 +8697,7 @@
       "path_zh": "content\\post\\zh\\lut.md",
       "path_en": "content\\post\\en\\lut.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.color.primary-correction",
@@ -8771,7 +8734,7 @@
       "path_zh": "content\\post\\zh\\primary-correction.md",
       "path_en": "content\\post\\en\\primary-correction.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.color.scopes",
@@ -8808,7 +8771,7 @@
       "path_zh": "content\\post\\zh\\scopes.md",
       "path_en": "content\\post\\en\\scopes.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.color.secondary-correction",
@@ -8845,7 +8808,7 @@
       "path_zh": "content\\post\\zh\\secondary-correction.md",
       "path_en": "content\\post\\en\\secondary-correction.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.deep-dialogue-edit",
@@ -8881,7 +8844,7 @@
       "path_zh": "content\\post\\zh\\deep-dialogue-edit.md",
       "path_en": "content\\post\\en\\deep-dialogue-edit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.deep-remote-review",
@@ -8917,7 +8880,7 @@
       "path_zh": "content\\post\\zh\\deep-remote-review.md",
       "path_en": "content\\post\\en\\deep-remote-review.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.deep.deep-asset-management",
@@ -8954,7 +8917,7 @@
       "path_zh": "content\\post\\zh\\deep-asset-management.md",
       "path_en": "content\\post\\en\\deep-asset-management.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.deep.deep-color-pipeline",
@@ -8991,7 +8954,7 @@
       "path_zh": "content\\post\\zh\\deep-color-pipeline.md",
       "path_en": "content\\post\\en\\deep-color-pipeline.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.deep.deep-edit-rhythm",
@@ -9028,7 +8991,7 @@
       "path_zh": "content\\post\\zh\\deep-edit-rhythm.md",
       "path_en": "content\\post\\en\\deep-edit-rhythm.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.deep.deep-master-delivery",
@@ -9065,7 +9028,7 @@
       "path_zh": "content\\post\\zh\\deep-master-delivery.md",
       "path_en": "content\\post\\en\\deep-master-delivery.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.deep.deep-sound-mix",
@@ -9101,7 +9064,7 @@
       "path_zh": "content\\post\\zh\\deep-sound-mix.md",
       "path_en": "content\\post\\en\\deep-sound-mix.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.deep.deep-subtitle-delivery",
@@ -9137,7 +9100,7 @@
       "path_zh": "content\\post\\zh\\deep-subtitle-delivery.md",
       "path_en": "content\\post\\en\\deep-subtitle-delivery.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.delivery.archive",
@@ -9175,7 +9138,7 @@
       "path_zh": "content\\post\\zh\\archive.md",
       "path_en": "content\\post\\en\\archive.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.delivery.conform-online",
@@ -9212,7 +9175,7 @@
       "path_zh": "content\\post\\zh\\conform-online.md",
       "path_en": "content\\post\\en\\conform-online.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.delivery.mastering",
@@ -9250,7 +9213,7 @@
       "path_zh": "content\\post\\zh\\mastering.md",
       "path_en": "content\\post\\en\\mastering.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.delivery.platform-deliverables",
@@ -9287,7 +9250,7 @@
       "path_zh": "content\\post\\zh\\platform-deliverables.md",
       "path_en": "content\\post\\en\\platform-deliverables.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.delivery.qc",
@@ -9324,7 +9287,7 @@
       "path_zh": "content\\post\\zh\\qc.md",
       "path_en": "content\\post\\en\\qc.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.cutting-points",
@@ -9357,7 +9320,7 @@
       "path_zh": "content\\post\\zh\\editing\\cutting-points.md",
       "path_en": "content\\post\\en\\editing\\cutting-points.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.edit-pacing",
@@ -9394,7 +9357,7 @@
       "path_zh": "content\\post\\zh\\editing\\edit-pacing.md",
       "path_en": "content\\post\\en\\editing\\edit-pacing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.fine-cut",
@@ -9431,7 +9394,7 @@
       "path_zh": "content\\post\\zh\\fine-cut.md",
       "path_en": "content\\post\\en\\fine-cut.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.mix-dialogue",
@@ -9464,7 +9427,7 @@
       "path_zh": "content\\post\\zh\\editing\\mix-dialogue.md",
       "path_en": "content\\post\\en\\editing\\mix-dialogue.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.parallel-editing",
@@ -9501,7 +9464,7 @@
       "path_zh": "content\\post\\zh\\parallel-editing.md",
       "path_en": "content\\post\\en\\parallel-editing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.proxy-workflow",
@@ -9538,7 +9501,7 @@
       "path_zh": "content\\post\\zh\\proxy-workflow.md",
       "path_en": "content\\post\\en\\proxy-workflow.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.rough-cut",
@@ -9575,7 +9538,7 @@
       "path_zh": "content\\post\\zh\\editing\\rough-cut.md",
       "path_en": "content\\post\\en\\editing\\rough-cut.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.sound-bridge",
@@ -9611,7 +9574,7 @@
       "path_zh": "content\\post\\zh\\editing\\sound-bridge.md",
       "path_en": "content\\post\\en\\editing\\sound-bridge.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.subtitles",
@@ -9648,7 +9611,7 @@
       "path_zh": "content\\post\\zh\\editing\\subtitles.md",
       "path_en": "content\\post\\en\\editing\\subtitles.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.transitions",
@@ -9681,7 +9644,7 @@
       "path_zh": "content\\post\\zh\\editing\\transitions.md",
       "path_en": "content\\post\\en\\editing\\transitions.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.editing.versioning",
@@ -9718,7 +9681,7 @@
       "path_zh": "content\\post\\zh\\versioning.md",
       "path_en": "content\\post\\en\\versioning.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.sound.foley",
@@ -9754,7 +9717,7 @@
       "path_zh": "content\\post\\zh\\foley.md",
       "path_en": "content\\post\\en\\foley.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.sound.loudness",
@@ -9790,7 +9753,7 @@
       "path_zh": "content\\post\\zh\\loudness.md",
       "path_en": "content\\post\\en\\loudness.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.sound.music-editing",
@@ -9826,7 +9789,7 @@
       "path_zh": "content\\post\\zh\\music-editing.md",
       "path_en": "content\\post\\en\\music-editing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.sound.room-tone",
@@ -9859,7 +9822,7 @@
       "path_zh": "content\\post\\zh\\sound\\room-tone.md",
       "path_en": "content\\post\\en\\sound\\room-tone.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.sound.sound",
@@ -9895,7 +9858,7 @@
       "path_zh": "content\\post\\zh\\sound\\sound.md",
       "path_en": "content\\post\\en\\sound\\sound.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.sound.sound-post",
@@ -9928,7 +9891,7 @@
       "path_zh": "content\\post\\zh\\sound\\sound-post.md",
       "path_en": "content\\post\\en\\sound\\sound-post.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.sound.sound-post-workflow",
@@ -9964,7 +9927,7 @@
       "path_zh": "content\\post\\zh\\sound-post-workflow.md",
       "path_en": "content\\post\\en\\sound-post-workflow.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.titles.title-design",
@@ -10001,7 +9964,7 @@
       "path_zh": "content\\post\\zh\\title-design.md",
       "path_en": "content\\post\\en\\title-design.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.vfx.cg-integration",
@@ -10034,7 +9997,7 @@
       "path_zh": "content\\post\\zh\\cg-integration.md",
       "path_en": "content\\post\\en\\cg-integration.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.vfx.cleanup",
@@ -10071,7 +10034,7 @@
       "path_zh": "content\\post\\zh\\cleanup.md",
       "path_en": "content\\post\\en\\cleanup.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.vfx.keying",
@@ -10104,7 +10067,7 @@
       "path_zh": "content\\post\\zh\\keying.md",
       "path_en": "content\\post\\en\\keying.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.vfx.rotoscoping",
@@ -10137,7 +10100,7 @@
       "path_zh": "content\\post\\zh\\rotoscoping.md",
       "path_en": "content\\post\\en\\rotoscoping.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.vfx.tracking",
@@ -10173,7 +10136,7 @@
       "path_zh": "content\\post\\zh\\tracking.md",
       "path_en": "content\\post\\en\\tracking.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "post.vfx.vfx-composite",
@@ -10206,7 +10169,7 @@
       "path_zh": "content\\post\\zh\\vfx\\vfx-composite.md",
       "path_en": "content\\post\\en\\vfx\\vfx-composite.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.art.prop-continuity",
@@ -10242,7 +10205,7 @@
       "path_zh": "content\\shoot\\zh\\prop-continuity.md",
       "path_en": "content\\shoot\\en\\prop-continuity.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.art.set-dressing",
@@ -10278,7 +10241,7 @@
       "path_zh": "content\\shoot\\zh\\set-dressing.md",
       "path_en": "content\\shoot\\en\\set-dressing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.blocking.blocking",
@@ -10314,7 +10277,7 @@
       "path_zh": "content\\shoot\\zh\\blocking.md",
       "path_en": "content\\shoot\\en\\blocking.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.axis-line",
@@ -10351,7 +10314,7 @@
       "path_zh": "content\\shoot\\zh\\camera\\axis-line.md",
       "path_en": "content\\shoot\\en\\camera\\axis-line.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.camera-move",
@@ -10384,7 +10347,7 @@
       "path_zh": "content\\shoot\\zh\\camera\\camera-move.md",
       "path_en": "content\\shoot\\en\\camera\\camera-move.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.composition",
@@ -10421,7 +10384,7 @@
       "path_zh": "content\\shoot\\zh\\camera\\composition.md",
       "path_en": "content\\shoot\\en\\camera\\composition.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.exposure",
@@ -10458,7 +10421,7 @@
       "path_zh": "content\\shoot\\zh\\camera\\exposure.md",
       "path_en": "content\\shoot\\en\\camera\\exposure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.frame-rate",
@@ -10495,7 +10458,7 @@
       "path_zh": "content\\shoot\\zh\\frame-rate.md",
       "path_en": "content\\shoot\\en\\frame-rate.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.lens-distance",
@@ -10528,7 +10491,7 @@
       "path_zh": "content\\shoot\\zh\\camera\\lens-distance.md",
       "path_en": "content\\shoot\\en\\camera\\lens-distance.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.nd-filter",
@@ -10565,7 +10528,7 @@
       "path_zh": "content\\shoot\\zh\\nd-filter.md",
       "path_en": "content\\shoot\\en\\nd-filter.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.sensor-size",
@@ -10602,7 +10565,7 @@
       "path_zh": "content\\shoot\\zh\\sensor-size.md",
       "path_en": "content\\shoot\\en\\sensor-size.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.shot-size",
@@ -10635,7 +10598,7 @@
       "path_zh": "content\\shoot\\zh\\camera\\shot-size.md",
       "path_en": "content\\shoot\\en\\camera\\shot-size.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.camera.shutter-angle",
@@ -10672,7 +10635,7 @@
       "path_zh": "content\\shoot\\zh\\shutter-angle.md",
       "path_en": "content\\shoot\\en\\shutter-angle.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.coverage.coverage",
@@ -10709,7 +10672,7 @@
       "path_zh": "content\\shoot\\zh\\coverage.md",
       "path_en": "content\\shoot\\en\\coverage.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.deep-interview-light",
@@ -10745,7 +10708,7 @@
       "path_zh": "content\\shoot\\zh\\deep-interview-light.md",
       "path_en": "content\\shoot\\en\\deep-interview-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.deep-low-light",
@@ -10781,7 +10744,7 @@
       "path_zh": "content\\shoot\\zh\\deep-low-light.md",
       "path_en": "content\\shoot\\en\\deep-low-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.deep.deep-camera-move",
@@ -10818,7 +10781,7 @@
       "path_zh": "content\\shoot\\zh\\deep-camera-move.md",
       "path_en": "content\\shoot\\en\\deep-camera-move.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.deep.deep-hard-light",
@@ -10854,7 +10817,7 @@
       "path_zh": "content\\shoot\\zh\\deep-hard-light.md",
       "path_en": "content\\shoot\\en\\deep-hard-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.deep.deep-log-exposure",
@@ -10891,7 +10854,7 @@
       "path_zh": "content\\shoot\\zh\\deep-log-exposure.md",
       "path_en": "content\\shoot\\en\\deep-log-exposure.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.deep.deep-multicam",
@@ -10928,7 +10891,7 @@
       "path_zh": "content\\shoot\\zh\\deep-multicam.md",
       "path_en": "content\\shoot\\en\\deep-multicam.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.deep.deep-set-safety",
@@ -10964,7 +10927,7 @@
       "path_zh": "content\\shoot\\zh\\deep-set-safety.md",
       "path_en": "content\\shoot\\en\\deep-set-safety.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.deep.deep-sound-rig",
@@ -11001,7 +10964,7 @@
       "path_zh": "content\\shoot\\zh\\deep-sound-rig.md",
       "path_en": "content\\shoot\\en\\deep-sound-rig.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.exposure.false-color",
@@ -11039,7 +11002,7 @@
       "path_zh": "content\\shoot\\zh\\false-color.md",
       "path_en": "content\\shoot\\en\\false-color.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.exposure.log-footage",
@@ -11077,7 +11040,7 @@
       "path_zh": "content\\shoot\\zh\\log-footage.md",
       "path_en": "content\\shoot\\en\\log-footage.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.exposure.waveform",
@@ -11114,7 +11077,7 @@
       "path_zh": "content\\shoot\\zh\\waveform.md",
       "path_en": "content\\shoot\\en\\waveform.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.lighting.hard-light",
@@ -11151,7 +11114,7 @@
       "path_zh": "content\\shoot\\zh\\hard-light.md",
       "path_en": "content\\shoot\\en\\hard-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.lighting.lighting-style",
@@ -11187,7 +11150,7 @@
       "path_zh": "content\\shoot\\zh\\lighting-style.md",
       "path_en": "content\\shoot\\en\\lighting-style.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.lighting.mixed-light",
@@ -11224,7 +11187,7 @@
       "path_zh": "content\\shoot\\zh\\mixed-light.md",
       "path_en": "content\\shoot\\en\\mixed-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.lighting.night-interior",
@@ -11260,7 +11223,7 @@
       "path_zh": "content\\shoot\\zh\\night-interior.md",
       "path_en": "content\\shoot\\en\\night-interior.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.lighting.practical-light",
@@ -11297,7 +11260,7 @@
       "path_zh": "content\\shoot\\zh\\practical-light.md",
       "path_en": "content\\shoot\\en\\practical-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.lighting.ratio",
@@ -11333,7 +11296,7 @@
       "path_zh": "content\\shoot\\zh\\lighting\\ratio.md",
       "path_en": "content\\shoot\\en\\lighting\\ratio.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.lighting.window-light",
@@ -11370,7 +11333,7 @@
       "path_zh": "content\\shoot\\zh\\lighting\\window-light.md",
       "path_en": "content\\shoot\\en\\lighting\\window-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.live.live-encoding",
@@ -11407,7 +11370,7 @@
       "path_zh": "content\\shoot\\zh\\live-encoding.md",
       "path_en": "content\\shoot\\en\\live-encoding.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.movement.handheld",
@@ -11443,7 +11406,7 @@
       "path_zh": "content\\shoot\\zh\\handheld.md",
       "path_en": "content\\shoot\\en\\handheld.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.movement.stabilizer",
@@ -11479,7 +11442,7 @@
       "path_zh": "content\\shoot\\zh\\stabilizer.md",
       "path_en": "content\\shoot\\en\\stabilizer.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.multicam.multicam-live",
@@ -11516,7 +11479,7 @@
       "path_zh": "content\\shoot\\zh\\multicam-live.md",
       "path_en": "content\\shoot\\en\\multicam-live.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.multicam.multicam-sync",
@@ -11554,7 +11517,7 @@
       "path_zh": "content\\shoot\\zh\\multicam-sync.md",
       "path_en": "content\\shoot\\en\\multicam-sync.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.production.b-roll",
@@ -11591,7 +11554,7 @@
       "path_zh": "content\\shoot\\zh\\production\\b-roll.md",
       "path_en": "content\\shoot\\en\\production\\b-roll.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.production.camera-height",
@@ -11629,7 +11592,7 @@
       "path_zh": "content\\shoot\\zh\\production\\camera-height.md",
       "path_en": "content\\shoot\\en\\production\\camera-height.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.production.scene-space",
@@ -11667,7 +11630,7 @@
       "path_zh": "content\\shoot\\zh\\production\\scene-space.md",
       "path_en": "content\\shoot\\en\\production\\scene-space.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.production.shot-list",
@@ -11704,7 +11667,7 @@
       "path_zh": "content\\shoot\\zh\\production\\shot-list.md",
       "path_en": "content\\shoot\\en\\production\\shot-list.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.production.slate-continuity",
@@ -11741,7 +11704,7 @@
       "path_zh": "content\\shoot\\zh\\production\\slate-continuity.md",
       "path_en": "content\\shoot\\en\\production\\slate-continuity.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.safety.permit",
@@ -11778,7 +11741,7 @@
       "path_zh": "content\\shoot\\zh\\permit.md",
       "path_en": "content\\shoot\\en\\permit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.safety.risk-assessment",
@@ -11815,7 +11778,7 @@
       "path_zh": "content\\shoot\\zh\\risk-assessment.md",
       "path_en": "content\\shoot\\en\\risk-assessment.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.safety.set-safety",
@@ -11851,7 +11814,7 @@
       "path_zh": "content\\shoot\\zh\\set-safety.md",
       "path_en": "content\\shoot\\en\\set-safety.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.sound.boom-operator",
@@ -11888,7 +11851,7 @@
       "path_zh": "content\\shoot\\zh\\boom-operator.md",
       "path_en": "content\\shoot\\en\\boom-operator.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.sound.dual-system-sound",
@@ -11924,7 +11887,7 @@
       "path_zh": "content\\shoot\\zh\\dual-system-sound.md",
       "path_en": "content\\shoot\\en\\dual-system-sound.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.sound.wireless-lav",
@@ -11960,7 +11923,7 @@
       "path_zh": "content\\shoot\\zh\\wireless-lav.md",
       "path_en": "content\\shoot\\en\\wireless-lav.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.virtual-production.led-virtual-production",
@@ -11996,7 +11959,7 @@
       "path_zh": "content\\shoot\\zh\\led-virtual-production.md",
       "path_en": "content\\shoot\\en\\led-virtual-production.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "shoot.virtual-production.led-volume",
@@ -12032,7 +11995,7 @@
       "path_zh": "content\\shoot\\zh\\led-volume.md",
       "path_en": "content\\shoot\\en\\led-volume.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.deep-scene-object",
@@ -12068,7 +12031,7 @@
       "path_zh": "content\\story\\zh\\deep-scene-object.md",
       "path_en": "content\\story\\en\\deep-scene-object.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.deep-silent-scene",
@@ -12104,7 +12067,7 @@
       "path_zh": "content\\story\\zh\\deep-silent-scene.md",
       "path_en": "content\\story\\en\\deep-silent-scene.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.deep.deep-coverage-board",
@@ -12140,7 +12103,7 @@
       "path_zh": "content\\story\\zh\\deep-coverage-board.md",
       "path_en": "content\\story\\en\\deep-coverage-board.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.deep.deep-dialogue-subtext",
@@ -12176,7 +12139,7 @@
       "path_zh": "content\\story\\zh\\deep-dialogue-subtext.md",
       "path_en": "content\\story\\en\\deep-dialogue-subtext.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.deep.deep-performance-direction",
@@ -12212,7 +12175,7 @@
       "path_zh": "content\\story\\zh\\deep-performance-direction.md",
       "path_en": "content\\story\\en\\deep-performance-direction.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.deep.deep-scene-engine",
@@ -12248,7 +12211,7 @@
       "path_zh": "content\\story\\zh\\deep-scene-engine.md",
       "path_en": "content\\story\\en\\deep-scene-engine.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.deep.deep-scene-stitch",
@@ -12284,7 +12247,7 @@
       "path_zh": "content\\story\\zh\\deep-scene-stitch.md",
       "path_en": "content\\story\\en\\deep-scene-stitch.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.deep.deep-structure-turn",
@@ -12320,7 +12283,7 @@
       "path_zh": "content\\story\\zh\\deep-structure-turn.md",
       "path_en": "content\\story\\en\\deep-structure-turn.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.directing.actor-adjustment",
@@ -12357,7 +12320,7 @@
       "path_zh": "content\\story\\zh\\actor-adjustment.md",
       "path_en": "content\\story\\en\\actor-adjustment.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.directing.casting-callback",
@@ -12394,7 +12357,7 @@
       "path_zh": "content\\story\\zh\\casting-callback.md",
       "path_en": "content\\story\\en\\casting-callback.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.directing.child-actors",
@@ -12430,7 +12393,7 @@
       "path_zh": "content\\story\\zh\\child-actors.md",
       "path_en": "content\\story\\en\\child-actors.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.directing.directing-debut",
@@ -12467,7 +12430,7 @@
       "path_zh": "content\\story\\zh\\directing-debut.md",
       "path_en": "content\\story\\en\\directing-debut.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.directing.directing-nonactors",
@@ -12500,7 +12463,7 @@
       "path_zh": "content\\story\\zh\\directing\\directing-nonactors.md",
       "path_en": "content\\story\\en\\directing\\directing-nonactors.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.directing.ensemble-scene",
@@ -12537,7 +12500,7 @@
       "path_zh": "content\\story\\zh\\ensemble-scene.md",
       "path_en": "content\\story\\en\\ensemble-scene.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.directing.notes-to-actor",
@@ -12570,7 +12533,7 @@
       "path_zh": "content\\story\\zh\\notes-to-actor.md",
       "path_en": "content\\story\\en\\notes-to-actor.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.directing.performance-scale",
@@ -12607,7 +12570,7 @@
       "path_zh": "content\\story\\zh\\performance-scale.md",
       "path_en": "content\\story\\en\\performance-scale.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.directing.rehearsal",
@@ -12643,7 +12606,7 @@
       "path_zh": "content\\story\\zh\\rehearsal.md",
       "path_en": "content\\story\\en\\rehearsal.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.interview.interview-questions",
@@ -12676,7 +12639,7 @@
       "path_zh": "content\\story\\zh\\interview\\interview-questions.md",
       "path_en": "content\\story\\en\\interview\\interview-questions.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.adaptation",
@@ -12712,7 +12675,7 @@
       "path_zh": "content\\story\\zh\\adaptation.md",
       "path_en": "content\\story\\en\\adaptation.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.character-arc",
@@ -12745,7 +12708,7 @@
       "path_zh": "content\\story\\zh\\screenplay\\character-arc.md",
       "path_en": "content\\story\\en\\screenplay\\character-arc.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.comedy-writing",
@@ -12781,7 +12744,7 @@
       "path_zh": "content\\story\\zh\\comedy-writing.md",
       "path_en": "content\\story\\en\\comedy-writing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.conflict",
@@ -12814,7 +12777,7 @@
       "path_zh": "content\\story\\zh\\screenplay\\conflict.md",
       "path_en": "content\\story\\en\\screenplay\\conflict.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.dialogue",
@@ -12847,7 +12810,7 @@
       "path_zh": "content\\story\\zh\\screenplay\\dialogue.md",
       "path_en": "content\\story\\en\\screenplay\\dialogue.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.logline",
@@ -12883,7 +12846,7 @@
       "path_zh": "content\\story\\zh\\screenplay\\logline.md",
       "path_en": "content\\story\\en\\screenplay\\logline.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.monologue",
@@ -12916,7 +12879,7 @@
       "path_zh": "content\\story\\zh\\monologue.md",
       "path_en": "content\\story\\en\\monologue.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.rewrite-pass",
@@ -12952,7 +12915,7 @@
       "path_zh": "content\\story\\zh\\rewrite-pass.md",
       "path_en": "content\\story\\en\\rewrite-pass.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.scene-description",
@@ -12988,7 +12951,7 @@
       "path_zh": "content\\story\\zh\\scene-description.md",
       "path_en": "content\\story\\en\\scene-description.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.scene-transition-writing",
@@ -13024,7 +12987,7 @@
       "path_zh": "content\\story\\zh\\scene-transition-writing.md",
       "path_en": "content\\story\\en\\scene-transition-writing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.script-format",
@@ -13060,7 +13023,7 @@
       "path_zh": "content\\story\\zh\\script-format.md",
       "path_en": "content\\story\\en\\script-format.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.short-drama-script",
@@ -13093,7 +13056,7 @@
       "path_zh": "content\\story\\zh\\short-drama-script.md",
       "path_en": "content\\story\\en\\short-drama-script.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.subtext",
@@ -13129,7 +13092,7 @@
       "path_zh": "content\\story\\zh\\subtext.md",
       "path_en": "content\\story\\en\\subtext.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.table-read",
@@ -13165,7 +13128,7 @@
       "path_zh": "content\\story\\zh\\table-read.md",
       "path_en": "content\\story\\en\\table-read.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.three-act",
@@ -13201,7 +13164,7 @@
       "path_zh": "content\\story\\zh\\screenplay\\three-act.md",
       "path_en": "content\\story\\en\\screenplay\\three-act.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.screenplay.voice-over",
@@ -13238,7 +13201,7 @@
       "path_zh": "content\\story\\zh\\screenplay\\voice-over.md",
       "path_en": "content\\story\\en\\screenplay\\voice-over.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.story.ending-choice",
@@ -13274,7 +13237,7 @@
       "path_zh": "content\\story\\zh\\ending-choice.md",
       "path_en": "content\\story\\en\\ending-choice.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.story.midpoint-turn",
@@ -13310,7 +13273,7 @@
       "path_zh": "content\\story\\zh\\midpoint-turn.md",
       "path_en": "content\\story\\en\\midpoint-turn.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.story.obstacle-escalation",
@@ -13343,7 +13306,7 @@
       "path_zh": "content\\story\\zh\\obstacle-escalation.md",
       "path_en": "content\\story\\en\\obstacle-escalation.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.story.scene-sequence",
@@ -13379,7 +13342,7 @@
       "path_zh": "content\\story\\zh\\scene-sequence.md",
       "path_en": "content\\story\\en\\scene-sequence.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.story.short-film-economy",
@@ -13416,7 +13379,7 @@
       "path_zh": "content\\story\\zh\\short-film-economy.md",
       "path_en": "content\\story\\en\\short-film-economy.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.story.subplot",
@@ -13452,7 +13415,7 @@
       "path_zh": "content\\story\\zh\\subplot.md",
       "path_en": "content\\story\\en\\subplot.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.story.theme-through-action",
@@ -13488,7 +13451,7 @@
       "path_zh": "content\\story\\zh\\theme-through-action.md",
       "path_en": "content\\story\\en\\theme-through-action.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.story.want-stakes",
@@ -13524,7 +13487,7 @@
       "path_zh": "content\\story\\zh\\want-stakes.md",
       "path_en": "content\\story\\en\\want-stakes.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.storyboard.animatic-boarding",
@@ -13560,7 +13523,7 @@
       "path_zh": "content\\story\\zh\\animatic-boarding.md",
       "path_en": "content\\story\\en\\animatic-boarding.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.storyboard.board-review",
@@ -13596,7 +13559,7 @@
       "path_zh": "content\\story\\zh\\board-review.md",
       "path_en": "content\\story\\en\\board-review.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.storyboard.insert-shot",
@@ -13633,7 +13596,7 @@
       "path_zh": "content\\story\\zh\\insert-shot.md",
       "path_en": "content\\story\\en\\insert-shot.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.storyboard.sequence-board",
@@ -13669,7 +13632,7 @@
       "path_zh": "content\\story\\zh\\sequence-board.md",
       "path_en": "content\\story\\en\\sequence-board.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.storyboard.shot-sheet",
@@ -13705,7 +13668,7 @@
       "path_zh": "content\\story\\zh\\shot-sheet.md",
       "path_en": "content\\story\\en\\shot-sheet.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "story.storyboard.storyboard",
@@ -13715,8 +13678,8 @@
       "title_zh": "分镜表：把一句话拆成 8 个能拍的镜头",
       "title_en": "The Shot Sheet: Turn One Line into Eight Shootable Shots",
       "slug": "storyboard",
-      "words_zh": 394,
-      "words_en": 323,
+      "words_zh": 456,
+      "words_en": 365,
       "deep": false,
       "source_kind": "sourced",
       "source_ids": [
@@ -13741,7 +13704,7 @@
       "path_zh": "content\\story\\zh\\storyboard\\storyboard.md",
       "path_en": "content\\story\\en\\storyboard\\storyboard.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.audio.audio-position",
@@ -13777,7 +13740,7 @@
       "path_zh": "content\\tools\\zh\\audio\\audio-position.md",
       "path_en": "content\\tools\\en\\audio\\audio-position.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.calculator.aspect-calculator",
@@ -13810,7 +13773,7 @@
       "path_zh": "content\\tools\\zh\\aspect-calculator.md",
       "path_en": "content\\tools\\en\\aspect-calculator.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.calculator.bitrate-calculator",
@@ -13843,7 +13806,7 @@
       "path_zh": "content\\tools\\zh\\bitrate-calculator.md",
       "path_en": "content\\tools\\en\\bitrate-calculator.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.calculator.budget-calculator",
@@ -13876,7 +13839,7 @@
       "path_zh": "content\\tools\\zh\\budget-calculator.md",
       "path_en": "content\\tools\\en\\budget-calculator.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.calculator.dof-calculator",
@@ -13909,7 +13872,7 @@
       "path_zh": "content\\tools\\zh\\dof-calculator.md",
       "path_en": "content\\tools\\en\\dof-calculator.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.calculator.nd-calculator",
@@ -13942,7 +13905,7 @@
       "path_zh": "content\\tools\\zh\\nd-calculator.md",
       "path_en": "content\\tools\\en\\nd-calculator.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.calculator.storage-calculator",
@@ -13975,7 +13938,7 @@
       "path_zh": "content\\tools\\zh\\storage-calculator.md",
       "path_en": "content\\tools\\en\\storage-calculator.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.calculator.subtitle-cps",
@@ -14008,7 +13971,7 @@
       "path_zh": "content\\tools\\zh\\subtitle-cps.md",
       "path_en": "content\\tools\\en\\subtitle-cps.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.calculators.fov",
@@ -14041,7 +14004,7 @@
       "path_zh": "content\\tools\\zh\\calculators\\fov.md",
       "path_en": "content\\tools\\en\\calculators\\fov.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.camera.camera-choice",
@@ -14078,7 +14041,7 @@
       "path_zh": "content\\tools\\zh\\camera\\camera-choice.md",
       "path_en": "content\\tools\\en\\camera\\camera-choice.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.ai-audio-tool",
@@ -14111,7 +14074,7 @@
       "path_zh": "content\\tools\\zh\\ai-audio-tool.md",
       "path_en": "content\\tools\\en\\ai-audio-tool.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.ai-video-tool",
@@ -14144,7 +14107,7 @@
       "path_zh": "content\\tools\\zh\\ai-video-tool.md",
       "path_en": "content\\tools\\en\\ai-video-tool.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.anamorphic",
@@ -14177,7 +14140,7 @@
       "path_zh": "content\\tools\\zh\\anamorphic.md",
       "path_en": "content\\tools\\en\\anamorphic.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.animation-software",
@@ -14210,7 +14173,7 @@
       "path_zh": "content\\tools\\zh\\animation-software.md",
       "path_en": "content\\tools\\en\\animation-software.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.audio-interface",
@@ -14245,7 +14208,7 @@
       "path_zh": "content\\tools\\zh\\audio-interface.md",
       "path_en": "content\\tools\\en\\audio-interface.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.cfexpress",
@@ -14278,7 +14241,7 @@
       "path_zh": "content\\tools\\zh\\cfexpress.md",
       "path_en": "content\\tools\\en\\cfexpress.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.cine-camera",
@@ -14311,7 +14274,7 @@
       "path_zh": "content\\tools\\zh\\cine-camera.md",
       "path_en": "content\\tools\\en\\cine-camera.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.cloud-render",
@@ -14344,7 +14307,7 @@
       "path_zh": "content\\tools\\zh\\cloud-render.md",
       "path_en": "content\\tools\\en\\cloud-render.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.cob-light",
@@ -14377,7 +14340,7 @@
       "path_zh": "content\\tools\\zh\\cob-light.md",
       "path_en": "content\\tools\\en\\cob-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.davinci-node",
@@ -14410,7 +14373,7 @@
       "path_zh": "content\\tools\\zh\\davinci-node.md",
       "path_en": "content\\tools\\en\\davinci-node.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.field-monitor",
@@ -14443,7 +14406,7 @@
       "path_zh": "content\\tools\\zh\\field-monitor.md",
       "path_en": "content\\tools\\en\\field-monitor.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.field-recorder",
@@ -14476,7 +14439,7 @@
       "path_zh": "content\\tools\\zh\\field-recorder.md",
       "path_en": "content\\tools\\en\\field-recorder.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.fluid-head",
@@ -14509,7 +14472,7 @@
       "path_zh": "content\\tools\\zh\\fluid-head.md",
       "path_en": "content\\tools\\en\\fluid-head.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.follow-focus",
@@ -14542,7 +14505,7 @@
       "path_zh": "content\\tools\\zh\\follow-focus.md",
       "path_en": "content\\tools\\en\\follow-focus.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.gimbal",
@@ -14575,7 +14538,7 @@
       "path_zh": "content\\tools\\zh\\gimbal.md",
       "path_en": "content\\tools\\en\\gimbal.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.headphone-monitor",
@@ -14608,7 +14571,7 @@
       "path_zh": "content\\tools\\zh\\headphone-monitor.md",
       "path_en": "content\\tools\\en\\headphone-monitor.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.lav-system",
@@ -14641,7 +14604,7 @@
       "path_zh": "content\\tools\\zh\\lav-system.md",
       "path_en": "content\\tools\\en\\lav-system.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.led-panel",
@@ -14674,7 +14637,7 @@
       "path_zh": "content\\tools\\zh\\led-panel.md",
       "path_en": "content\\tools\\en\\led-panel.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.light-stand",
@@ -14707,7 +14670,7 @@
       "path_zh": "content\\tools\\zh\\light-stand.md",
       "path_en": "content\\tools\\en\\light-stand.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.lto-archive",
@@ -14740,7 +14703,7 @@
       "path_zh": "content\\tools\\zh\\lto-archive.md",
       "path_en": "content\\tools\\en\\lto-archive.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.matte-box",
@@ -14773,7 +14736,7 @@
       "path_zh": "content\\tools\\zh\\matte-box.md",
       "path_en": "content\\tools\\en\\matte-box.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.mirrorless-video",
@@ -14806,7 +14769,7 @@
       "path_zh": "content\\tools\\zh\\mirrorless-video.md",
       "path_en": "content\\tools\\en\\mirrorless-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.nas",
@@ -14839,7 +14802,7 @@
       "path_zh": "content\\tools\\zh\\nas.md",
       "path_en": "content\\tools\\en\\nas.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.nd-gel",
@@ -14872,7 +14835,7 @@
       "path_zh": "content\\tools\\zh\\nd-gel.md",
       "path_en": "content\\tools\\en\\nd-gel.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.nle-compare",
@@ -14905,7 +14868,7 @@
       "path_zh": "content\\tools\\zh\\nle-compare.md",
       "path_en": "content\\tools\\en\\nle-compare.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.practical-bulb",
@@ -14938,7 +14901,7 @@
       "path_zh": "content\\tools\\zh\\practical-bulb.md",
       "path_en": "content\\tools\\en\\practical-bulb.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.prime-lens",
@@ -14971,7 +14934,7 @@
       "path_zh": "content\\tools\\zh\\prime-lens.md",
       "path_en": "content\\tools\\en\\prime-lens.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.reflector",
@@ -15004,7 +14967,7 @@
       "path_zh": "content\\tools\\zh\\reflector.md",
       "path_en": "content\\tools\\en\\reflector.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.scope-monitor",
@@ -15037,7 +15000,7 @@
       "path_zh": "content\\tools\\zh\\scope-monitor.md",
       "path_en": "content\\tools\\en\\scope-monitor.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.shotgun-mic",
@@ -15070,7 +15033,7 @@
       "path_zh": "content\\tools\\zh\\shotgun-mic.md",
       "path_en": "content\\tools\\en\\shotgun-mic.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.slider",
@@ -15103,7 +15066,7 @@
       "path_zh": "content\\tools\\zh\\slider.md",
       "path_en": "content\\tools\\en\\slider.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.softbox",
@@ -15136,7 +15099,7 @@
       "path_zh": "content\\tools\\zh\\softbox.md",
       "path_en": "content\\tools\\en\\softbox.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.speedbooster",
@@ -15169,7 +15132,7 @@
       "path_zh": "content\\tools\\zh\\speedbooster.md",
       "path_en": "content\\tools\\en\\speedbooster.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.ssd-raid",
@@ -15202,7 +15165,7 @@
       "path_zh": "content\\tools\\zh\\ssd-raid.md",
       "path_en": "content\\tools\\en\\ssd-raid.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.timecode",
@@ -15235,7 +15198,7 @@
       "path_zh": "content\\tools\\zh\\timecode.md",
       "path_en": "content\\tools\\en\\timecode.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.tripod",
@@ -15268,7 +15231,7 @@
       "path_zh": "content\\tools\\zh\\tripod.md",
       "path_en": "content\\tools\\en\\tripod.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.video-assist",
@@ -15301,7 +15264,7 @@
       "path_zh": "content\\tools\\zh\\video-assist.md",
       "path_en": "content\\tools\\en\\video-assist.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.wireless-video",
@@ -15334,7 +15297,7 @@
       "path_zh": "content\\tools\\zh\\wireless-video.md",
       "path_en": "content\\tools\\en\\wireless-video.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.capability.zoom-lens",
@@ -15367,7 +15330,7 @@
       "path_zh": "content\\tools\\zh\\zoom-lens.md",
       "path_en": "content\\tools\\en\\zoom-lens.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep-camera-maintenance",
@@ -15403,7 +15366,7 @@
       "path_zh": "content\\tools\\zh\\deep-camera-maintenance.md",
       "path_en": "content\\tools\\en\\deep-camera-maintenance.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep-lighting-safety",
@@ -15439,7 +15402,7 @@
       "path_zh": "content\\tools\\zh\\deep-lighting-safety.md",
       "path_en": "content\\tools\\en\\deep-lighting-safety.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep.deep-ai-toolchain",
@@ -15475,7 +15438,7 @@
       "path_zh": "content\\tools\\zh\\deep-ai-toolchain.md",
       "path_en": "content\\tools\\en\\deep-ai-toolchain.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep.deep-backup-321",
@@ -15512,7 +15475,7 @@
       "path_zh": "content\\tools\\zh\\deep-backup-321.md",
       "path_en": "content\\tools\\en\\deep-backup-321.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep.deep-camera-lens-kit",
@@ -15549,7 +15512,7 @@
       "path_zh": "content\\tools\\zh\\deep-camera-lens-kit.md",
       "path_en": "content\\tools\\en\\deep-camera-lens-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep.deep-live-stream-chain",
@@ -15585,7 +15548,7 @@
       "path_zh": "content\\tools\\zh\\deep-live-stream-chain.md",
       "path_en": "content\\tools\\en\\deep-live-stream-chain.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep.deep-location-sound-chain",
@@ -15621,7 +15584,7 @@
       "path_zh": "content\\tools\\zh\\deep-location-sound-chain.md",
       "path_en": "content\\tools\\en\\deep-location-sound-chain.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep.deep-one-light-kit",
@@ -15657,7 +15620,7 @@
       "path_zh": "content\\tools\\zh\\deep-one-light-kit.md",
       "path_en": "content\\tools\\en\\deep-one-light-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep.deep-post-workstation",
@@ -15693,7 +15656,7 @@
       "path_zh": "content\\tools\\zh\\deep-post-workstation.md",
       "path_en": "content\\tools\\en\\deep-post-workstation.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.deep.deep-storage-chain",
@@ -15730,7 +15693,7 @@
       "path_zh": "content\\tools\\zh\\deep-storage-chain.md",
       "path_en": "content\\tools\\en\\deep-storage-chain.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.delivery.delivery-specs",
@@ -15766,7 +15729,7 @@
       "path_zh": "content\\tools\\zh\\delivery\\delivery-specs.md",
       "path_en": "content\\tools\\en\\delivery\\delivery-specs.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.delivery.publish-checklist",
@@ -15802,7 +15765,7 @@
       "path_zh": "content\\tools\\zh\\delivery\\publish-checklist.md",
       "path_en": "content\\tools\\en\\delivery\\publish-checklist.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.audio-noise-fix",
@@ -15835,7 +15798,7 @@
       "path_zh": "content\\tools\\zh\\audio-noise-fix.md",
       "path_en": "content\\tools\\en\\audio-noise-fix.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.budget-quote",
@@ -15871,7 +15834,7 @@
       "path_zh": "content\\tools\\zh\\budget-quote.md",
       "path_en": "content\\tools\\en\\budget-quote.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-audio-field",
@@ -15907,7 +15870,7 @@
       "path_zh": "content\\tools\\zh\\buy-audio-field.md",
       "path_en": "content\\tools\\en\\buy-audio-field.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-audio-first",
@@ -15943,7 +15906,7 @@
       "path_zh": "content\\tools\\zh\\buy-audio-first.md",
       "path_en": "content\\tools\\en\\buy-audio-first.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-batteries",
@@ -15979,7 +15942,7 @@
       "path_zh": "content\\tools\\zh\\buy-batteries.md",
       "path_en": "content\\tools\\en\\buy-batteries.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-camera-budget",
@@ -16016,7 +15979,7 @@
       "path_zh": "content\\tools\\zh\\buy-camera-budget.md",
       "path_en": "content\\tools\\en\\buy-camera-budget.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-camera-cine",
@@ -16053,7 +16016,7 @@
       "path_zh": "content\\tools\\zh\\buy-camera-cine.md",
       "path_en": "content\\tools\\en\\buy-camera-cine.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-gimbal-first",
@@ -16090,7 +16053,7 @@
       "path_zh": "content\\tools\\zh\\buy-gimbal-first.md",
       "path_en": "content\\tools\\en\\buy-gimbal-first.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-lens-first",
@@ -16127,7 +16090,7 @@
       "path_zh": "content\\tools\\zh\\buy-lens-first.md",
       "path_en": "content\\tools\\en\\buy-lens-first.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-lens-zoom",
@@ -16164,7 +16127,7 @@
       "path_zh": "content\\tools\\zh\\buy-lens-zoom.md",
       "path_en": "content\\tools\\en\\buy-lens-zoom.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-light-kit",
@@ -16200,7 +16163,7 @@
       "path_zh": "content\\tools\\zh\\buy-light-kit.md",
       "path_en": "content\\tools\\en\\buy-light-kit.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-light-led",
@@ -16236,7 +16199,7 @@
       "path_zh": "content\\tools\\zh\\buy-light-led.md",
       "path_en": "content\\tools\\en\\buy-light-led.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-monitor",
@@ -16272,7 +16235,7 @@
       "path_zh": "content\\tools\\zh\\buy-monitor.md",
       "path_en": "content\\tools\\en\\buy-monitor.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-monitor-hdr",
@@ -16308,7 +16271,7 @@
       "path_zh": "content\\tools\\zh\\buy-monitor-hdr.md",
       "path_en": "content\\tools\\en\\buy-monitor-hdr.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-nas-raid",
@@ -16345,7 +16308,7 @@
       "path_zh": "content\\tools\\zh\\buy-nas-raid.md",
       "path_en": "content\\tools\\en\\buy-nas-raid.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-post-software",
@@ -16382,7 +16345,7 @@
       "path_zh": "content\\tools\\zh\\buy-post-software.md",
       "path_en": "content\\tools\\en\\buy-post-software.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-storage",
@@ -16419,7 +16382,7 @@
       "path_zh": "content\\tools\\zh\\buy-storage.md",
       "path_en": "content\\tools\\en\\buy-storage.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-storage-cards",
@@ -16456,7 +16419,7 @@
       "path_zh": "content\\tools\\zh\\buy-storage-cards.md",
       "path_en": "content\\tools\\en\\buy-storage-cards.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-timecode",
@@ -16492,7 +16455,7 @@
       "path_zh": "content\\tools\\zh\\buy-timecode.md",
       "path_en": "content\\tools\\en\\buy-timecode.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-tripod",
@@ -16529,7 +16492,7 @@
       "path_zh": "content\\tools\\zh\\buy-tripod.md",
       "path_en": "content\\tools\\en\\buy-tripod.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-tripod-fluid",
@@ -16566,7 +16529,7 @@
       "path_zh": "content\\tools\\zh\\buy-tripod-fluid.md",
       "path_en": "content\\tools\\en\\buy-tripod-fluid.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-used-gear",
@@ -16603,7 +16566,7 @@
       "path_zh": "content\\tools\\zh\\buy-used-gear.md",
       "path_en": "content\\tools\\en\\buy-used-gear.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.buy-wireless-lav",
@@ -16639,7 +16602,7 @@
       "path_zh": "content\\tools\\zh\\buy-wireless-lav.md",
       "path_en": "content\\tools\\en\\buy-wireless-lav.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.crew-management",
@@ -16675,7 +16638,7 @@
       "path_zh": "content\\tools\\zh\\crew-management.md",
       "path_en": "content\\tools\\en\\crew-management.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.export-fail-fix",
@@ -16711,7 +16674,7 @@
       "path_zh": "content\\tools\\zh\\export-fail-fix.md",
       "path_en": "content\\tools\\en\\export-fail-fix.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.jelly-fix",
@@ -16748,7 +16711,7 @@
       "path_zh": "content\\tools\\zh\\jelly-fix.md",
       "path_en": "content\\tools\\en\\jelly-fix.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.overheat-fix",
@@ -16785,7 +16748,7 @@
       "path_zh": "content\\tools\\zh\\overheat-fix.md",
       "path_en": "content\\tools\\en\\overheat-fix.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.rent-camera",
@@ -16823,7 +16786,7 @@
       "path_zh": "content\\tools\\zh\\rent-camera.md",
       "path_en": "content\\tools\\en\\rent-camera.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.rent-lighting",
@@ -16860,7 +16823,7 @@
       "path_zh": "content\\tools\\zh\\rent-lighting.md",
       "path_en": "content\\tools\\en\\rent-lighting.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.guide.used-gear-check",
@@ -16893,7 +16856,7 @@
       "path_zh": "content\\tools\\zh\\used-gear-check.md",
       "path_en": "content\\tools\\en\\used-gear-check.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.producing.budget-contingency",
@@ -16929,7 +16892,7 @@
       "path_zh": "content\\tools\\zh\\producing\\budget-contingency.md",
       "path_en": "content\\tools\\en\\producing\\budget-contingency.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.producing.budget-map",
@@ -16966,7 +16929,7 @@
       "path_zh": "content\\tools\\zh\\producing\\budget-map.md",
       "path_en": "content\\tools\\en\\producing\\budget-map.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.producing.call-sheet",
@@ -17002,7 +16965,7 @@
       "path_zh": "content\\tools\\zh\\producing\\call-sheet.md",
       "path_en": "content\\tools\\en\\producing\\call-sheet.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.producing.casting",
@@ -17035,7 +16998,7 @@
       "path_zh": "content\\tools\\zh\\producing\\casting.md",
       "path_en": "content\\tools\\en\\producing\\casting.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.producing.location-scout",
@@ -17071,7 +17034,7 @@
       "path_zh": "content\\tools\\zh\\producing\\location-scout.md",
       "path_en": "content\\tools\\en\\producing\\location-scout.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.producing.stripboard",
@@ -17108,7 +17071,7 @@
       "path_zh": "content\\tools\\zh\\producing\\stripboard.md",
       "path_en": "content\\tools\\en\\producing\\stripboard.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.proposal.treatment",
@@ -17145,7 +17108,7 @@
       "path_zh": "content\\tools\\zh\\treatment.md",
       "path_en": "content\\tools\\en\\treatment.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.test.test-protocols",
@@ -17181,7 +17144,7 @@
       "path_zh": "content\\tools\\zh\\test-protocols.md",
       "path_en": "content\\tools\\en\\test-protocols.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.backup-3-2-1",
@@ -17218,7 +17181,7 @@
       "path_zh": "content\\tools\\zh\\backup-3-2-1.md",
       "path_en": "content\\tools\\en\\backup-3-2-1.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.boom-swing",
@@ -17255,7 +17218,7 @@
       "path_zh": "content\\tools\\zh\\boom-swing.md",
       "path_en": "content\\tools\\en\\boom-swing.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.camera-black-balance",
@@ -17288,7 +17251,7 @@
       "path_zh": "content\\tools\\zh\\camera-black-balance.md",
       "path_en": "content\\tools\\en\\camera-black-balance.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.color-checker",
@@ -17321,7 +17284,7 @@
       "path_zh": "content\\tools\\zh\\color-checker.md",
       "path_en": "content\\tools\\en\\color-checker.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.dual-system-sync",
@@ -17357,7 +17320,7 @@
       "path_zh": "content\\tools\\zh\\dual-system-sync.md",
       "path_en": "content\\tools\\en\\dual-system-sync.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.export-h264",
@@ -17393,7 +17356,7 @@
       "path_zh": "content\\tools\\zh\\export-h264.md",
       "path_en": "content\\tools\\en\\export-h264.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.export-prores",
@@ -17430,7 +17393,7 @@
       "path_zh": "content\\tools\\zh\\export-prores.md",
       "path_en": "content\\tools\\en\\export-prores.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.exposure-check",
@@ -17463,7 +17426,7 @@
       "path_zh": "content\\tools\\zh\\exposure-check.md",
       "path_en": "content\\tools\\en\\exposure-check.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.follow-focus-practice",
@@ -17500,7 +17463,7 @@
       "path_zh": "content\\tools\\zh\\follow-focus-practice.md",
       "path_en": "content\\tools\\en\\follow-focus-practice.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.gimbal-balance",
@@ -17538,7 +17501,7 @@
       "path_zh": "content\\tools\\zh\\gimbal-balance.md",
       "path_en": "content\\tools\\en\\gimbal-balance.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.handheld-brace",
@@ -17571,7 +17534,7 @@
       "path_zh": "content\\tools\\zh\\handheld-brace.md",
       "path_en": "content\\tools\\en\\handheld-brace.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.lav-hidden",
@@ -17607,7 +17570,7 @@
       "path_zh": "content\\tools\\zh\\lav-hidden.md",
       "path_en": "content\\tools\\en\\lav-hidden.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.lighting-one-light",
@@ -17640,7 +17603,7 @@
       "path_zh": "content\\tools\\zh\\lighting-one-light.md",
       "path_en": "content\\tools\\en\\lighting-one-light.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.lighting-window",
@@ -17673,7 +17636,7 @@
       "path_zh": "content\\tools\\zh\\lighting-window.md",
       "path_en": "content\\tools\\en\\lighting-window.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.nd-calculate",
@@ -17710,7 +17673,7 @@
       "path_zh": "content\\tools\\zh\\nd-calculate.md",
       "path_en": "content\\tools\\en\\nd-calculate.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.night-practical",
@@ -17747,7 +17710,7 @@
       "path_zh": "content\\tools\\zh\\night-practical.md",
       "path_en": "content\\tools\\en\\night-practical.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.proxy-create",
@@ -17783,7 +17746,7 @@
       "path_zh": "content\\tools\\zh\\proxy-create.md",
       "path_en": "content\\tools\\en\\proxy-create.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.restore-test",
@@ -17816,7 +17779,7 @@
       "path_zh": "content\\tools\\zh\\restore-test.md",
       "path_en": "content\\tools\\en\\restore-test.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.room-tone-record",
@@ -17849,7 +17812,7 @@
       "path_zh": "content\\tools\\zh\\room-tone-record.md",
       "path_en": "content\\tools\\en\\room-tone-record.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.set-mediabay",
@@ -17885,7 +17848,7 @@
       "path_zh": "content\\tools\\zh\\set-mediabay.md",
       "path_en": "content\\tools\\en\\set-mediabay.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.slider-shot",
@@ -17918,7 +17881,7 @@
       "path_zh": "content\\tools\\zh\\slider-shot.md",
       "path_en": "content\\tools\\en\\slider-shot.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.subtitle-srt",
@@ -17954,7 +17917,7 @@
       "path_zh": "content\\tools\\zh\\subtitle-srt.md",
       "path_en": "content\\tools\\en\\subtitle-srt.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.sync-multicam",
@@ -17990,7 +17953,7 @@
       "path_zh": "content\\tools\\zh\\sync-multicam.md",
       "path_en": "content\\tools\\en\\sync-multicam.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.tutorial.white-balance-gray",
@@ -18023,7 +17986,7 @@
       "path_zh": "content\\tools\\zh\\white-balance-gray.md",
       "path_en": "content\\tools\\en\\white-balance-gray.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.workflow.first-shoot-day",
@@ -18059,7 +18022,7 @@
       "path_zh": "content\\tools\\zh\\workflow\\first-shoot-day.md",
       "path_en": "content\\tools\\en\\workflow\\first-shoot-day.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     },
     {
       "translation_key": "tools.workflow.storage",
@@ -18096,7 +18059,7 @@
       "path_zh": "content\\tools\\zh\\workflow\\storage.md",
       "path_en": "content\\tools\\en\\workflow\\storage.md",
       "status": "published",
-      "cohort": false
+      "cohort": true
     }
   ]
 }

@@ -11,17 +11,18 @@ secrets/
 config.local.*
 
 # Generated per-site builds and deploy working copies
-out/
-deploy/
-generator/ai6/site/
-generator/ai6/shots/
+/out/
+/deploy/
+/generator/ai6/site/
+/generator/ai6/shots/
+__pycache__/
 
-# Separate repos / local-only material
-content/
-.screenshots/
+# Separate repo / local-only material（只匹配根目录，避免误伤 generator/ai6/content）
+/content/
+/.screenshots/
 
-# Local legacy archive (not part of the current source tree)
-archive/
+# Local legacy archive (root only)
+/archive/
 
 # Local logs and test downloads
 *.log

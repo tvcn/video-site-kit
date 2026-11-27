@@ -57,8 +57,7 @@ generator/
   ai6/                   AI 站独立管线
 out/                     每站构建产物（可重建）
 deploy/                  9 个站点仓工作副本（可重建）
-docs/                    当前文档
-docs/archive/            历史文档
+docs/                    当前 5 份文档（无历史归档）
 ```
 
 上面除 `content/` 与 `deploy/` 外的全部内容（含 `generator/`、`site-kit/`、`app/`、`assets/`）都在根仓库里，远端是 `tvcn/video-site-kit`。
@@ -139,16 +138,15 @@ powershell -ExecutionPolicy Bypass -File generator\publish.ps1 -Site story -Push
 
 ## 文档
 
-- `docs/TVCN项目总结-2026-11-27.md`：当前状态总览（按站拆分后）
-- `docs/TVCN-AI团队交接文档-2026-11-27.md`：后续开发接手手册
-- `docs/TVCN项目总结-2026-11-26.md`、`docs/TVCN-AI团队交接文档-2026-11-26.md`：上一轮文档，含旧路径提示
-- `docs/网站内容补全报告-2026-11-26.md`、`docs/网站内容补全计划-2026-11-26.md`：最近一轮内容批次
-- `docs/内容运营手册-2026-11-26.md`：来源分级、经验说明、发布检查
-- `docs/全站UI统一规范-2026-11-25.md`：UI 合同
-- `docs/部署与密钥.md`：凭据与 Pages
-- `docs/archive/`：历史计划、旧报告与旧架构文档
+当前文档只有 5 份，全部无日期、唯一口径；历史决策看 Git 历史，不再保留旧总结与 `docs/archive/`。
 
-9 站已于 2026-11-27 发布到线上，Pages 全部 `built`，`deploy/` 工作区干净。当前 HEAD：main `4040b97`、story `0b485db`、shoot `a956c55`、post `71a5f84`、ai `c0691ba`、animation `d9d2f7a`、formats `1ce24d5`、tools `16ef2f6`、context `323efa7`；内容仓 `3cf028c`；构建/共享仓 `118f519`。
+- `docs/项目总结.md`：当前状态总览（规模、架构、QA 基线、技术债）
+- `docs/AI交接文档.md`：接手执行手册（不变量、工作流、命令、故障处理）
+- `docs/部署与密钥.md`：token 位置、发布、Pages、域名
+- `docs/内容运营手册.md`：来源分级、经验说明、篇幅门槛、发布前检查
+- `docs/UI规范.md`：外壳、导航、宽度轨、设计令牌
+
+9 站已于 2026-11-27 发布到线上，Pages 全部 `built`，`deploy/` 工作区干净。当前 HEAD：main `4040b97`、story `038c03a`、shoot `a956c55`、post `71a5f84`、ai `c0691ba`、animation `d9d2f7a`、formats `1ce24d5`、tools `16ef2f6`、context `323efa7`；内容仓 `875dfab`；构建/共享仓见 `video-site-kit`。
 
 ## 许可
 

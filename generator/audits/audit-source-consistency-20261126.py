@@ -188,7 +188,12 @@ for key, langs in sorted(pairs.items()):
 status_counts = Counter(r["source_block_status"] for r in rows)
 BASE_PATH = Path(__file__).with_name("source-consistency-baseline-20261126.json")
 BASE_ROWS = json.loads(BASE_PATH.read_text(encoding="utf-8"))["pages"] if BASE_PATH.exists() else []
-cohort = {r["translation_key"] for r in BASE_ROWS if r["source_kind"] == "sourced" or r["source_block_status"] in {"has_url", "placeholder", "malformed"}}
+# 基线文件属于旧结构，未迁移时退化为“全部页”，避免 source_pages_total 恒为 0。
+cohort = (
+    {r["translation_key"] for r in BASE_ROWS if r["source_kind"] == "sourced" or r["source_block_status"] in {"has_url", "placeholder", "malformed"}}
+    if BASE_ROWS
+    else {r["translation_key"] for r in rows}
+)
 for r in rows:
     r["cohort"] = r["translation_key"] in cohort
 source_pages = [r for r in rows if r["cohort"]]
